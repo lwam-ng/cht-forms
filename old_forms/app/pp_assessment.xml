@@ -1,0 +1,1381 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>PP_Assessment</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/pp_assessment/danger_signs/congratulate_no_ds_note:label">
+            <value>Great news! Please continue to closely monitor her.</value>
+          </text>
+          <text id="/pp_assessment/danger_signs/convulsion/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/danger_signs/convulsion/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/danger_signs/convulsion:label">
+            <value>Convulsions</value>
+          </text>
+          <text id="/pp_assessment/danger_signs/custom_translations/custom_woman_label_translator/woman:label">
+            <value>the woman</value>
+          </text>
+          <text id="/pp_assessment/danger_signs/custom_translations/custom_woman_start_label_translator/woman-start:label">
+            <value>The woman</value>
+          </text>
+          <text id="/pp_assessment/danger_signs/danger_sign_present/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/danger_signs/danger_sign_present/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/danger_signs/danger_sign_present:label">
+            <value>Is she still experiencing any danger signs?</value>
+          </text>
+          <text id="/pp_assessment/danger_signs/danger_signs_question_note:label">
+            <value>Please indicate which danger signs <output value=" /pp_assessment/patient_short_name "/> is experiencing.</value>
+          </text>
+          <text id="/pp_assessment/danger_signs/fever/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/danger_signs/fever/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/danger_signs/fever:label">
+            <value>Fever</value>
+          </text>
+          <text id="/pp_assessment/danger_signs/refer_patient_note_1:label">
+            <value><output value=" /pp_assessment/patient_short_name_start "/> should visit the health facility immediately if she is experiencing any of these danger signs.</value>
+          </text>
+          <text id="/pp_assessment/danger_signs/refer_patient_note_2:label">
+            <value>Please advise her to do so and accompany her if possible.</value>
+          </text>
+          <text id="/pp_assessment/danger_signs/severe_headache/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/danger_signs/severe_headache/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/danger_signs/severe_headache:label">
+            <value>Severe headache</value>
+          </text>
+          <text id="/pp_assessment/danger_signs/vaginal_bleeding/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/danger_signs/vaginal_bleeding/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/danger_signs/vaginal_bleeding:label">
+            <value>Vaginal bleeding</value>
+          </text>
+          <text id="/pp_assessment/danger_signs/vaginal_discharge/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/danger_signs/vaginal_discharge/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/danger_signs/vaginal_discharge:label">
+            <value>Foul smelling vaginal discharge</value>
+          </text>
+          <text id="/pp_assessment/danger_signs/visit_confirm/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/danger_signs/visit_confirm/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/danger_signs/visit_confirm:label">
+            <value>Did <output value=" /pp_assessment/patient_short_name "/> visit the health facility as recommended?</value>
+          </text>
+          <text id="/pp_assessment/danger_signs:label">
+            <value>Danger Sign Follow-up - Mother</value>
+          </text>
+          <text id="/pp_assessment/inputs/contact/DOB:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/pp_assessment/inputs/contact/Date_of_Arrival:label">
+            <value>Date</value>
+          </text>
+          <text id="/pp_assessment/inputs/contact/Guardian:label">
+            <value>Guardian Name</value>
+          </text>
+          <text id="/pp_assessment/inputs/contact/Nurse:label">
+            <value>Nurse Name</value>
+          </text>
+          <text id="/pp_assessment/inputs/contact/Relation:label">
+            <value>Relationship to Child</value>
+          </text>
+          <text id="/pp_assessment/inputs/contact/_id:label">
+            <value>What is the Baby's Name?</value>
+          </text>
+          <text id="/pp_assessment/inputs/contact/date_of_birth:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/pp_assessment/inputs/contact/gender/Female:label">
+            <value>Female</value>
+          </text>
+          <text id="/pp_assessment/inputs/contact/gender/Male:label">
+            <value>Male</value>
+          </text>
+          <text id="/pp_assessment/inputs/contact/gender:label">
+            <value>Gender</value>
+          </text>
+          <text id="/pp_assessment/inputs/contact/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/pp_assessment/inputs/contact/parent/_id:label">
+            <value>Parent ID</value>
+          </text>
+          <text id="/pp_assessment/inputs/contact/parent/parent/contact/chw_name:label">
+            <value>CHW name</value>
+          </text>
+          <text id="/pp_assessment/inputs/contact/parent/parent/contact/phone:label">
+            <value>CHW phone</value>
+          </text>
+          <text id="/pp_assessment/inputs/contact/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/pp_assessment/inputs/contact/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/pp_assessment/inputs/contact/short_name:label">
+            <value>Short Name</value>
+          </text>
+          <text id="/pp_assessment/inputs/delivery_uuid:label">
+            <value>Delivery Report ID</value>
+          </text>
+          <text id="/pp_assessment/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/pp_assessment/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/pp_assessment/optional1/able_to_rest/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional1/able_to_rest/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional1/able_to_rest:label">
+            <value>Able to rest?</value>
+          </text>
+          <text id="/pp_assessment/optional1/any_problems/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional1/any_problems/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional1/any_problems:label">
+            <value>Any problems/concerns?</value>
+          </text>
+          <text id="/pp_assessment/optional1/comments_optional1:label">
+            <value>Comments</value>
+          </text>
+          <text id="/pp_assessment/optional1/comments_optional:label">
+            <value>Comments</value>
+          </text>
+          <text id="/pp_assessment/optional1:label">
+            <value>Ask and Listen</value>
+          </text>
+          <text id="/pp_assessment/optional2/abdominal_pain/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional2/abdominal_pain/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional2/abdominal_pain:label">
+            <value>Abdominal pain?</value>
+          </text>
+          <text id="/pp_assessment/optional2/bleeding/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional2/bleeding/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional2/bleeding:label">
+            <value>How much bleeding? foul smell?</value>
+          </text>
+          <text id="/pp_assessment/optional2/breast_feeding/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional2/breast_feeding/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional2/breast_feeding:label">
+            <value>If breastfeeding, good milk supply?</value>
+          </text>
+          <text id="/pp_assessment/optional2/breast_pain/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional2/breast_pain/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional2/breast_pain:label">
+            <value>Breast pain?</value>
+          </text>
+          <text id="/pp_assessment/optional2/comments_optional2:label">
+            <value>Comments</value>
+          </text>
+          <text id="/pp_assessment/optional2/drinking_water/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional2/drinking_water/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional2/drinking_water:label">
+            <value>Drinking plenty water?</value>
+          </text>
+          <text id="/pp_assessment/optional2/feeling_low/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional2/feeling_low/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional2/feeling_low:label">
+            <value>Feeling sad/crying frequently?</value>
+          </text>
+          <text id="/pp_assessment/optional2/fever_ppassessment/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional2/fever_ppassessment/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional2/fever_ppassessment:label">
+            <value>Fever?</value>
+          </text>
+          <text id="/pp_assessment/optional2/medications:label">
+            <value>Medications</value>
+          </text>
+          <text id="/pp_assessment/optional2/pain_urination/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional2/pain_urination/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional2/pain_urination:label">
+            <value>Pain with urination/stool? leaking?</value>
+          </text>
+          <text id="/pp_assessment/optional2/sleeping_with_baby/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional2/sleeping_with_baby/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional2/sleeping_with_baby:label">
+            <value>Sleeping under net? with baby?</value>
+          </text>
+          <text id="/pp_assessment/optional2:label">
+            <value>24hr diet recall (write on reverse)</value>
+          </text>
+          <text id="/pp_assessment/optional3/hb:label">
+            <value>Hb</value>
+          </text>
+          <text id="/pp_assessment/optional3/health_conditions:label">
+            <value>What does client say she needs to improve her health &amp; the health of her children?</value>
+          </text>
+          <text id="/pp_assessment/optional3/ht:label">
+            <value>Ht</value>
+          </text>
+          <text id="/pp_assessment/optional3/pink_conjunctiva/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional3/pink_conjunctiva/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional3/pink_conjunctiva:label">
+            <value>Pink Conjunctiva</value>
+          </text>
+          <text id="/pp_assessment/optional3/wt:label">
+            <value>Wt</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/abdomen_assessment/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/abdomen_assessment/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/abdomen_assessment:label">
+            <value>Abdomen: Uterus firm, non tender, or not palpable</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/arm_circ:label">
+            <value>Arm circ</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/bp:label">
+            <value>BP</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/breast_assessment/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/breast_assessment/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/breast_assessment:label">
+            <value>Breasts: soft non-tender, nipples not cracked</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/breast_feeding_assessment/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/breast_feeding_assessment/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/breast_feeding_assessment:label">
+            <value>Observe breastfeeding: good latch, mother makes eye contact with baby</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/comments_assessment:label">
+            <value>Comments</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/lochia/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/lochia/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/lochia:label">
+            <value>Lochia: light pink, decreasing, none after 6 wks.</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/mothers_questions_answered/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/mothers_questions_answered/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/mothers_questions_answered:label">
+            <value>Mother's questions answered</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/other_assessment:label">
+            <value>Others</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/p:label">
+            <value>P</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/perineum/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/perineum/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/perineum:label">
+            <value>Perineum: repair healing well, no sign of fistula</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/problems_noted/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/problems_noted/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/problems_noted:label">
+            <value>Problems noted in mom's health passport</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/surgical_scars/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/surgical_scars/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/surgical_scars:label">
+            <value>Surgical scars: no redness/swelling/discharge, non-tender</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs/t:label">
+            <value>T</value>
+          </text>
+          <text id="/pp_assessment/optional4/vital_signs:label">
+            <value>Vital signs</value>
+          </text>
+          <text id="/pp_assessment/optional4:label">
+            <value>Assessment</value>
+          </text>
+          <text id="/pp_assessment/optional5/abdominal_tenderness/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional5/abdominal_tenderness/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional5/abdominal_tenderness:label">
+            <value>Abdominal tenderness &amp; fever</value>
+          </text>
+          <text id="/pp_assessment/optional5/bleeding/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional5/bleeding/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional5/bleeding:label">
+            <value>Heavy bleeding</value>
+          </text>
+          <text id="/pp_assessment/optional5/discharge_smell/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional5/discharge_smell/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional5/discharge_smell:label">
+            <value>Foul smelling discharge</value>
+          </text>
+          <text id="/pp_assessment/optional5/fits/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional5/fits/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional5/fits:label">
+            <value>Fits</value>
+          </text>
+          <text id="/pp_assessment/optional5/headache_severe/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional5/headache_severe/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional5/headache_severe:label">
+            <value>Severe headache</value>
+          </text>
+          <text id="/pp_assessment/optional5/painful_breasts_with_fever/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional5/painful_breasts_with_fever/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional5/painful_breasts_with_fever:label">
+            <value>Painful breast with fever</value>
+          </text>
+          <text id="/pp_assessment/optional5/very_week/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional5/very_week/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional5/very_week:label">
+            <value>Very weak/ breathless</value>
+          </text>
+          <text id="/pp_assessment/optional5:label">
+            <value>Review danger signs every visit</value>
+          </text>
+          <text id="/pp_assessment/optional6/comments_optional6:label">
+            <value>Comments/Interventions</value>
+          </text>
+          <text id="/pp_assessment/optional6/exclusive_breastfeed/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional6/exclusive_breastfeed/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional6/exclusive_breastfeed:label">
+            <value>Exclusive breastfeeding</value>
+          </text>
+          <text id="/pp_assessment/optional6/family_planning/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional6/family_planning/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional6/family_planning:label">
+            <value>Family planning / child spacing</value>
+          </text>
+          <text id="/pp_assessment/optional6/food_stability/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional6/food_stability/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional6/food_stability:label">
+            <value>Household food stability</value>
+          </text>
+          <text id="/pp_assessment/optional6/hand_wash/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional6/hand_wash/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional6/hand_wash:label">
+            <value>Frequent hand washing</value>
+          </text>
+          <text id="/pp_assessment/optional6/hiv_prevention/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional6/hiv_prevention/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional6/hiv_prevention:label">
+            <value>HIV prevention/testing/ARVs</value>
+          </text>
+          <text id="/pp_assessment/optional6/malaria_prevention/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional6/malaria_prevention/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional6/malaria_prevention:label">
+            <value>Sleep under net/malaria prevention</value>
+          </text>
+          <text id="/pp_assessment/optional6/nutrition/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pp_assessment/optional6/nutrition/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pp_assessment/optional6/nutrition:label">
+            <value>Nutrition: more ndiwo, less nsima</value>
+          </text>
+          <text id="/pp_assessment/optional6:label">
+            <value>Education Topics Discussed this Visit:</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <pp_assessment delimiter="#" id="pp_assessment" prefix="J1!pp_assessment!" version="2020-04-18 19:55:12">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <delivery_uuid/>
+            <contact>
+              <_id/>
+              <gender/>
+              <DOB/>
+              <Nurse/>
+              <Date_of_Arrival/>
+              <Guardian/>
+              <Relation/>
+              <name/>
+              <short_name/>
+              <patient_id/>
+              <date_of_birth>0</date_of_birth>
+              <sex/>
+              <parent>
+                <_id/>
+                <parent>
+                  <contact>
+                    <chw_name/>
+                    <phone/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <optional1>
+            <any_problems/>
+            <comments_optional/>
+            <able_to_rest/>
+            <comments_optional1/>
+          </optional1>
+          <optional2>
+            <drinking_water/>
+            <fever_ppassessment/>
+            <pain_urination/>
+            <bleeding/>
+            <breast_pain/>
+            <breast_feeding/>
+            <abdominal_pain/>
+            <sleeping_with_baby/>
+            <feeling_low/>
+            <comments_optional2/>
+            <medications/>
+          </optional2>
+          <optional3>
+            <health_conditions/>
+            <ht/>
+            <wt/>
+            <hb/>
+            <pink_conjunctiva/>
+          </optional3>
+          <optional4>
+            <vital_signs>
+              <bp/>
+              <t/>
+              <p/>
+              <arm_circ/>
+              <breast_assessment/>
+              <breast_feeding_assessment/>
+              <abdomen_assessment/>
+              <surgical_scars/>
+              <perineum/>
+              <lochia/>
+              <mothers_questions_answered/>
+              <problems_noted/>
+              <other_assessment/>
+              <comments_assessment/>
+            </vital_signs>
+          </optional4>
+          <optional5>
+            <very_week/>
+            <bleeding/>
+            <discharge_smell/>
+            <painful_breasts_with_fever/>
+            <headache_severe/>
+            <abdominal_tenderness/>
+            <fits/>
+          </optional5>
+          <optional6>
+            <hand_wash/>
+            <exclusive_breastfeed/>
+            <malaria_prevention/>
+            <family_planning/>
+            <hiv_prevention/>
+            <nutrition/>
+            <food_stability/>
+            <comments_optional6/>
+          </optional6>
+          <patient_age_in_years tag="hidden"/>
+          <patient_uuid tag="hidden"/>
+          <patient_id tag="hidden"/>
+          <patient_name tag="hidden"/>
+          <patient_short_name tag="hidden"/>
+          <patient_short_name_start tag="hidden"/>
+          <t_danger_signs_referral_follow_up_date tag="hidden"/>
+          <t_danger_signs_referral_follow_up tag="hidden"/>
+          <danger_signs>
+            <visit_confirm/>
+            <danger_sign_present/>
+            <danger_signs_question_note tag="hidden"/>
+            <fever/>
+            <severe_headache/>
+            <vaginal_bleeding/>
+            <vaginal_discharge/>
+            <convulsion/>
+            <r_danger_sign_present tag="hidden"/>
+            <congratulate_no_ds_note tag="hidden"/>
+            <refer_patient_note_1 tag="hidden"/>
+            <refer_patient_note_2 tag="hidden"/>
+            <custom_translations tag="hidden">
+              <custom_woman_label_translator/>
+              <custom_woman_label/>
+              <custom_woman_start_label_translator/>
+              <custom_woman_start_label/>
+            </custom_translations>
+          </danger_signs>
+          <data tag="hidden">
+            <__visited_hf/>
+            <__still_experiencing_danger_sign/>
+            <__fever/>
+            <__severe_headache/>
+            <__vaginal_bleeding/>
+            <__vaginal_discharge/>
+            <__convulsions/>
+            <__has_danger_sign/>
+            <meta tag="hidden">
+              <__patient_uuid/>
+              <__patient_id/>
+              <__household_uuid/>
+              <__source/>
+              <__source_id/>
+              <__delivery_uuid/>
+            </meta>
+          </data>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </pp_assessment>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/pp_assessment/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/pp_assessment/inputs/source" type="string"/>
+      <bind nodeset="/pp_assessment/inputs/source_id" type="string"/>
+      <bind nodeset="/pp_assessment/inputs/delivery_uuid" type="string"/>
+      <bind nodeset="/pp_assessment/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/pp_assessment/inputs/contact/gender" type="select1"/>
+      <bind nodeset="/pp_assessment/inputs/contact/DOB" type="string"/>
+      <bind nodeset="/pp_assessment/inputs/contact/Nurse" type="string"/>
+      <bind nodeset="/pp_assessment/inputs/contact/Date_of_Arrival" type="string"/>
+      <bind nodeset="/pp_assessment/inputs/contact/Guardian" type="string"/>
+      <bind nodeset="/pp_assessment/inputs/contact/Relation" type="string"/>
+      <bind nodeset="/pp_assessment/inputs/contact/name" type="string"/>
+      <bind nodeset="/pp_assessment/inputs/contact/short_name" type="string"/>
+      <bind nodeset="/pp_assessment/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/pp_assessment/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/pp_assessment/inputs/contact/sex" type="string"/>
+      <bind nodeset="/pp_assessment/inputs/contact/parent/_id" type="string"/>
+      <bind nodeset="/pp_assessment/inputs/contact/parent/parent/contact/chw_name" type="string"/>
+      <bind nodeset="/pp_assessment/inputs/contact/parent/parent/contact/phone" type="string"/>
+      <bind nodeset="/pp_assessment/optional1/any_problems" type="select1"/>
+      <bind nodeset="/pp_assessment/optional1/comments_optional" type="string"/>
+      <bind nodeset="/pp_assessment/optional1/able_to_rest" type="select1"/>
+      <bind nodeset="/pp_assessment/optional1/comments_optional1" type="string"/>
+      <bind nodeset="/pp_assessment/optional2/drinking_water" type="select1"/>
+      <bind nodeset="/pp_assessment/optional2/fever_ppassessment" type="select1"/>
+      <bind nodeset="/pp_assessment/optional2/pain_urination" type="select1"/>
+      <bind nodeset="/pp_assessment/optional2/bleeding" type="select1"/>
+      <bind nodeset="/pp_assessment/optional2/breast_pain" type="select1"/>
+      <bind nodeset="/pp_assessment/optional2/breast_feeding" type="select1"/>
+      <bind nodeset="/pp_assessment/optional2/abdominal_pain" type="select1"/>
+      <bind nodeset="/pp_assessment/optional2/sleeping_with_baby" type="select1"/>
+      <bind nodeset="/pp_assessment/optional2/feeling_low" type="select1"/>
+      <bind nodeset="/pp_assessment/optional2/comments_optional2" type="string"/>
+      <bind nodeset="/pp_assessment/optional2/medications" type="string"/>
+      <bind nodeset="/pp_assessment/optional3/health_conditions" type="string"/>
+      <bind nodeset="/pp_assessment/optional3/ht" type="string"/>
+      <bind nodeset="/pp_assessment/optional3/wt" type="string"/>
+      <bind nodeset="/pp_assessment/optional3/hb" type="string"/>
+      <bind nodeset="/pp_assessment/optional3/pink_conjunctiva" type="select1"/>
+      <bind nodeset="/pp_assessment/optional4/vital_signs/bp" type="string"/>
+      <bind nodeset="/pp_assessment/optional4/vital_signs/t" type="string"/>
+      <bind nodeset="/pp_assessment/optional4/vital_signs/p" type="string"/>
+      <bind nodeset="/pp_assessment/optional4/vital_signs/arm_circ" type="string"/>
+      <bind nodeset="/pp_assessment/optional4/vital_signs/breast_assessment" type="select1"/>
+      <bind nodeset="/pp_assessment/optional4/vital_signs/breast_feeding_assessment" type="select1"/>
+      <bind nodeset="/pp_assessment/optional4/vital_signs/abdomen_assessment" type="select1"/>
+      <bind nodeset="/pp_assessment/optional4/vital_signs/surgical_scars" type="select1"/>
+      <bind nodeset="/pp_assessment/optional4/vital_signs/perineum" type="select1"/>
+      <bind nodeset="/pp_assessment/optional4/vital_signs/lochia" type="select1"/>
+      <bind nodeset="/pp_assessment/optional4/vital_signs/mothers_questions_answered" type="select1"/>
+      <bind nodeset="/pp_assessment/optional4/vital_signs/problems_noted" type="select1"/>
+      <bind nodeset="/pp_assessment/optional4/vital_signs/other_assessment" type="string"/>
+      <bind nodeset="/pp_assessment/optional4/vital_signs/comments_assessment" type="string"/>
+      <bind nodeset="/pp_assessment/optional5/very_week" type="select1"/>
+      <bind nodeset="/pp_assessment/optional5/bleeding" type="select1"/>
+      <bind nodeset="/pp_assessment/optional5/discharge_smell" type="select1"/>
+      <bind nodeset="/pp_assessment/optional5/painful_breasts_with_fever" type="select1"/>
+      <bind nodeset="/pp_assessment/optional5/headache_severe" type="select1"/>
+      <bind nodeset="/pp_assessment/optional5/abdominal_tenderness" type="select1"/>
+      <bind nodeset="/pp_assessment/optional5/fits" type="select1"/>
+      <bind nodeset="/pp_assessment/optional6/hand_wash" type="select1"/>
+      <bind nodeset="/pp_assessment/optional6/exclusive_breastfeed" type="select1"/>
+      <bind nodeset="/pp_assessment/optional6/malaria_prevention" type="select1"/>
+      <bind nodeset="/pp_assessment/optional6/family_planning" type="select1"/>
+      <bind nodeset="/pp_assessment/optional6/hiv_prevention" type="select1"/>
+      <bind nodeset="/pp_assessment/optional6/nutrition" type="select1"/>
+      <bind nodeset="/pp_assessment/optional6/food_stability" type="select1"/>
+      <bind nodeset="/pp_assessment/optional6/comments_optional6" type="string"/>
+      <bind calculate="floor( difference-in-months( ../inputs/contact/date_of_birth, today() ) div 12 )" nodeset="/pp_assessment/patient_age_in_years" type="string"/>
+      <bind calculate="../inputs/contact/_id" nodeset="/pp_assessment/patient_uuid" type="string"/>
+      <bind calculate="../inputs/contact/patient_id" nodeset="/pp_assessment/patient_id" type="string"/>
+      <bind calculate="../inputs/contact/name" nodeset="/pp_assessment/patient_name" type="string"/>
+      <bind calculate="coalesce(../inputs/contact/short_name, ../danger_signs/custom_translations/custom_woman_label)" nodeset="/pp_assessment/patient_short_name" type="string"/>
+      <bind calculate="coalesce(../inputs/contact/short_name, ../danger_signs/custom_translations/custom_woman_start_label)" nodeset="/pp_assessment/patient_short_name_start" type="string"/>
+      <bind calculate="date-time(floor(decimal-date-time(today())) + 3)" nodeset="/pp_assessment/t_danger_signs_referral_follow_up_date" type="string"/>
+      <bind calculate="../danger_signs/r_danger_sign_present" nodeset="/pp_assessment/t_danger_signs_referral_follow_up" type="string"/>
+      <bind nodeset="/pp_assessment/danger_signs/visit_confirm" required="true()" type="select1"/>
+      <bind nodeset="/pp_assessment/danger_signs/danger_sign_present" required="true()" type="select1"/>
+      <bind nodeset="/pp_assessment/danger_signs/danger_signs_question_note" readonly="true()" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" type="string"/>
+      <bind nodeset="/pp_assessment/danger_signs/fever" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind nodeset="/pp_assessment/danger_signs/severe_headache" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind nodeset="/pp_assessment/danger_signs/vaginal_bleeding" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind nodeset="/pp_assessment/danger_signs/vaginal_discharge" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind nodeset="/pp_assessment/danger_signs/convulsion" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind calculate="if(selected(../fever, 'yes') or
+selected(../severe_headache, 'yes') or
+selected(../vaginal_bleeding, 'yes') or
+selected(../vaginal_discharge, 'yes') or
+selected(../convulsion, 'yes'), 'yes',
+if(selected(../severe_headache, 'no') and
+selected(../vaginal_bleeding, 'no') and
+selected(../vaginal_discharge, 'no') and
+selected(../convulsion, 'no'), 'no', ''))" nodeset="/pp_assessment/danger_signs/r_danger_sign_present" type="string"/>
+      <bind nodeset="/pp_assessment/danger_signs/congratulate_no_ds_note" readonly="true()" relevant="../danger_sign_present = 'no' and ../r_danger_sign_present = 'no'" type="string"/>
+      <bind nodeset="/pp_assessment/danger_signs/refer_patient_note_1" readonly="true()" relevant="../danger_sign_present = 'yes' or ../r_danger_sign_present = 'yes'" type="string"/>
+      <bind nodeset="/pp_assessment/danger_signs/refer_patient_note_2" readonly="true()" relevant="../danger_sign_present = 'yes' or ../r_danger_sign_present = 'yes'" type="string"/>
+      <bind calculate="&quot;woman&quot;" nodeset="/pp_assessment/danger_signs/custom_translations/custom_woman_label_translator" type="select1"/>
+      <bind calculate="jr:choice-name( /pp_assessment/danger_signs/custom_translations/custom_woman_label_translator ,' /pp_assessment/danger_signs/custom_translations/custom_woman_label_translator ')" nodeset="/pp_assessment/danger_signs/custom_translations/custom_woman_label" type="string"/>
+      <bind calculate="&quot;woman-start&quot;" nodeset="/pp_assessment/danger_signs/custom_translations/custom_woman_start_label_translator" type="select1"/>
+      <bind calculate="jr:choice-name( /pp_assessment/danger_signs/custom_translations/custom_woman_start_label_translator ,' /pp_assessment/danger_signs/custom_translations/custom_woman_start_label_translator ')" nodeset="/pp_assessment/danger_signs/custom_translations/custom_woman_start_label" type="string"/>
+      <bind calculate=" /pp_assessment/danger_signs/visit_confirm " nodeset="/pp_assessment/data/__visited_hf" type="string"/>
+      <bind calculate=" /pp_assessment/danger_signs/danger_sign_present " nodeset="/pp_assessment/data/__still_experiencing_danger_sign" type="string"/>
+      <bind calculate=" /pp_assessment/danger_signs/fever " nodeset="/pp_assessment/data/__fever" type="string"/>
+      <bind calculate=" /pp_assessment/danger_signs/severe_headache " nodeset="/pp_assessment/data/__severe_headache" type="string"/>
+      <bind calculate=" /pp_assessment/danger_signs/vaginal_bleeding " nodeset="/pp_assessment/data/__vaginal_bleeding" type="string"/>
+      <bind calculate=" /pp_assessment/danger_signs/vaginal_discharge " nodeset="/pp_assessment/data/__vaginal_discharge" type="string"/>
+      <bind calculate=" /pp_assessment/danger_signs/convulsion " nodeset="/pp_assessment/data/__convulsions" type="string"/>
+      <bind calculate=" /pp_assessment/danger_signs/r_danger_sign_present " nodeset="/pp_assessment/data/__has_danger_sign" type="string"/>
+      <bind calculate="../../../inputs/contact/_id" nodeset="/pp_assessment/data/meta/__patient_uuid" type="string"/>
+      <bind calculate="../../../inputs/contact/patient_id" nodeset="/pp_assessment/data/meta/__patient_id" type="string"/>
+      <bind calculate="../../../inputs/contact/parent/_id" nodeset="/pp_assessment/data/meta/__household_uuid" type="string"/>
+      <bind calculate="../../../inputs/source" nodeset="/pp_assessment/data/meta/__source" type="string"/>
+      <bind calculate="../../../inputs/source_id" nodeset="/pp_assessment/data/meta/__source_id" type="string"/>
+      <bind calculate="../../../inputs/delivery_uuid" nodeset="/pp_assessment/data/meta/__delivery_uuid" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/pp_assessment/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/pp_assessment/inputs">
+      <group ref="/pp_assessment/inputs/contact">
+        <input appearance="db-object" ref="/pp_assessment/inputs/contact/_id">
+          <label ref="jr:itext('/pp_assessment/inputs/contact/_id:label')"/>
+        </input>
+        <select1 ref="/pp_assessment/inputs/contact/gender">
+          <label ref="jr:itext('/pp_assessment/inputs/contact/gender:label')"/>
+          <item>
+            <label ref="jr:itext('/pp_assessment/inputs/contact/gender/Male:label')"/>
+            <value>Male</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pp_assessment/inputs/contact/gender/Female:label')"/>
+            <value>Female</value>
+          </item>
+        </select1>
+        <input ref="/pp_assessment/inputs/contact/DOB">
+          <label ref="jr:itext('/pp_assessment/inputs/contact/DOB:label')"/>
+        </input>
+        <input ref="/pp_assessment/inputs/contact/Nurse">
+          <label ref="jr:itext('/pp_assessment/inputs/contact/Nurse:label')"/>
+        </input>
+        <input ref="/pp_assessment/inputs/contact/Date_of_Arrival">
+          <label ref="jr:itext('/pp_assessment/inputs/contact/Date_of_Arrival:label')"/>
+        </input>
+        <input ref="/pp_assessment/inputs/contact/Guardian">
+          <label ref="jr:itext('/pp_assessment/inputs/contact/Guardian:label')"/>
+        </input>
+        <input ref="/pp_assessment/inputs/contact/Relation">
+          <label ref="jr:itext('/pp_assessment/inputs/contact/Relation:label')"/>
+        </input>
+        <group ref="/pp_assessment/inputs/contact/parent">
+          <group ref="/pp_assessment/inputs/contact/parent/parent">
+            <group ref="/pp_assessment/inputs/contact/parent/parent/contact"/>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/pp_assessment/optional1">
+      <label ref="jr:itext('/pp_assessment/optional1:label')"/>
+      <select1 ref="/pp_assessment/optional1/any_problems">
+        <label ref="jr:itext('/pp_assessment/optional1/any_problems:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional1/any_problems/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional1/any_problems/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/pp_assessment/optional1/comments_optional">
+        <label ref="jr:itext('/pp_assessment/optional1/comments_optional:label')"/>
+      </input>
+      <select1 ref="/pp_assessment/optional1/able_to_rest">
+        <label ref="jr:itext('/pp_assessment/optional1/able_to_rest:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional1/able_to_rest/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional1/able_to_rest/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/pp_assessment/optional1/comments_optional1">
+        <label ref="jr:itext('/pp_assessment/optional1/comments_optional1:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/pp_assessment/optional2">
+      <label ref="jr:itext('/pp_assessment/optional2:label')"/>
+      <select1 ref="/pp_assessment/optional2/drinking_water">
+        <label ref="jr:itext('/pp_assessment/optional2/drinking_water:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional2/drinking_water/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional2/drinking_water/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pp_assessment/optional2/fever_ppassessment">
+        <label ref="jr:itext('/pp_assessment/optional2/fever_ppassessment:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional2/fever_ppassessment/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional2/fever_ppassessment/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pp_assessment/optional2/pain_urination">
+        <label ref="jr:itext('/pp_assessment/optional2/pain_urination:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional2/pain_urination/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional2/pain_urination/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pp_assessment/optional2/bleeding">
+        <label ref="jr:itext('/pp_assessment/optional2/bleeding:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional2/bleeding/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional2/bleeding/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pp_assessment/optional2/breast_pain">
+        <label ref="jr:itext('/pp_assessment/optional2/breast_pain:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional2/breast_pain/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional2/breast_pain/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pp_assessment/optional2/breast_feeding">
+        <label ref="jr:itext('/pp_assessment/optional2/breast_feeding:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional2/breast_feeding/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional2/breast_feeding/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pp_assessment/optional2/abdominal_pain">
+        <label ref="jr:itext('/pp_assessment/optional2/abdominal_pain:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional2/abdominal_pain/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional2/abdominal_pain/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pp_assessment/optional2/sleeping_with_baby">
+        <label ref="jr:itext('/pp_assessment/optional2/sleeping_with_baby:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional2/sleeping_with_baby/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional2/sleeping_with_baby/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pp_assessment/optional2/feeling_low">
+        <label ref="jr:itext('/pp_assessment/optional2/feeling_low:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional2/feeling_low/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional2/feeling_low/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/pp_assessment/optional2/comments_optional2">
+        <label ref="jr:itext('/pp_assessment/optional2/comments_optional2:label')"/>
+      </input>
+      <input ref="/pp_assessment/optional2/medications">
+        <label ref="jr:itext('/pp_assessment/optional2/medications:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/pp_assessment/optional3">
+      <input ref="/pp_assessment/optional3/health_conditions">
+        <label ref="jr:itext('/pp_assessment/optional3/health_conditions:label')"/>
+      </input>
+      <input ref="/pp_assessment/optional3/ht">
+        <label ref="jr:itext('/pp_assessment/optional3/ht:label')"/>
+      </input>
+      <input ref="/pp_assessment/optional3/wt">
+        <label ref="jr:itext('/pp_assessment/optional3/wt:label')"/>
+      </input>
+      <input ref="/pp_assessment/optional3/hb">
+        <label ref="jr:itext('/pp_assessment/optional3/hb:label')"/>
+      </input>
+      <select1 ref="/pp_assessment/optional3/pink_conjunctiva">
+        <label ref="jr:itext('/pp_assessment/optional3/pink_conjunctiva:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional3/pink_conjunctiva/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional3/pink_conjunctiva/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/pp_assessment/optional4">
+      <label ref="jr:itext('/pp_assessment/optional4:label')"/>
+      <group ref="/pp_assessment/optional4/vital_signs">
+        <label ref="jr:itext('/pp_assessment/optional4/vital_signs:label')"/>
+        <input ref="/pp_assessment/optional4/vital_signs/bp">
+          <label ref="jr:itext('/pp_assessment/optional4/vital_signs/bp:label')"/>
+        </input>
+        <input ref="/pp_assessment/optional4/vital_signs/t">
+          <label ref="jr:itext('/pp_assessment/optional4/vital_signs/t:label')"/>
+        </input>
+        <input ref="/pp_assessment/optional4/vital_signs/p">
+          <label ref="jr:itext('/pp_assessment/optional4/vital_signs/p:label')"/>
+        </input>
+        <input ref="/pp_assessment/optional4/vital_signs/arm_circ">
+          <label ref="jr:itext('/pp_assessment/optional4/vital_signs/arm_circ:label')"/>
+        </input>
+        <select1 ref="/pp_assessment/optional4/vital_signs/breast_assessment">
+          <label ref="jr:itext('/pp_assessment/optional4/vital_signs/breast_assessment:label')"/>
+          <item>
+            <label ref="jr:itext('/pp_assessment/optional4/vital_signs/breast_assessment/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pp_assessment/optional4/vital_signs/breast_assessment/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 ref="/pp_assessment/optional4/vital_signs/breast_feeding_assessment">
+          <label ref="jr:itext('/pp_assessment/optional4/vital_signs/breast_feeding_assessment:label')"/>
+          <item>
+            <label ref="jr:itext('/pp_assessment/optional4/vital_signs/breast_feeding_assessment/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pp_assessment/optional4/vital_signs/breast_feeding_assessment/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 ref="/pp_assessment/optional4/vital_signs/abdomen_assessment">
+          <label ref="jr:itext('/pp_assessment/optional4/vital_signs/abdomen_assessment:label')"/>
+          <item>
+            <label ref="jr:itext('/pp_assessment/optional4/vital_signs/abdomen_assessment/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pp_assessment/optional4/vital_signs/abdomen_assessment/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 ref="/pp_assessment/optional4/vital_signs/surgical_scars">
+          <label ref="jr:itext('/pp_assessment/optional4/vital_signs/surgical_scars:label')"/>
+          <item>
+            <label ref="jr:itext('/pp_assessment/optional4/vital_signs/surgical_scars/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pp_assessment/optional4/vital_signs/surgical_scars/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 ref="/pp_assessment/optional4/vital_signs/perineum">
+          <label ref="jr:itext('/pp_assessment/optional4/vital_signs/perineum:label')"/>
+          <item>
+            <label ref="jr:itext('/pp_assessment/optional4/vital_signs/perineum/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pp_assessment/optional4/vital_signs/perineum/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 ref="/pp_assessment/optional4/vital_signs/lochia">
+          <label ref="jr:itext('/pp_assessment/optional4/vital_signs/lochia:label')"/>
+          <item>
+            <label ref="jr:itext('/pp_assessment/optional4/vital_signs/lochia/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pp_assessment/optional4/vital_signs/lochia/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 ref="/pp_assessment/optional4/vital_signs/mothers_questions_answered">
+          <label ref="jr:itext('/pp_assessment/optional4/vital_signs/mothers_questions_answered:label')"/>
+          <item>
+            <label ref="jr:itext('/pp_assessment/optional4/vital_signs/mothers_questions_answered/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pp_assessment/optional4/vital_signs/mothers_questions_answered/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 ref="/pp_assessment/optional4/vital_signs/problems_noted">
+          <label ref="jr:itext('/pp_assessment/optional4/vital_signs/problems_noted:label')"/>
+          <item>
+            <label ref="jr:itext('/pp_assessment/optional4/vital_signs/problems_noted/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pp_assessment/optional4/vital_signs/problems_noted/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/pp_assessment/optional4/vital_signs/other_assessment">
+          <label ref="jr:itext('/pp_assessment/optional4/vital_signs/other_assessment:label')"/>
+        </input>
+        <input ref="/pp_assessment/optional4/vital_signs/comments_assessment">
+          <label ref="jr:itext('/pp_assessment/optional4/vital_signs/comments_assessment:label')"/>
+        </input>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/pp_assessment/optional5">
+      <label ref="jr:itext('/pp_assessment/optional5:label')"/>
+      <select1 ref="/pp_assessment/optional5/very_week">
+        <label ref="jr:itext('/pp_assessment/optional5/very_week:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional5/very_week/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional5/very_week/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pp_assessment/optional5/bleeding">
+        <label ref="jr:itext('/pp_assessment/optional5/bleeding:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional5/bleeding/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional5/bleeding/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pp_assessment/optional5/discharge_smell">
+        <label ref="jr:itext('/pp_assessment/optional5/discharge_smell:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional5/discharge_smell/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional5/discharge_smell/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pp_assessment/optional5/painful_breasts_with_fever">
+        <label ref="jr:itext('/pp_assessment/optional5/painful_breasts_with_fever:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional5/painful_breasts_with_fever/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional5/painful_breasts_with_fever/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pp_assessment/optional5/headache_severe">
+        <label ref="jr:itext('/pp_assessment/optional5/headache_severe:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional5/headache_severe/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional5/headache_severe/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pp_assessment/optional5/abdominal_tenderness">
+        <label ref="jr:itext('/pp_assessment/optional5/abdominal_tenderness:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional5/abdominal_tenderness/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional5/abdominal_tenderness/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pp_assessment/optional5/fits">
+        <label ref="jr:itext('/pp_assessment/optional5/fits:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional5/fits/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional5/fits/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/pp_assessment/optional6">
+      <label ref="jr:itext('/pp_assessment/optional6:label')"/>
+      <select1 ref="/pp_assessment/optional6/hand_wash">
+        <label ref="jr:itext('/pp_assessment/optional6/hand_wash:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional6/hand_wash/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional6/hand_wash/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pp_assessment/optional6/exclusive_breastfeed">
+        <label ref="jr:itext('/pp_assessment/optional6/exclusive_breastfeed:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional6/exclusive_breastfeed/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional6/exclusive_breastfeed/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pp_assessment/optional6/malaria_prevention">
+        <label ref="jr:itext('/pp_assessment/optional6/malaria_prevention:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional6/malaria_prevention/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional6/malaria_prevention/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pp_assessment/optional6/family_planning">
+        <label ref="jr:itext('/pp_assessment/optional6/family_planning:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional6/family_planning/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional6/family_planning/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pp_assessment/optional6/hiv_prevention">
+        <label ref="jr:itext('/pp_assessment/optional6/hiv_prevention:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional6/hiv_prevention/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional6/hiv_prevention/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pp_assessment/optional6/nutrition">
+        <label ref="jr:itext('/pp_assessment/optional6/nutrition:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional6/nutrition/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional6/nutrition/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pp_assessment/optional6/food_stability">
+        <label ref="jr:itext('/pp_assessment/optional6/food_stability:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional6/food_stability/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/optional6/food_stability/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/pp_assessment/optional6/comments_optional6">
+        <label ref="jr:itext('/pp_assessment/optional6/comments_optional6:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/pp_assessment/danger_signs">
+      <label ref="jr:itext('/pp_assessment/danger_signs:label')"/>
+      <select1 ref="/pp_assessment/danger_signs/visit_confirm">
+        <label ref="jr:itext('/pp_assessment/danger_signs/visit_confirm:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/danger_signs/visit_confirm/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/danger_signs/visit_confirm/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pp_assessment/danger_signs/danger_sign_present">
+        <label ref="jr:itext('/pp_assessment/danger_signs/danger_sign_present:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/danger_signs/danger_sign_present/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/danger_signs/danger_sign_present/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/pp_assessment/danger_signs/danger_signs_question_note">
+        <label ref="jr:itext('/pp_assessment/danger_signs/danger_signs_question_note:label')"/>
+      </input>
+      <select1 ref="/pp_assessment/danger_signs/fever">
+        <label ref="jr:itext('/pp_assessment/danger_signs/fever:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/danger_signs/fever/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/danger_signs/fever/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pp_assessment/danger_signs/severe_headache">
+        <label ref="jr:itext('/pp_assessment/danger_signs/severe_headache:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/danger_signs/severe_headache/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/danger_signs/severe_headache/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pp_assessment/danger_signs/vaginal_bleeding">
+        <label ref="jr:itext('/pp_assessment/danger_signs/vaginal_bleeding:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/danger_signs/vaginal_bleeding/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/danger_signs/vaginal_bleeding/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pp_assessment/danger_signs/vaginal_discharge">
+        <label ref="jr:itext('/pp_assessment/danger_signs/vaginal_discharge:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/danger_signs/vaginal_discharge/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/danger_signs/vaginal_discharge/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pp_assessment/danger_signs/convulsion">
+        <label ref="jr:itext('/pp_assessment/danger_signs/convulsion:label')"/>
+        <item>
+          <label ref="jr:itext('/pp_assessment/danger_signs/convulsion/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pp_assessment/danger_signs/convulsion/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/pp_assessment/danger_signs/congratulate_no_ds_note">
+        <label ref="jr:itext('/pp_assessment/danger_signs/congratulate_no_ds_note:label')"/>
+      </input>
+      <input ref="/pp_assessment/danger_signs/refer_patient_note_1">
+        <label ref="jr:itext('/pp_assessment/danger_signs/refer_patient_note_1:label')"/>
+      </input>
+      <input ref="/pp_assessment/danger_signs/refer_patient_note_2">
+        <label ref="jr:itext('/pp_assessment/danger_signs/refer_patient_note_2:label')"/>
+      </input>
+      <group appearance="hidden" ref="/pp_assessment/danger_signs/custom_translations">
+        <select1 ref="/pp_assessment/danger_signs/custom_translations/custom_woman_label_translator">
+          <item>
+            <label ref="jr:itext('/pp_assessment/danger_signs/custom_translations/custom_woman_label_translator/woman:label')"/>
+            <value>woman</value>
+          </item>
+        </select1>
+        <select1 ref="/pp_assessment/danger_signs/custom_translations/custom_woman_start_label_translator">
+          <item>
+            <label ref="jr:itext('/pp_assessment/danger_signs/custom_translations/custom_woman_start_label_translator/woman-start:label')"/>
+            <value>woman-start</value>
+          </item>
+        </select1>
+      </group>
+    </group>
+    <group appearance="hidden" ref="/pp_assessment/data">
+      <group ref="/pp_assessment/data/meta"/>
+    </group>
+  </h:body>
+</h:html>

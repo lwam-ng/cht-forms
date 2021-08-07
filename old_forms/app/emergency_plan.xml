@@ -1,0 +1,1163 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Emergency Plan</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/emergency_plan/danger_signs/congratulate_no_ds_note:label">
+            <value>Great news! Please continue to closely monitor her.</value>
+          </text>
+          <text id="/emergency_plan/danger_signs/convulsion/no:label">
+            <value>No</value>
+          </text>
+          <text id="/emergency_plan/danger_signs/convulsion/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/emergency_plan/danger_signs/convulsion:label">
+            <value>Convulsions</value>
+          </text>
+          <text id="/emergency_plan/danger_signs/custom_translations/custom_woman_label_translator/woman:label">
+            <value>the woman</value>
+          </text>
+          <text id="/emergency_plan/danger_signs/custom_translations/custom_woman_start_label_translator/woman-start:label">
+            <value>The woman</value>
+          </text>
+          <text id="/emergency_plan/danger_signs/danger_sign_present/no:label">
+            <value>No</value>
+          </text>
+          <text id="/emergency_plan/danger_signs/danger_sign_present/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/emergency_plan/danger_signs/danger_sign_present:label">
+            <value>Is she still experiencing any danger signs?</value>
+          </text>
+          <text id="/emergency_plan/danger_signs/danger_signs_question_note:label">
+            <value>Please indicate which danger signs <output value=" /emergency_plan/patient_short_name "/> is experiencing.</value>
+          </text>
+          <text id="/emergency_plan/danger_signs/fever/no:label">
+            <value>No</value>
+          </text>
+          <text id="/emergency_plan/danger_signs/fever/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/emergency_plan/danger_signs/fever:label">
+            <value>Fever</value>
+          </text>
+          <text id="/emergency_plan/danger_signs/refer_patient_note_1:label">
+            <value><output value=" /emergency_plan/patient_short_name_start "/> should visit the health facility immediately if she is experiencing any of these danger signs.</value>
+          </text>
+          <text id="/emergency_plan/danger_signs/refer_patient_note_2:label">
+            <value>Please advise her to do so and accompany her if possible.</value>
+          </text>
+          <text id="/emergency_plan/danger_signs/severe_headache/no:label">
+            <value>No</value>
+          </text>
+          <text id="/emergency_plan/danger_signs/severe_headache/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/emergency_plan/danger_signs/severe_headache:label">
+            <value>Severe headache</value>
+          </text>
+          <text id="/emergency_plan/danger_signs/vaginal_bleeding/no:label">
+            <value>No</value>
+          </text>
+          <text id="/emergency_plan/danger_signs/vaginal_bleeding/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/emergency_plan/danger_signs/vaginal_bleeding:label">
+            <value>Vaginal bleeding</value>
+          </text>
+          <text id="/emergency_plan/danger_signs/vaginal_discharge/no:label">
+            <value>No</value>
+          </text>
+          <text id="/emergency_plan/danger_signs/vaginal_discharge/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/emergency_plan/danger_signs/vaginal_discharge:label">
+            <value>Foul smelling vaginal discharge</value>
+          </text>
+          <text id="/emergency_plan/danger_signs/visit_confirm/no:label">
+            <value>No</value>
+          </text>
+          <text id="/emergency_plan/danger_signs/visit_confirm/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/emergency_plan/danger_signs/visit_confirm:label">
+            <value>Did <output value=" /emergency_plan/patient_short_name "/> visit the health facility as recommended?</value>
+          </text>
+          <text id="/emergency_plan/danger_signs:label">
+            <value>Danger Sign Follow-up - Mother</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/DOB:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/Date_of_Arrival:label">
+            <value>Date</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/Guardian:label">
+            <value>Guardian Name</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/Nurse:label">
+            <value>Nurse Name</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/Relation:label">
+            <value>Relationship to Child</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/_id:label">
+            <value>What is the Baby's Name?</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/gender/Female:label">
+            <value>Female</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/gender/Male:label">
+            <value>Male</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/gender:label">
+            <value>Gender</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/Comments_1:label">
+            <value>Comments</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/headmen_leaders_met_with:label">
+            <value>Headmen/Leaders met with:</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/optional2/areas_tba_met_with:label">
+            <value>Area TBAs met with:</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/optional2/date_of_birth:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/optional2/involvement/no:label">
+            <value>No</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/optional2/involvement/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/optional2/involvement:label">
+            <value>Willing to be involved?</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/optional2/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/optional2/parent/_id:label">
+            <value>Parent ID</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/optional2/parent/parent/contact/chw_name:label">
+            <value>CHW name</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/optional2/parent/parent/contact/phone:label">
+            <value>CHW phone</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/optional2/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/optional2/program_explained1/no:label">
+            <value>No</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/optional2/program_explained1/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/optional2/program_explained1:label">
+            <value>Program explained</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/optional2/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/optional2/short_name:label">
+            <value>Short Name</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/optional2/training/no:label">
+            <value>No</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/optional2/training/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/optional2/training:label">
+            <value>Trained?</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/optional2/transports_patients/no:label">
+            <value>No</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/optional2/transports_patients/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/optional2/transports_patients:label">
+            <value>Transports patients?</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/program_explained/no:label">
+            <value>No</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/program_explained/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/program_explained:label">
+            <value>Program explained?</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/willing_or_no/no:label">
+            <value>No</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/willing_or_no/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/optional1/willing_or_no:label">
+            <value>Willing to be involved?</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/ta:label">
+            <value>TA</value>
+          </text>
+          <text id="/emergency_plan/inputs/contact/village:label">
+            <value>Village</value>
+          </text>
+          <text id="/emergency_plan/inputs/delivery_uuid:label">
+            <value>Delivery Report ID</value>
+          </text>
+          <text id="/emergency_plan/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/emergency_plan/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/emergency_plan/optional3/ambulance_or_others/no:label">
+            <value>No</value>
+          </text>
+          <text id="/emergency_plan/optional3/ambulance_or_others/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/emergency_plan/optional3/ambulance_or_others:label">
+            <value>Bicycle/ motorcycle ambulance?</value>
+          </text>
+          <text id="/emergency_plan/optional3/antibiotics_availability/no:label">
+            <value>No</value>
+          </text>
+          <text id="/emergency_plan/optional3/antibiotics_availability/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/emergency_plan/optional3/antibiotics_availability:label">
+            <value>Antibiotics available at HC?</value>
+          </text>
+          <text id="/emergency_plan/optional3/client/no:label">
+            <value>No</value>
+          </text>
+          <text id="/emergency_plan/optional3/client/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/emergency_plan/optional3/client:label">
+            <value>Client access to cell phone?</value>
+          </text>
+          <text id="/emergency_plan/optional3/closest_health_centre:label">
+            <value>Closest Health Center:</value>
+          </text>
+          <text id="/emergency_plan/optional3/days_of_operation:label">
+            <value>Days of operation</value>
+          </text>
+          <text id="/emergency_plan/optional3/distance_from_village:label">
+            <value>Approximate distance from village</value>
+          </text>
+          <text id="/emergency_plan/optional3/frequency_of_outreach:label">
+            <value>Frequency of outreach</value>
+          </text>
+          <text id="/emergency_plan/optional3/ors_available/no:label">
+            <value>No</value>
+          </text>
+          <text id="/emergency_plan/optional3/ors_available/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/emergency_plan/optional3/ors_available:label">
+            <value>ORS available in village?</value>
+          </text>
+          <text id="/emergency_plan/optional3/staffed_or_not:label">
+            <value>Staffed by clinical officer, nurses?</value>
+          </text>
+          <text id="/emergency_plan/optional3/std_vtc_at_hc/no:label">
+            <value>No</value>
+          </text>
+          <text id="/emergency_plan/optional3/std_vtc_at_hc/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/emergency_plan/optional3/std_vtc_at_hc:label">
+            <value>STD/VTC at HC?</value>
+          </text>
+          <text id="/emergency_plan/optional3/vehicle_in_village/no:label">
+            <value>No</value>
+          </text>
+          <text id="/emergency_plan/optional3/vehicle_in_village/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/emergency_plan/optional3/vehicle_in_village:label">
+            <value>Vehicle in village?</value>
+          </text>
+          <text id="/emergency_plan/optional3/village_emergency_trasportation/no:label">
+            <value>No</value>
+          </text>
+          <text id="/emergency_plan/optional3/village_emergency_trasportation/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/emergency_plan/optional3/village_emergency_trasportation:label">
+            <value>Village emergency transport plan?</value>
+          </text>
+          <text id="/emergency_plan/optional4/name:label">
+            <value>Name:</value>
+          </text>
+          <text id="/emergency_plan/optional4/program_explained_or_no/no:label">
+            <value>No</value>
+          </text>
+          <text id="/emergency_plan/optional4/program_explained_or_no/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/emergency_plan/optional4/program_explained_or_no:label">
+            <value>Program explained ?</value>
+          </text>
+          <text id="/emergency_plan/optional4/questions_answered/no:label">
+            <value>No</value>
+          </text>
+          <text id="/emergency_plan/optional4/questions_answered/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/emergency_plan/optional4/questions_answered:label">
+            <value>Questions answered</value>
+          </text>
+          <text id="/emergency_plan/optional4/relation_to_client:label">
+            <value>Relation to client</value>
+          </text>
+          <text id="/emergency_plan/optional4/willing_to_participate/no:label">
+            <value>No</value>
+          </text>
+          <text id="/emergency_plan/optional4/willing_to_participate/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/emergency_plan/optional4/willing_to_participate:label">
+            <value>Willing to participate?</value>
+          </text>
+          <text id="/emergency_plan/optional4:label">
+            <value>Family/community members involved in care of mother/baby/child</value>
+          </text>
+          <text id="/emergency_plan/optional5/blood_supply:label">
+            <value>Who will give blood if needed?</value>
+          </text>
+          <text id="/emergency_plan/optional5/care_for_baby:label">
+            <value>Who will ensure mother/baby seen?</value>
+          </text>
+          <text id="/emergency_plan/optional5/care_for_mother:label">
+            <value>Who will go to provide care along the way?</value>
+          </text>
+          <text id="/emergency_plan/optional5/children_care:label">
+            <value>Who will care for the children at home?</value>
+          </text>
+          <text id="/emergency_plan/optional5/cost:label">
+            <value>How much will it cost?</value>
+          </text>
+          <text id="/emergency_plan/optional5/help_decision:label">
+            <value>Who will decide to get help?</value>
+          </text>
+          <text id="/emergency_plan/optional5/meds:label">
+            <value>Other: (meds, etc.)</value>
+          </text>
+          <text id="/emergency_plan/optional5/money_usage:label">
+            <value>What money will money will be used?</value>
+          </text>
+          <text id="/emergency_plan/optional5/patient_help:label">
+            <value>Where will patient go for medical help?</value>
+          </text>
+          <text id="/emergency_plan/optional5/permission_decision:label">
+            <value>Who will give permission for travel?</value>
+          </text>
+          <text id="/emergency_plan/optional5/problem_decision:label">
+            <value>Who decides there is a problem?</value>
+          </text>
+          <text id="/emergency_plan/optional5/responsibility:label">
+            <value>Who will be responsible for the money?</value>
+          </text>
+          <text id="/emergency_plan/optional5/transport:label">
+            <value>Transport:</value>
+          </text>
+          <text id="/emergency_plan/optional5/transporting:label">
+            <value>How will you transport mother/baby?</value>
+          </text>
+          <text id="/emergency_plan/optional5:label">
+            <value>EMERGENCY PLAN FOR MOTHER AND BABY:</value>
+          </text>
+          <text id="/emergency_plan/optional6/activate_plan/no:label">
+            <value>No</value>
+          </text>
+          <text id="/emergency_plan/optional6/activate_plan/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/emergency_plan/optional6/activate_plan:label">
+            <value>Individuals involved know when to activate plan?</value>
+          </text>
+          <text id="/emergency_plan/optional6/commitment/no:label">
+            <value>No</value>
+          </text>
+          <text id="/emergency_plan/optional6/commitment/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/emergency_plan/optional6/commitment:label">
+            <value>Commitment to protect life of mother/baby by all involved?</value>
+          </text>
+          <text id="/emergency_plan/optional6/danger_signs/no:label">
+            <value>No</value>
+          </text>
+          <text id="/emergency_plan/optional6/danger_signs/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/emergency_plan/optional6/danger_signs:label">
+            <value>Danger signs reviewed with everyone involved in plan?</value>
+          </text>
+          <text id="/emergency_plan/optional6/questions_answered1/no:label">
+            <value>No</value>
+          </text>
+          <text id="/emergency_plan/optional6/questions_answered1/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/emergency_plan/optional6/questions_answered1:label">
+            <value>Questions answered?</value>
+          </text>
+          <text id="/emergency_plan/optional6/verbal_agreement/no:label">
+            <value>No</value>
+          </text>
+          <text id="/emergency_plan/optional6/verbal_agreement/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/emergency_plan/optional6/verbal_agreement:label">
+            <value>Verbal agreement on plan by all involved?</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <emergency_plan delimiter="#" id="emergency_plan" prefix="J1!emergency_plan!" version="2020-04-16 09:26:53">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <delivery_uuid/>
+            <contact>
+              <_id/>
+              <gender/>
+              <DOB/>
+              <Nurse/>
+              <Date_of_Arrival/>
+              <Guardian/>
+              <Relation/>
+              <ta/>
+              <village/>
+              <optional1>
+                <headmen_leaders_met_with/>
+                <program_explained/>
+                <willing_or_no/>
+                <Comments_1/>
+                <optional2>
+                  <areas_tba_met_with/>
+                  <program_explained1/>
+                  <involvement/>
+                  <training/>
+                  <transports_patients/>
+                  <name/>
+                  <short_name/>
+                  <patient_id/>
+                  <date_of_birth>0</date_of_birth>
+                  <sex/>
+                  <parent>
+                    <_id/>
+                    <parent>
+                      <contact>
+                        <chw_name/>
+                        <phone/>
+                      </contact>
+                    </parent>
+                  </parent>
+                </optional2>
+              </optional1>
+            </contact>
+          </inputs>
+          <optional3>
+            <closest_health_centre/>
+            <distance_from_village/>
+            <staffed_or_not/>
+            <days_of_operation/>
+            <frequency_of_outreach/>
+            <antibiotics_availability/>
+            <std_vtc_at_hc/>
+            <ors_available/>
+            <client/>
+            <village_emergency_trasportation/>
+            <vehicle_in_village/>
+            <ambulance_or_others/>
+          </optional3>
+          <optional4>
+            <name/>
+            <relation_to_client/>
+            <program_explained_or_no/>
+            <willing_to_participate/>
+            <questions_answered/>
+          </optional4>
+          <optional5>
+            <problem_decision/>
+            <help_decision/>
+            <permission_decision/>
+            <care_for_mother/>
+            <care_for_baby/>
+            <blood_supply/>
+            <children_care/>
+            <patient_help/>
+            <transporting/>
+            <cost/>
+            <transport/>
+            <meds/>
+            <money_usage/>
+            <responsibility/>
+          </optional5>
+          <optional6>
+            <danger_signs/>
+            <questions_answered1/>
+            <commitment/>
+            <activate_plan/>
+            <verbal_agreement/>
+          </optional6>
+          <patient_age_in_years tag="hidden"/>
+          <patient_uuid tag="hidden"/>
+          <patient_id tag="hidden"/>
+          <patient_name tag="hidden"/>
+          <patient_short_name tag="hidden"/>
+          <patient_short_name_start tag="hidden"/>
+          <t_danger_signs_referral_follow_up_date tag="hidden"/>
+          <t_danger_signs_referral_follow_up tag="hidden"/>
+          <danger_signs>
+            <visit_confirm/>
+            <danger_sign_present/>
+            <danger_signs_question_note tag="hidden"/>
+            <fever/>
+            <severe_headache/>
+            <vaginal_bleeding/>
+            <vaginal_discharge/>
+            <convulsion/>
+            <r_danger_sign_present tag="hidden"/>
+            <congratulate_no_ds_note tag="hidden"/>
+            <refer_patient_note_1 tag="hidden"/>
+            <refer_patient_note_2 tag="hidden"/>
+            <custom_translations tag="hidden">
+              <custom_woman_label_translator/>
+              <custom_woman_label/>
+              <custom_woman_start_label_translator/>
+              <custom_woman_start_label/>
+            </custom_translations>
+          </danger_signs>
+          <data tag="hidden">
+            <__visited_hf/>
+            <__still_experiencing_danger_sign/>
+            <__fever/>
+            <__severe_headache/>
+            <__vaginal_bleeding/>
+            <__vaginal_discharge/>
+            <__convulsions/>
+            <__has_danger_sign/>
+            <meta tag="hidden">
+              <__patient_uuid/>
+              <__patient_id/>
+              <__household_uuid/>
+              <__source/>
+              <__source_id/>
+              <__delivery_uuid/>
+            </meta>
+          </data>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </emergency_plan>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/emergency_plan/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/emergency_plan/inputs/source" type="string"/>
+      <bind nodeset="/emergency_plan/inputs/source_id" type="string"/>
+      <bind nodeset="/emergency_plan/inputs/delivery_uuid" type="string"/>
+      <bind nodeset="/emergency_plan/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/emergency_plan/inputs/contact/gender" type="select1"/>
+      <bind nodeset="/emergency_plan/inputs/contact/DOB" type="string"/>
+      <bind nodeset="/emergency_plan/inputs/contact/Nurse" type="string"/>
+      <bind nodeset="/emergency_plan/inputs/contact/Date_of_Arrival" type="string"/>
+      <bind nodeset="/emergency_plan/inputs/contact/Guardian" type="string"/>
+      <bind nodeset="/emergency_plan/inputs/contact/Relation" type="string"/>
+      <bind nodeset="/emergency_plan/inputs/contact/ta" type="string"/>
+      <bind nodeset="/emergency_plan/inputs/contact/village" type="string"/>
+      <bind nodeset="/emergency_plan/inputs/contact/optional1/headmen_leaders_met_with" type="string"/>
+      <bind nodeset="/emergency_plan/inputs/contact/optional1/program_explained" type="select1"/>
+      <bind nodeset="/emergency_plan/inputs/contact/optional1/willing_or_no" type="select1"/>
+      <bind nodeset="/emergency_plan/inputs/contact/optional1/Comments_1" type="string"/>
+      <bind nodeset="/emergency_plan/inputs/contact/optional1/optional2/areas_tba_met_with" type="string"/>
+      <bind nodeset="/emergency_plan/inputs/contact/optional1/optional2/program_explained1" type="select1"/>
+      <bind nodeset="/emergency_plan/inputs/contact/optional1/optional2/involvement" type="select1"/>
+      <bind nodeset="/emergency_plan/inputs/contact/optional1/optional2/training" type="select1"/>
+      <bind nodeset="/emergency_plan/inputs/contact/optional1/optional2/transports_patients" type="select1"/>
+      <bind nodeset="/emergency_plan/inputs/contact/optional1/optional2/name" type="string"/>
+      <bind nodeset="/emergency_plan/inputs/contact/optional1/optional2/short_name" type="string"/>
+      <bind nodeset="/emergency_plan/inputs/contact/optional1/optional2/patient_id" type="string"/>
+      <bind nodeset="/emergency_plan/inputs/contact/optional1/optional2/date_of_birth" type="string"/>
+      <bind nodeset="/emergency_plan/inputs/contact/optional1/optional2/sex" type="string"/>
+      <bind nodeset="/emergency_plan/inputs/contact/optional1/optional2/parent/_id" type="string"/>
+      <bind nodeset="/emergency_plan/inputs/contact/optional1/optional2/parent/parent/contact/chw_name" type="string"/>
+      <bind nodeset="/emergency_plan/inputs/contact/optional1/optional2/parent/parent/contact/phone" type="string"/>
+      <bind nodeset="/emergency_plan/optional3/closest_health_centre" type="string"/>
+      <bind nodeset="/emergency_plan/optional3/distance_from_village" type="string"/>
+      <bind nodeset="/emergency_plan/optional3/staffed_or_not" type="string"/>
+      <bind nodeset="/emergency_plan/optional3/days_of_operation" type="string"/>
+      <bind nodeset="/emergency_plan/optional3/frequency_of_outreach" type="string"/>
+      <bind nodeset="/emergency_plan/optional3/antibiotics_availability" type="select1"/>
+      <bind nodeset="/emergency_plan/optional3/std_vtc_at_hc" type="select1"/>
+      <bind nodeset="/emergency_plan/optional3/ors_available" type="select1"/>
+      <bind nodeset="/emergency_plan/optional3/client" type="select1"/>
+      <bind nodeset="/emergency_plan/optional3/village_emergency_trasportation" type="select1"/>
+      <bind nodeset="/emergency_plan/optional3/vehicle_in_village" type="select1"/>
+      <bind nodeset="/emergency_plan/optional3/ambulance_or_others" type="select1"/>
+      <bind nodeset="/emergency_plan/optional4/name" type="string"/>
+      <bind nodeset="/emergency_plan/optional4/relation_to_client" type="string"/>
+      <bind nodeset="/emergency_plan/optional4/program_explained_or_no" type="select1"/>
+      <bind nodeset="/emergency_plan/optional4/willing_to_participate" type="select1"/>
+      <bind nodeset="/emergency_plan/optional4/questions_answered" type="select1"/>
+      <bind nodeset="/emergency_plan/optional5/problem_decision" type="string"/>
+      <bind nodeset="/emergency_plan/optional5/help_decision" type="string"/>
+      <bind nodeset="/emergency_plan/optional5/permission_decision" type="string"/>
+      <bind nodeset="/emergency_plan/optional5/care_for_mother" type="string"/>
+      <bind nodeset="/emergency_plan/optional5/care_for_baby" type="string"/>
+      <bind nodeset="/emergency_plan/optional5/blood_supply" type="string"/>
+      <bind nodeset="/emergency_plan/optional5/children_care" type="string"/>
+      <bind nodeset="/emergency_plan/optional5/patient_help" type="string"/>
+      <bind nodeset="/emergency_plan/optional5/transporting" type="string"/>
+      <bind nodeset="/emergency_plan/optional5/cost" type="string"/>
+      <bind nodeset="/emergency_plan/optional5/transport" type="string"/>
+      <bind nodeset="/emergency_plan/optional5/meds" type="string"/>
+      <bind nodeset="/emergency_plan/optional5/money_usage" type="string"/>
+      <bind nodeset="/emergency_plan/optional5/responsibility" type="string"/>
+      <bind nodeset="/emergency_plan/optional6/danger_signs" type="select1"/>
+      <bind nodeset="/emergency_plan/optional6/questions_answered1" type="select1"/>
+      <bind nodeset="/emergency_plan/optional6/commitment" type="select1"/>
+      <bind nodeset="/emergency_plan/optional6/activate_plan" type="select1"/>
+      <bind nodeset="/emergency_plan/optional6/verbal_agreement" type="select1"/>
+      <bind calculate="floor( difference-in-months( ../inputs/contact/date_of_birth, today() ) div 12 )" nodeset="/emergency_plan/patient_age_in_years" type="string"/>
+      <bind calculate="../inputs/contact/_id" nodeset="/emergency_plan/patient_uuid" type="string"/>
+      <bind calculate="../inputs/contact/patient_id" nodeset="/emergency_plan/patient_id" type="string"/>
+      <bind calculate="../inputs/contact/name" nodeset="/emergency_plan/patient_name" type="string"/>
+      <bind calculate="coalesce(../inputs/contact/short_name, ../danger_signs/custom_translations/custom_woman_label)" nodeset="/emergency_plan/patient_short_name" type="string"/>
+      <bind calculate="coalesce(../inputs/contact/short_name, ../danger_signs/custom_translations/custom_woman_start_label)" nodeset="/emergency_plan/patient_short_name_start" type="string"/>
+      <bind calculate="date-time(floor(decimal-date-time(today())) + 3)" nodeset="/emergency_plan/t_danger_signs_referral_follow_up_date" type="string"/>
+      <bind calculate="../danger_signs/r_danger_sign_present" nodeset="/emergency_plan/t_danger_signs_referral_follow_up" type="string"/>
+      <bind nodeset="/emergency_plan/danger_signs/visit_confirm" required="true()" type="select1"/>
+      <bind nodeset="/emergency_plan/danger_signs/danger_sign_present" required="true()" type="select1"/>
+      <bind nodeset="/emergency_plan/danger_signs/danger_signs_question_note" readonly="true()" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" type="string"/>
+      <bind nodeset="/emergency_plan/danger_signs/fever" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind nodeset="/emergency_plan/danger_signs/severe_headache" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind nodeset="/emergency_plan/danger_signs/vaginal_bleeding" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind nodeset="/emergency_plan/danger_signs/vaginal_discharge" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind nodeset="/emergency_plan/danger_signs/convulsion" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind calculate="if(selected(../fever, 'yes') or
+selected(../severe_headache, 'yes') or
+selected(../vaginal_bleeding, 'yes') or
+selected(../vaginal_discharge, 'yes') or
+selected(../convulsion, 'yes'), 'yes',
+if(selected(../severe_headache, 'no') and
+selected(../vaginal_bleeding, 'no') and
+selected(../vaginal_discharge, 'no') and
+selected(../convulsion, 'no'), 'no', ''))" nodeset="/emergency_plan/danger_signs/r_danger_sign_present" type="string"/>
+      <bind nodeset="/emergency_plan/danger_signs/congratulate_no_ds_note" readonly="true()" relevant="../danger_sign_present = 'no' and ../r_danger_sign_present = 'no'" type="string"/>
+      <bind nodeset="/emergency_plan/danger_signs/refer_patient_note_1" readonly="true()" relevant="../danger_sign_present = 'yes' or ../r_danger_sign_present = 'yes'" type="string"/>
+      <bind nodeset="/emergency_plan/danger_signs/refer_patient_note_2" readonly="true()" relevant="../danger_sign_present = 'yes' or ../r_danger_sign_present = 'yes'" type="string"/>
+      <bind calculate="&quot;woman&quot;" nodeset="/emergency_plan/danger_signs/custom_translations/custom_woman_label_translator" type="select1"/>
+      <bind calculate="jr:choice-name( /emergency_plan/danger_signs/custom_translations/custom_woman_label_translator ,' /emergency_plan/danger_signs/custom_translations/custom_woman_label_translator ')" nodeset="/emergency_plan/danger_signs/custom_translations/custom_woman_label" type="string"/>
+      <bind calculate="&quot;woman-start&quot;" nodeset="/emergency_plan/danger_signs/custom_translations/custom_woman_start_label_translator" type="select1"/>
+      <bind calculate="jr:choice-name( /emergency_plan/danger_signs/custom_translations/custom_woman_start_label_translator ,' /emergency_plan/danger_signs/custom_translations/custom_woman_start_label_translator ')" nodeset="/emergency_plan/danger_signs/custom_translations/custom_woman_start_label" type="string"/>
+      <bind calculate=" /emergency_plan/danger_signs/visit_confirm " nodeset="/emergency_plan/data/__visited_hf" type="string"/>
+      <bind calculate=" /emergency_plan/danger_signs/danger_sign_present " nodeset="/emergency_plan/data/__still_experiencing_danger_sign" type="string"/>
+      <bind calculate=" /emergency_plan/danger_signs/fever " nodeset="/emergency_plan/data/__fever" type="string"/>
+      <bind calculate=" /emergency_plan/danger_signs/severe_headache " nodeset="/emergency_plan/data/__severe_headache" type="string"/>
+      <bind calculate=" /emergency_plan/danger_signs/vaginal_bleeding " nodeset="/emergency_plan/data/__vaginal_bleeding" type="string"/>
+      <bind calculate=" /emergency_plan/danger_signs/vaginal_discharge " nodeset="/emergency_plan/data/__vaginal_discharge" type="string"/>
+      <bind calculate=" /emergency_plan/danger_signs/convulsion " nodeset="/emergency_plan/data/__convulsions" type="string"/>
+      <bind calculate=" /emergency_plan/danger_signs/r_danger_sign_present " nodeset="/emergency_plan/data/__has_danger_sign" type="string"/>
+      <bind calculate="../../../inputs/contact/_id" nodeset="/emergency_plan/data/meta/__patient_uuid" type="string"/>
+      <bind calculate="../../../inputs/contact/patient_id" nodeset="/emergency_plan/data/meta/__patient_id" type="string"/>
+      <bind calculate="../../../inputs/contact/parent/_id" nodeset="/emergency_plan/data/meta/__household_uuid" type="string"/>
+      <bind calculate="../../../inputs/source" nodeset="/emergency_plan/data/meta/__source" type="string"/>
+      <bind calculate="../../../inputs/source_id" nodeset="/emergency_plan/data/meta/__source_id" type="string"/>
+      <bind calculate="../../../inputs/delivery_uuid" nodeset="/emergency_plan/data/meta/__delivery_uuid" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/emergency_plan/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/emergency_plan/inputs">
+      <group ref="/emergency_plan/inputs/contact">
+        <input appearance="db-object" ref="/emergency_plan/inputs/contact/_id">
+          <label ref="jr:itext('/emergency_plan/inputs/contact/_id:label')"/>
+        </input>
+        <select1 ref="/emergency_plan/inputs/contact/gender">
+          <label ref="jr:itext('/emergency_plan/inputs/contact/gender:label')"/>
+          <item>
+            <label ref="jr:itext('/emergency_plan/inputs/contact/gender/Male:label')"/>
+            <value>Male</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/emergency_plan/inputs/contact/gender/Female:label')"/>
+            <value>Female</value>
+          </item>
+        </select1>
+        <input ref="/emergency_plan/inputs/contact/DOB">
+          <label ref="jr:itext('/emergency_plan/inputs/contact/DOB:label')"/>
+        </input>
+        <input ref="/emergency_plan/inputs/contact/Nurse">
+          <label ref="jr:itext('/emergency_plan/inputs/contact/Nurse:label')"/>
+        </input>
+        <input ref="/emergency_plan/inputs/contact/Date_of_Arrival">
+          <label ref="jr:itext('/emergency_plan/inputs/contact/Date_of_Arrival:label')"/>
+        </input>
+        <input ref="/emergency_plan/inputs/contact/Guardian">
+          <label ref="jr:itext('/emergency_plan/inputs/contact/Guardian:label')"/>
+        </input>
+        <input ref="/emergency_plan/inputs/contact/Relation">
+          <label ref="jr:itext('/emergency_plan/inputs/contact/Relation:label')"/>
+        </input>
+        <input ref="/emergency_plan/inputs/contact/ta">
+          <label ref="jr:itext('/emergency_plan/inputs/contact/ta:label')"/>
+        </input>
+        <input ref="/emergency_plan/inputs/contact/village">
+          <label ref="jr:itext('/emergency_plan/inputs/contact/village:label')"/>
+        </input>
+        <group appearance="field-list" ref="/emergency_plan/inputs/contact/optional1">
+          <input ref="/emergency_plan/inputs/contact/optional1/headmen_leaders_met_with">
+            <label ref="jr:itext('/emergency_plan/inputs/contact/optional1/headmen_leaders_met_with:label')"/>
+          </input>
+          <select1 ref="/emergency_plan/inputs/contact/optional1/program_explained">
+            <label ref="jr:itext('/emergency_plan/inputs/contact/optional1/program_explained:label')"/>
+            <item>
+              <label ref="jr:itext('/emergency_plan/inputs/contact/optional1/program_explained/yes:label')"/>
+              <value>yes</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/emergency_plan/inputs/contact/optional1/program_explained/no:label')"/>
+              <value>no</value>
+            </item>
+          </select1>
+          <select1 ref="/emergency_plan/inputs/contact/optional1/willing_or_no">
+            <label ref="jr:itext('/emergency_plan/inputs/contact/optional1/willing_or_no:label')"/>
+            <item>
+              <label ref="jr:itext('/emergency_plan/inputs/contact/optional1/willing_or_no/yes:label')"/>
+              <value>yes</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/emergency_plan/inputs/contact/optional1/willing_or_no/no:label')"/>
+              <value>no</value>
+            </item>
+          </select1>
+          <input ref="/emergency_plan/inputs/contact/optional1/Comments_1">
+            <label ref="jr:itext('/emergency_plan/inputs/contact/optional1/Comments_1:label')"/>
+          </input>
+          <group appearance="field-list" ref="/emergency_plan/inputs/contact/optional1/optional2">
+            <input ref="/emergency_plan/inputs/contact/optional1/optional2/areas_tba_met_with">
+              <label ref="jr:itext('/emergency_plan/inputs/contact/optional1/optional2/areas_tba_met_with:label')"/>
+            </input>
+            <select1 ref="/emergency_plan/inputs/contact/optional1/optional2/program_explained1">
+              <label ref="jr:itext('/emergency_plan/inputs/contact/optional1/optional2/program_explained1:label')"/>
+              <item>
+                <label ref="jr:itext('/emergency_plan/inputs/contact/optional1/optional2/program_explained1/yes:label')"/>
+                <value>yes</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/emergency_plan/inputs/contact/optional1/optional2/program_explained1/no:label')"/>
+                <value>no</value>
+              </item>
+            </select1>
+            <select1 ref="/emergency_plan/inputs/contact/optional1/optional2/involvement">
+              <label ref="jr:itext('/emergency_plan/inputs/contact/optional1/optional2/involvement:label')"/>
+              <item>
+                <label ref="jr:itext('/emergency_plan/inputs/contact/optional1/optional2/involvement/yes:label')"/>
+                <value>yes</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/emergency_plan/inputs/contact/optional1/optional2/involvement/no:label')"/>
+                <value>no</value>
+              </item>
+            </select1>
+            <select1 ref="/emergency_plan/inputs/contact/optional1/optional2/training">
+              <label ref="jr:itext('/emergency_plan/inputs/contact/optional1/optional2/training:label')"/>
+              <item>
+                <label ref="jr:itext('/emergency_plan/inputs/contact/optional1/optional2/training/yes:label')"/>
+                <value>yes</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/emergency_plan/inputs/contact/optional1/optional2/training/no:label')"/>
+                <value>no</value>
+              </item>
+            </select1>
+            <select1 ref="/emergency_plan/inputs/contact/optional1/optional2/transports_patients">
+              <label ref="jr:itext('/emergency_plan/inputs/contact/optional1/optional2/transports_patients:label')"/>
+              <item>
+                <label ref="jr:itext('/emergency_plan/inputs/contact/optional1/optional2/transports_patients/yes:label')"/>
+                <value>yes</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/emergency_plan/inputs/contact/optional1/optional2/transports_patients/no:label')"/>
+                <value>no</value>
+              </item>
+            </select1>
+            <group ref="/emergency_plan/inputs/contact/optional1/optional2/parent">
+              <group ref="/emergency_plan/inputs/contact/optional1/optional2/parent/parent">
+                <group ref="/emergency_plan/inputs/contact/optional1/optional2/parent/parent/contact"/>
+              </group>
+            </group>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/emergency_plan/optional3">
+      <input ref="/emergency_plan/optional3/closest_health_centre">
+        <label ref="jr:itext('/emergency_plan/optional3/closest_health_centre:label')"/>
+      </input>
+      <input ref="/emergency_plan/optional3/distance_from_village">
+        <label ref="jr:itext('/emergency_plan/optional3/distance_from_village:label')"/>
+      </input>
+      <input ref="/emergency_plan/optional3/staffed_or_not">
+        <label ref="jr:itext('/emergency_plan/optional3/staffed_or_not:label')"/>
+      </input>
+      <input ref="/emergency_plan/optional3/days_of_operation">
+        <label ref="jr:itext('/emergency_plan/optional3/days_of_operation:label')"/>
+      </input>
+      <input ref="/emergency_plan/optional3/frequency_of_outreach">
+        <label ref="jr:itext('/emergency_plan/optional3/frequency_of_outreach:label')"/>
+      </input>
+      <select1 ref="/emergency_plan/optional3/antibiotics_availability">
+        <label ref="jr:itext('/emergency_plan/optional3/antibiotics_availability:label')"/>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional3/antibiotics_availability/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional3/antibiotics_availability/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/emergency_plan/optional3/std_vtc_at_hc">
+        <label ref="jr:itext('/emergency_plan/optional3/std_vtc_at_hc:label')"/>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional3/std_vtc_at_hc/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional3/std_vtc_at_hc/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/emergency_plan/optional3/ors_available">
+        <label ref="jr:itext('/emergency_plan/optional3/ors_available:label')"/>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional3/ors_available/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional3/ors_available/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/emergency_plan/optional3/client">
+        <label ref="jr:itext('/emergency_plan/optional3/client:label')"/>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional3/client/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional3/client/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/emergency_plan/optional3/village_emergency_trasportation">
+        <label ref="jr:itext('/emergency_plan/optional3/village_emergency_trasportation:label')"/>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional3/village_emergency_trasportation/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional3/village_emergency_trasportation/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/emergency_plan/optional3/vehicle_in_village">
+        <label ref="jr:itext('/emergency_plan/optional3/vehicle_in_village:label')"/>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional3/vehicle_in_village/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional3/vehicle_in_village/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/emergency_plan/optional3/ambulance_or_others">
+        <label ref="jr:itext('/emergency_plan/optional3/ambulance_or_others:label')"/>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional3/ambulance_or_others/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional3/ambulance_or_others/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/emergency_plan/optional4">
+      <label ref="jr:itext('/emergency_plan/optional4:label')"/>
+      <input ref="/emergency_plan/optional4/name">
+        <label ref="jr:itext('/emergency_plan/optional4/name:label')"/>
+      </input>
+      <input ref="/emergency_plan/optional4/relation_to_client">
+        <label ref="jr:itext('/emergency_plan/optional4/relation_to_client:label')"/>
+      </input>
+      <select1 ref="/emergency_plan/optional4/program_explained_or_no">
+        <label ref="jr:itext('/emergency_plan/optional4/program_explained_or_no:label')"/>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional4/program_explained_or_no/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional4/program_explained_or_no/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/emergency_plan/optional4/willing_to_participate">
+        <label ref="jr:itext('/emergency_plan/optional4/willing_to_participate:label')"/>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional4/willing_to_participate/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional4/willing_to_participate/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/emergency_plan/optional4/questions_answered">
+        <label ref="jr:itext('/emergency_plan/optional4/questions_answered:label')"/>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional4/questions_answered/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional4/questions_answered/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/emergency_plan/optional5">
+      <label ref="jr:itext('/emergency_plan/optional5:label')"/>
+      <input ref="/emergency_plan/optional5/problem_decision">
+        <label ref="jr:itext('/emergency_plan/optional5/problem_decision:label')"/>
+      </input>
+      <input ref="/emergency_plan/optional5/help_decision">
+        <label ref="jr:itext('/emergency_plan/optional5/help_decision:label')"/>
+      </input>
+      <input ref="/emergency_plan/optional5/permission_decision">
+        <label ref="jr:itext('/emergency_plan/optional5/permission_decision:label')"/>
+      </input>
+      <input ref="/emergency_plan/optional5/care_for_mother">
+        <label ref="jr:itext('/emergency_plan/optional5/care_for_mother:label')"/>
+      </input>
+      <input ref="/emergency_plan/optional5/care_for_baby">
+        <label ref="jr:itext('/emergency_plan/optional5/care_for_baby:label')"/>
+      </input>
+      <input ref="/emergency_plan/optional5/blood_supply">
+        <label ref="jr:itext('/emergency_plan/optional5/blood_supply:label')"/>
+      </input>
+      <input ref="/emergency_plan/optional5/children_care">
+        <label ref="jr:itext('/emergency_plan/optional5/children_care:label')"/>
+      </input>
+      <input ref="/emergency_plan/optional5/patient_help">
+        <label ref="jr:itext('/emergency_plan/optional5/patient_help:label')"/>
+      </input>
+      <input ref="/emergency_plan/optional5/transporting">
+        <label ref="jr:itext('/emergency_plan/optional5/transporting:label')"/>
+      </input>
+      <input ref="/emergency_plan/optional5/cost">
+        <label ref="jr:itext('/emergency_plan/optional5/cost:label')"/>
+      </input>
+      <input ref="/emergency_plan/optional5/transport">
+        <label ref="jr:itext('/emergency_plan/optional5/transport:label')"/>
+      </input>
+      <input ref="/emergency_plan/optional5/meds">
+        <label ref="jr:itext('/emergency_plan/optional5/meds:label')"/>
+      </input>
+      <input ref="/emergency_plan/optional5/money_usage">
+        <label ref="jr:itext('/emergency_plan/optional5/money_usage:label')"/>
+      </input>
+      <input ref="/emergency_plan/optional5/responsibility">
+        <label ref="jr:itext('/emergency_plan/optional5/responsibility:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/emergency_plan/optional6">
+      <select1 ref="/emergency_plan/optional6/danger_signs">
+        <label ref="jr:itext('/emergency_plan/optional6/danger_signs:label')"/>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional6/danger_signs/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional6/danger_signs/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/emergency_plan/optional6/questions_answered1">
+        <label ref="jr:itext('/emergency_plan/optional6/questions_answered1:label')"/>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional6/questions_answered1/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional6/questions_answered1/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/emergency_plan/optional6/commitment">
+        <label ref="jr:itext('/emergency_plan/optional6/commitment:label')"/>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional6/commitment/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional6/commitment/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/emergency_plan/optional6/activate_plan">
+        <label ref="jr:itext('/emergency_plan/optional6/activate_plan:label')"/>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional6/activate_plan/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional6/activate_plan/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/emergency_plan/optional6/verbal_agreement">
+        <label ref="jr:itext('/emergency_plan/optional6/verbal_agreement:label')"/>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional6/verbal_agreement/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/emergency_plan/optional6/verbal_agreement/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/emergency_plan/danger_signs">
+      <label ref="jr:itext('/emergency_plan/danger_signs:label')"/>
+      <select1 ref="/emergency_plan/danger_signs/visit_confirm">
+        <label ref="jr:itext('/emergency_plan/danger_signs/visit_confirm:label')"/>
+        <item>
+          <label ref="jr:itext('/emergency_plan/danger_signs/visit_confirm/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/emergency_plan/danger_signs/visit_confirm/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/emergency_plan/danger_signs/danger_sign_present">
+        <label ref="jr:itext('/emergency_plan/danger_signs/danger_sign_present:label')"/>
+        <item>
+          <label ref="jr:itext('/emergency_plan/danger_signs/danger_sign_present/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/emergency_plan/danger_signs/danger_sign_present/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/emergency_plan/danger_signs/danger_signs_question_note">
+        <label ref="jr:itext('/emergency_plan/danger_signs/danger_signs_question_note:label')"/>
+      </input>
+      <select1 ref="/emergency_plan/danger_signs/fever">
+        <label ref="jr:itext('/emergency_plan/danger_signs/fever:label')"/>
+        <item>
+          <label ref="jr:itext('/emergency_plan/danger_signs/fever/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/emergency_plan/danger_signs/fever/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/emergency_plan/danger_signs/severe_headache">
+        <label ref="jr:itext('/emergency_plan/danger_signs/severe_headache:label')"/>
+        <item>
+          <label ref="jr:itext('/emergency_plan/danger_signs/severe_headache/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/emergency_plan/danger_signs/severe_headache/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/emergency_plan/danger_signs/vaginal_bleeding">
+        <label ref="jr:itext('/emergency_plan/danger_signs/vaginal_bleeding:label')"/>
+        <item>
+          <label ref="jr:itext('/emergency_plan/danger_signs/vaginal_bleeding/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/emergency_plan/danger_signs/vaginal_bleeding/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/emergency_plan/danger_signs/vaginal_discharge">
+        <label ref="jr:itext('/emergency_plan/danger_signs/vaginal_discharge:label')"/>
+        <item>
+          <label ref="jr:itext('/emergency_plan/danger_signs/vaginal_discharge/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/emergency_plan/danger_signs/vaginal_discharge/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/emergency_plan/danger_signs/convulsion">
+        <label ref="jr:itext('/emergency_plan/danger_signs/convulsion:label')"/>
+        <item>
+          <label ref="jr:itext('/emergency_plan/danger_signs/convulsion/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/emergency_plan/danger_signs/convulsion/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/emergency_plan/danger_signs/congratulate_no_ds_note">
+        <label ref="jr:itext('/emergency_plan/danger_signs/congratulate_no_ds_note:label')"/>
+      </input>
+      <input ref="/emergency_plan/danger_signs/refer_patient_note_1">
+        <label ref="jr:itext('/emergency_plan/danger_signs/refer_patient_note_1:label')"/>
+      </input>
+      <input ref="/emergency_plan/danger_signs/refer_patient_note_2">
+        <label ref="jr:itext('/emergency_plan/danger_signs/refer_patient_note_2:label')"/>
+      </input>
+      <group appearance="hidden" ref="/emergency_plan/danger_signs/custom_translations">
+        <select1 ref="/emergency_plan/danger_signs/custom_translations/custom_woman_label_translator">
+          <item>
+            <label ref="jr:itext('/emergency_plan/danger_signs/custom_translations/custom_woman_label_translator/woman:label')"/>
+            <value>woman</value>
+          </item>
+        </select1>
+        <select1 ref="/emergency_plan/danger_signs/custom_translations/custom_woman_start_label_translator">
+          <item>
+            <label ref="jr:itext('/emergency_plan/danger_signs/custom_translations/custom_woman_start_label_translator/woman-start:label')"/>
+            <value>woman-start</value>
+          </item>
+        </select1>
+      </group>
+    </group>
+    <group appearance="hidden" ref="/emergency_plan/data">
+      <group ref="/emergency_plan/data/meta"/>
+    </group>
+  </h:body>
+</h:html>

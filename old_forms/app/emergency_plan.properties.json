@@ -1,0 +1,8 @@
+{
+    "icon": "icon-mother-child",
+    "title": "Emergency Plan",
+    "context": {
+        "person": false,
+        "place": false
+    }
+}

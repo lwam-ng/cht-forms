@@ -1,0 +1,1700 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Postpartum Intake</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/postpartum_intake/danger_signs/congratulate_no_ds_note:label">
+            <value>Great news! Please continue to closely monitor her.</value>
+          </text>
+          <text id="/postpartum_intake/danger_signs/convulsion/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/danger_signs/convulsion/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/danger_signs/convulsion:label">
+            <value>Convulsions</value>
+          </text>
+          <text id="/postpartum_intake/danger_signs/custom_translations/custom_woman_label_translator/woman:label">
+            <value>the woman</value>
+          </text>
+          <text id="/postpartum_intake/danger_signs/custom_translations/custom_woman_start_label_translator/woman-start:label">
+            <value>The woman</value>
+          </text>
+          <text id="/postpartum_intake/danger_signs/danger_sign_present/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/danger_signs/danger_sign_present/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/danger_signs/danger_sign_present:label">
+            <value>Is she still experiencing any danger signs?</value>
+          </text>
+          <text id="/postpartum_intake/danger_signs/danger_signs_question_note:label">
+            <value>Please indicate which danger signs <output value=" /postpartum_intake/patient_short_name "/> is experiencing.</value>
+          </text>
+          <text id="/postpartum_intake/danger_signs/fever/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/danger_signs/fever/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/danger_signs/fever:label">
+            <value>Fever</value>
+          </text>
+          <text id="/postpartum_intake/danger_signs/refer_patient_note_1:label">
+            <value><output value=" /postpartum_intake/patient_short_name_start "/> should visit the health facility immediately if she is experiencing any of these danger signs.</value>
+          </text>
+          <text id="/postpartum_intake/danger_signs/refer_patient_note_2:label">
+            <value>Please advise her to do so and accompany her if possible.</value>
+          </text>
+          <text id="/postpartum_intake/danger_signs/severe_headache/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/danger_signs/severe_headache/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/danger_signs/severe_headache:label">
+            <value>Severe headache</value>
+          </text>
+          <text id="/postpartum_intake/danger_signs/vaginal_bleeding/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/danger_signs/vaginal_bleeding/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/danger_signs/vaginal_bleeding:label">
+            <value>Vaginal bleeding</value>
+          </text>
+          <text id="/postpartum_intake/danger_signs/vaginal_discharge/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/danger_signs/vaginal_discharge/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/danger_signs/vaginal_discharge:label">
+            <value>Foul smelling vaginal discharge</value>
+          </text>
+          <text id="/postpartum_intake/danger_signs/visit_confirm/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/danger_signs/visit_confirm/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/danger_signs/visit_confirm:label">
+            <value>Did <output value=" /postpartum_intake/patient_short_name "/> visit the health facility as recommended?</value>
+          </text>
+          <text id="/postpartum_intake/danger_signs:label">
+            <value>Danger Sign Follow-up - Mother</value>
+          </text>
+          <text id="/postpartum_intake/inputs/contact/DOB:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/postpartum_intake/inputs/contact/Date_of_Arrival:label">
+            <value>Date</value>
+          </text>
+          <text id="/postpartum_intake/inputs/contact/Nurse:label">
+            <value>Nurse Name</value>
+          </text>
+          <text id="/postpartum_intake/inputs/contact/_id:label">
+            <value>What is the Mother's Name?</value>
+          </text>
+          <text id="/postpartum_intake/inputs/contact/address:label">
+            <value>Address</value>
+          </text>
+          <text id="/postpartum_intake/inputs/contact/anc_visits:label">
+            <value>ANC Visits:</value>
+          </text>
+          <text id="/postpartum_intake/inputs/contact/contact:label">
+            <value>Emergency Contact</value>
+          </text>
+          <text id="/postpartum_intake/inputs/contact/date_of_birth:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/postpartum_intake/inputs/contact/date_of_delivery:label">
+            <value>Date of Delivery</value>
+          </text>
+          <text id="/postpartum_intake/inputs/contact/delivery_type:label">
+            <value>Delivery Type</value>
+          </text>
+          <text id="/postpartum_intake/inputs/contact/discharge_date:label">
+            <value>Discharge Date</value>
+          </text>
+          <text id="/postpartum_intake/inputs/contact/discharge_weight:label">
+            <value>Discharge Weight</value>
+          </text>
+          <text id="/postpartum_intake/inputs/contact/gender/Female:label">
+            <value>Female</value>
+          </text>
+          <text id="/postpartum_intake/inputs/contact/gender/Male:label">
+            <value>Male</value>
+          </text>
+          <text id="/postpartum_intake/inputs/contact/gender:label">
+            <value>Gender</value>
+          </text>
+          <text id="/postpartum_intake/inputs/contact/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/postpartum_intake/inputs/contact/parent/_id:label">
+            <value>Parent ID</value>
+          </text>
+          <text id="/postpartum_intake/inputs/contact/parent/parent/contact/chw_name:label">
+            <value>CHW name</value>
+          </text>
+          <text id="/postpartum_intake/inputs/contact/parent/parent/contact/phone:label">
+            <value>CHW phone</value>
+          </text>
+          <text id="/postpartum_intake/inputs/contact/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/postpartum_intake/inputs/contact/place_of_delivery:label">
+            <value>Place of Delivery</value>
+          </text>
+          <text id="/postpartum_intake/inputs/contact/reason_for_enrollment:label">
+            <value>Reason for enrollment into program:</value>
+          </text>
+          <text id="/postpartum_intake/inputs/contact/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/postpartum_intake/inputs/contact/short_name:label">
+            <value>Short Name</value>
+          </text>
+          <text id="/postpartum_intake/inputs/contact/ta:label">
+            <value>TA</value>
+          </text>
+          <text id="/postpartum_intake/inputs/contact/village_baby:label">
+            <value>Village</value>
+          </text>
+          <text id="/postpartum_intake/inputs/delivery_uuid:label">
+            <value>Delivery Report ID</value>
+          </text>
+          <text id="/postpartum_intake/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/postpartum_intake/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/postpartum_intake/optional/adult_ages:label">
+            <value>Ages</value>
+          </text>
+          <text id="/postpartum_intake/optional/adults_at_home:label">
+            <value>Number of adults in home</value>
+          </text>
+          <text id="/postpartum_intake/optional/children_age:label">
+            <value>Ages</value>
+          </text>
+          <text id="/postpartum_intake/optional/children_at_home:label">
+            <value>Number of Children in home</value>
+          </text>
+          <text id="/postpartum_intake/optional/comments_optional:label">
+            <value>Comments</value>
+          </text>
+          <text id="/postpartum_intake/optional/educational_level:label">
+            <value>Educational Level</value>
+          </text>
+          <text id="/postpartum_intake/optional/enrollment/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional/enrollment/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional/enrollment:label">
+            <value>Client wants to be enrolled</value>
+          </text>
+          <text id="/postpartum_intake/optional/food_stability/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional/food_stability/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional/food_stability:label">
+            <value>Household Food Stability</value>
+          </text>
+          <text id="/postpartum_intake/optional/income:label">
+            <value>Annual household income</value>
+          </text>
+          <text id="/postpartum_intake/optional/literacy/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional/literacy/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional/literacy:label">
+            <value>Literate</value>
+          </text>
+          <text id="/postpartum_intake/optional/married_single/living_with_partner:label">
+            <value>Living with partner</value>
+          </text>
+          <text id="/postpartum_intake/optional/married_single/married:label">
+            <value>Married</value>
+          </text>
+          <text id="/postpartum_intake/optional/married_single/single:label">
+            <value>Single</value>
+          </text>
+          <text id="/postpartum_intake/optional/married_single/widowed:label">
+            <value>Widowed</value>
+          </text>
+          <text id="/postpartum_intake/optional/married_single:label">
+            <value>Marital Status</value>
+          </text>
+          <text id="/postpartum_intake/optional/occupation:label">
+            <value>Occupation</value>
+          </text>
+          <text id="/postpartum_intake/optional/program_explained/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional/program_explained/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional/program_explained:label">
+            <value>Program explained?</value>
+          </text>
+          <text id="/postpartum_intake/optional1/aneamia/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional1/aneamia/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional1/aneamia:label">
+            <value>Aneamia</value>
+          </text>
+          <text id="/postpartum_intake/optional1/aph/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional1/aph/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional1/aph:label">
+            <value>APH</value>
+          </text>
+          <text id="/postpartum_intake/optional1/breastpain/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional1/breastpain/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional1/breastpain:label">
+            <value>Breast pain/abcess</value>
+          </text>
+          <text id="/postpartum_intake/optional1/comments_optional1:label">
+            <value>Comments</value>
+          </text>
+          <text id="/postpartum_intake/optional1/eclampsia_fits/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional1/eclampsia_fits/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional1/eclampsia_fits:label">
+            <value>Eclampsia/fits</value>
+          </text>
+          <text id="/postpartum_intake/optional1/fevers/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional1/fevers/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional1/fevers:label">
+            <value>Fevers</value>
+          </text>
+          <text id="/postpartum_intake/optional1/fistula/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional1/fistula/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional1/fistula:label">
+            <value>Fistula</value>
+          </text>
+          <text id="/postpartum_intake/optional1/hysterectomy/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional1/hysterectomy/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional1/hysterectomy:label">
+            <value>Hysterectomy</value>
+          </text>
+          <text id="/postpartum_intake/optional1/infection/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional1/infection/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional1/infection:label">
+            <value>Infection</value>
+          </text>
+          <text id="/postpartum_intake/optional1/pph/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional1/pph/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional1/pph:label">
+            <value>PPH</value>
+          </text>
+          <text id="/postpartum_intake/optional1/story_comments:label">
+            <value>Write story in the field below</value>
+          </text>
+          <text id="/postpartum_intake/optional1:label">
+            <value>Hx of this delivery and Postpartum period:</value>
+          </text>
+          <text id="/postpartum_intake/optional2/cardio/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional2/cardio/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional2/cardio:label">
+            <value>Cardiovascular</value>
+          </text>
+          <text id="/postpartum_intake/optional2/cerebrovascular/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional2/cerebrovascular/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional2/cerebrovascular:label">
+            <value>Cerebrovascular</value>
+          </text>
+          <text id="/postpartum_intake/optional2/comments_optional2:label">
+            <value>Comments</value>
+          </text>
+          <text id="/postpartum_intake/optional2/hepatic/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional2/hepatic/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional2/hepatic:label">
+            <value>Hepatic</value>
+          </text>
+          <text id="/postpartum_intake/optional2/integumentary/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional2/integumentary/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional2/integumentary:label">
+            <value>Integumentary</value>
+          </text>
+          <text id="/postpartum_intake/optional2/musculo_skeletal/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional2/musculo_skeletal/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional2/musculo_skeletal:label">
+            <value>Musculo-skeletal</value>
+          </text>
+          <text id="/postpartum_intake/optional2/pain_when_urination/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional2/pain_when_urination/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional2/pain_when_urination:label">
+            <value>Pain with urination</value>
+          </text>
+          <text id="/postpartum_intake/optional2/pelvic_pain/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional2/pelvic_pain/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional2/pelvic_pain:label">
+            <value>Pelvic pain</value>
+          </text>
+          <text id="/postpartum_intake/optional2/psychological/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional2/psychological/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional2/psychological:label">
+            <value>Psychological</value>
+          </text>
+          <text id="/postpartum_intake/optional2/renal/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional2/renal/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional2/renal:label">
+            <value>Renal</value>
+          </text>
+          <text id="/postpartum_intake/optional2/respitatory/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional2/respitatory/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional2/respitatory:label">
+            <value>Respiratory Comps</value>
+          </text>
+          <text id="/postpartum_intake/optional2/skin_issues/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional2/skin_issues/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional2/skin_issues:label">
+            <value>Skin Problem</value>
+          </text>
+          <text id="/postpartum_intake/optional3/comments_postpartum:label">
+            <value>Comments</value>
+          </text>
+          <text id="/postpartum_intake/optional3/foul_discharge/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional3/foul_discharge/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional3/foul_discharge:label">
+            <value>Foul discharge</value>
+          </text>
+          <text id="/postpartum_intake/optional3/gastro_interstinal/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional3/gastro_interstinal/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional3/gastro_interstinal:label">
+            <value>Gastro-intestinal</value>
+          </text>
+          <text id="/postpartum_intake/optional3/genito_urinary/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional3/genito_urinary/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional3/genito_urinary:label">
+            <value>Genito-urinary</value>
+          </text>
+          <text id="/postpartum_intake/optional3/icu_admission/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional3/icu_admission/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional3/icu_admission:label">
+            <value>ICU admission</value>
+          </text>
+          <text id="/postpartum_intake/optional3/lactating/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional3/lactating/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional3/lactating:label">
+            <value>Lactating</value>
+          </text>
+          <text id="/postpartum_intake/optional3/length_of_hospitalization:label">
+            <value>Length of hospitalization:</value>
+          </text>
+          <text id="/postpartum_intake/optional3/vag_laceration_repair/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional3/vag_laceration_repair/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional3/vag_laceration_repair:label">
+            <value>Vag. Laceration repair</value>
+          </text>
+          <text id="/postpartum_intake/optional4/abortions:label">
+            <value>Abortions</value>
+          </text>
+          <text id="/postpartum_intake/optional4/comments_optional4:label">
+            <value>Comments</value>
+          </text>
+          <text id="/postpartum_intake/optional4/living:label">
+            <value>Living</value>
+          </text>
+          <text id="/postpartum_intake/optional4/p:label">
+            <value>P</value>
+          </text>
+          <text id="/postpartum_intake/optional4/preterm:label">
+            <value>Preterm</value>
+          </text>
+          <text id="/postpartum_intake/optional4/problems_optional4:label">
+            <value>G</value>
+          </text>
+          <text id="/postpartum_intake/optional4/term:label">
+            <value>Term</value>
+          </text>
+          <text id="/postpartum_intake/optional4:label">
+            <value>OB History</value>
+          </text>
+          <text id="/postpartum_intake/optional5/anc_card/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional5/anc_card/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional5/anc_card:label">
+            <value>ANC card reviewed by nurse:</value>
+          </text>
+          <text id="/postpartum_intake/optional5/arv_if_positive/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional5/arv_if_positive/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional5/arv_if_positive:label">
+            <value>(if positive) ARVs</value>
+          </text>
+          <text id="/postpartum_intake/optional5/arv_in_pregnancy_labor/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional5/arv_in_pregnancy_labor/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional5/arv_in_pregnancy_labor:label">
+            <value>ARVs in preg and labor?</value>
+          </text>
+          <text id="/postpartum_intake/optional5/asthma/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional5/asthma/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional5/asthma:label">
+            <value>Asthma</value>
+          </text>
+          <text id="/postpartum_intake/optional5/client_safety/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional5/client_safety/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional5/client_safety:label">
+            <value>Client feels safe at home?</value>
+          </text>
+          <text id="/postpartum_intake/optional5/cough/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional5/cough/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional5/cough:label">
+            <value>Chronic cough</value>
+          </text>
+          <text id="/postpartum_intake/optional5/hiv/negative:label">
+            <value>Negative</value>
+          </text>
+          <text id="/postpartum_intake/optional5/hiv/positive:label">
+            <value>Positive</value>
+          </text>
+          <text id="/postpartum_intake/optional5/hiv/unknown:label">
+            <value>unknown</value>
+          </text>
+          <text id="/postpartum_intake/optional5/hiv:label">
+            <value>HIV</value>
+          </text>
+          <text id="/postpartum_intake/optional5/mental_illness/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional5/mental_illness/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional5/mental_illness:label">
+            <value>Mental Illness/ Depression</value>
+          </text>
+          <text id="/postpartum_intake/optional5/seizures/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional5/seizures/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional5/seizures:label">
+            <value>Seizures</value>
+          </text>
+          <text id="/postpartum_intake/optional5/std/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional5/std/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional5/std:label">
+            <value>STDs</value>
+          </text>
+          <text id="/postpartum_intake/optional5/surgeries/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional5/surgeries/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional5/surgeries:label">
+            <value>Surgeries</value>
+          </text>
+          <text id="/postpartum_intake/optional5/tb/no:label">
+            <value>No</value>
+          </text>
+          <text id="/postpartum_intake/optional5/tb/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/postpartum_intake/optional5/tb:label">
+            <value>TB</value>
+          </text>
+          <text id="/postpartum_intake/optional5:label">
+            <value>Medical/Surgical Hx:</value>
+          </text>
+          <text id="/postpartum_intake/optional:label">
+            <value>Demographics</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <postpartum_intake delimiter="#" id="postpartum_intake" prefix="J1!postpartum_intake!" version="2021-07-27 11:00:54">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <delivery_uuid/>
+            <contact>
+              <_id/>
+              <gender/>
+              <DOB/>
+              <Nurse/>
+              <Date_of_Arrival/>
+              <address/>
+              <ta/>
+              <village_baby/>
+              <contact/>
+              <date_of_delivery/>
+              <place_of_delivery/>
+              <delivery_type/>
+              <discharge_date/>
+              <discharge_weight/>
+              <reason_for_enrollment/>
+              <anc_visits/>
+              <name/>
+              <short_name/>
+              <patient_id/>
+              <date_of_birth>0</date_of_birth>
+              <sex/>
+              <parent>
+                <_id/>
+                <parent>
+                  <contact>
+                    <chw_name/>
+                    <phone/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <optional>
+            <married_single/>
+            <literacy/>
+            <educational_level/>
+            <occupation/>
+            <income/>
+            <food_stability/>
+            <adults_at_home/>
+            <adult_ages/>
+            <children_at_home/>
+            <children_age/>
+            <program_explained/>
+            <enrollment/>
+            <comments_optional/>
+          </optional>
+          <optional1>
+            <story_comments/>
+            <pph/>
+            <aph/>
+            <eclampsia_fits/>
+            <hysterectomy/>
+            <infection/>
+            <aneamia/>
+            <fevers/>
+            <fistula/>
+            <breastpain/>
+            <comments_optional1/>
+          </optional1>
+          <optional2>
+            <respitatory/>
+            <cardio/>
+            <renal/>
+            <hepatic/>
+            <cerebrovascular/>
+            <integumentary/>
+            <musculo_skeletal/>
+            <psychological/>
+            <pain_when_urination/>
+            <skin_issues/>
+            <pelvic_pain/>
+            <comments_optional2/>
+          </optional2>
+          <optional3>
+            <foul_discharge/>
+            <lactating/>
+            <icu_admission/>
+            <genito_urinary/>
+            <gastro_interstinal/>
+            <vag_laceration_repair/>
+            <comments_postpartum/>
+            <length_of_hospitalization/>
+          </optional3>
+          <optional4>
+            <problems_optional4/>
+            <p/>
+            <term/>
+            <preterm/>
+            <abortions/>
+            <living/>
+            <comments_optional4/>
+          </optional4>
+          <optional5>
+            <hiv/>
+            <arv_if_positive/>
+            <arv_in_pregnancy_labor/>
+            <std/>
+            <cough/>
+            <tb/>
+            <asthma/>
+            <seizures/>
+            <surgeries/>
+            <mental_illness/>
+            <client_safety/>
+            <anc_card/>
+          </optional5>
+          <patient_age_in_years tag="hidden"/>
+          <patient_uuid tag="hidden"/>
+          <patient_id tag="hidden"/>
+          <patient_name tag="hidden"/>
+          <patient_short_name tag="hidden"/>
+          <patient_short_name_start tag="hidden"/>
+          <t_danger_signs_referral_follow_up_date tag="hidden"/>
+          <t_danger_signs_referral_follow_up tag="hidden"/>
+          <danger_signs>
+            <visit_confirm/>
+            <danger_sign_present/>
+            <danger_signs_question_note tag="hidden"/>
+            <fever/>
+            <severe_headache/>
+            <vaginal_bleeding/>
+            <vaginal_discharge/>
+            <convulsion/>
+            <r_danger_sign_present tag="hidden"/>
+            <congratulate_no_ds_note tag="hidden"/>
+            <refer_patient_note_1 tag="hidden"/>
+            <refer_patient_note_2 tag="hidden"/>
+            <custom_translations tag="hidden">
+              <custom_woman_label_translator/>
+              <custom_woman_label/>
+              <custom_woman_start_label_translator/>
+              <custom_woman_start_label/>
+            </custom_translations>
+          </danger_signs>
+          <data tag="hidden">
+            <__visited_hf/>
+            <__still_experiencing_danger_sign/>
+            <__fever/>
+            <__severe_headache/>
+            <__vaginal_bleeding/>
+            <__vaginal_discharge/>
+            <__convulsions/>
+            <__has_danger_sign/>
+            <meta tag="hidden">
+              <__patient_uuid/>
+              <__patient_id/>
+              <__household_uuid/>
+              <__source/>
+              <__source_id/>
+              <__delivery_uuid/>
+            </meta>
+          </data>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </postpartum_intake>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/postpartum_intake/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/postpartum_intake/inputs/source" type="string"/>
+      <bind nodeset="/postpartum_intake/inputs/source_id" type="string"/>
+      <bind nodeset="/postpartum_intake/inputs/delivery_uuid" type="string"/>
+      <bind nodeset="/postpartum_intake/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/postpartum_intake/inputs/contact/gender" type="select1"/>
+      <bind nodeset="/postpartum_intake/inputs/contact/DOB" type="string"/>
+      <bind nodeset="/postpartum_intake/inputs/contact/Nurse" type="string"/>
+      <bind nodeset="/postpartum_intake/inputs/contact/Date_of_Arrival" type="string"/>
+      <bind nodeset="/postpartum_intake/inputs/contact/address" type="string"/>
+      <bind nodeset="/postpartum_intake/inputs/contact/ta" type="string"/>
+      <bind nodeset="/postpartum_intake/inputs/contact/village_baby" type="string"/>
+      <bind nodeset="/postpartum_intake/inputs/contact/contact" type="string"/>
+      <bind nodeset="/postpartum_intake/inputs/contact/date_of_delivery" type="string"/>
+      <bind nodeset="/postpartum_intake/inputs/contact/place_of_delivery" type="string"/>
+      <bind nodeset="/postpartum_intake/inputs/contact/delivery_type" type="string"/>
+      <bind nodeset="/postpartum_intake/inputs/contact/discharge_date" type="string"/>
+      <bind nodeset="/postpartum_intake/inputs/contact/discharge_weight" type="string"/>
+      <bind nodeset="/postpartum_intake/inputs/contact/reason_for_enrollment" type="string"/>
+      <bind nodeset="/postpartum_intake/inputs/contact/anc_visits" type="string"/>
+      <bind nodeset="/postpartum_intake/inputs/contact/name" type="string"/>
+      <bind nodeset="/postpartum_intake/inputs/contact/short_name" type="string"/>
+      <bind nodeset="/postpartum_intake/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/postpartum_intake/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/postpartum_intake/inputs/contact/sex" type="string"/>
+      <bind nodeset="/postpartum_intake/inputs/contact/parent/_id" type="string"/>
+      <bind nodeset="/postpartum_intake/inputs/contact/parent/parent/contact/chw_name" type="string"/>
+      <bind nodeset="/postpartum_intake/inputs/contact/parent/parent/contact/phone" type="string"/>
+      <bind nodeset="/postpartum_intake/optional/married_single" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional/literacy" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional/educational_level" type="string"/>
+      <bind nodeset="/postpartum_intake/optional/occupation" type="string"/>
+      <bind nodeset="/postpartum_intake/optional/income" type="string"/>
+      <bind nodeset="/postpartum_intake/optional/food_stability" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional/adults_at_home" type="string"/>
+      <bind nodeset="/postpartum_intake/optional/adult_ages" type="string"/>
+      <bind nodeset="/postpartum_intake/optional/children_at_home" type="string"/>
+      <bind nodeset="/postpartum_intake/optional/children_age" type="string"/>
+      <bind nodeset="/postpartum_intake/optional/program_explained" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional/enrollment" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional/comments_optional" type="string"/>
+      <bind nodeset="/postpartum_intake/optional1/story_comments" type="string"/>
+      <bind nodeset="/postpartum_intake/optional1/pph" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional1/aph" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional1/eclampsia_fits" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional1/hysterectomy" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional1/infection" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional1/aneamia" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional1/fevers" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional1/fistula" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional1/breastpain" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional1/comments_optional1" type="string"/>
+      <bind nodeset="/postpartum_intake/optional2/respitatory" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional2/cardio" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional2/renal" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional2/hepatic" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional2/cerebrovascular" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional2/integumentary" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional2/musculo_skeletal" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional2/psychological" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional2/pain_when_urination" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional2/skin_issues" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional2/pelvic_pain" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional2/comments_optional2" type="string"/>
+      <bind nodeset="/postpartum_intake/optional3/foul_discharge" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional3/lactating" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional3/icu_admission" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional3/genito_urinary" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional3/gastro_interstinal" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional3/vag_laceration_repair" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional3/comments_postpartum" type="string"/>
+      <bind nodeset="/postpartum_intake/optional3/length_of_hospitalization" type="string"/>
+      <bind nodeset="/postpartum_intake/optional4/problems_optional4" type="string"/>
+      <bind nodeset="/postpartum_intake/optional4/p" type="string"/>
+      <bind nodeset="/postpartum_intake/optional4/term" type="string"/>
+      <bind nodeset="/postpartum_intake/optional4/preterm" type="string"/>
+      <bind nodeset="/postpartum_intake/optional4/abortions" type="string"/>
+      <bind nodeset="/postpartum_intake/optional4/living" type="string"/>
+      <bind nodeset="/postpartum_intake/optional4/comments_optional4" type="string"/>
+      <bind nodeset="/postpartum_intake/optional5/hiv" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional5/arv_if_positive" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional5/arv_in_pregnancy_labor" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional5/std" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional5/cough" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional5/tb" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional5/asthma" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional5/seizures" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional5/surgeries" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional5/mental_illness" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional5/client_safety" type="select1"/>
+      <bind nodeset="/postpartum_intake/optional5/anc_card" type="select1"/>
+      <bind calculate="floor( difference-in-months( ../inputs/contact/date_of_birth, today() ) div 12 )" nodeset="/postpartum_intake/patient_age_in_years" type="string"/>
+      <bind calculate="../inputs/contact/_id" nodeset="/postpartum_intake/patient_uuid" type="string"/>
+      <bind calculate="../inputs/contact/patient_id" nodeset="/postpartum_intake/patient_id" type="string"/>
+      <bind calculate="../inputs/contact/name" nodeset="/postpartum_intake/patient_name" type="string"/>
+      <bind calculate="coalesce(../inputs/contact/short_name, ../danger_signs/custom_translations/custom_woman_label)" nodeset="/postpartum_intake/patient_short_name" type="string"/>
+      <bind calculate="coalesce(../inputs/contact/short_name, ../danger_signs/custom_translations/custom_woman_start_label)" nodeset="/postpartum_intake/patient_short_name_start" type="string"/>
+      <bind calculate="date-time(floor(decimal-date-time(today())) + 3)" nodeset="/postpartum_intake/t_danger_signs_referral_follow_up_date" type="string"/>
+      <bind calculate="../danger_signs/r_danger_sign_present" nodeset="/postpartum_intake/t_danger_signs_referral_follow_up" type="string"/>
+      <bind nodeset="/postpartum_intake/danger_signs/visit_confirm" required="true()" type="select1"/>
+      <bind nodeset="/postpartum_intake/danger_signs/danger_sign_present" required="true()" type="select1"/>
+      <bind nodeset="/postpartum_intake/danger_signs/danger_signs_question_note" readonly="true()" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" type="string"/>
+      <bind nodeset="/postpartum_intake/danger_signs/fever" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind nodeset="/postpartum_intake/danger_signs/severe_headache" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind nodeset="/postpartum_intake/danger_signs/vaginal_bleeding" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind nodeset="/postpartum_intake/danger_signs/vaginal_discharge" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind nodeset="/postpartum_intake/danger_signs/convulsion" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind calculate="if(selected(../fever, 'yes') or
+selected(../severe_headache, 'yes') or
+selected(../vaginal_bleeding, 'yes') or
+selected(../vaginal_discharge, 'yes') or
+selected(../convulsion, 'yes'), 'yes',
+if(selected(../severe_headache, 'no') and
+selected(../vaginal_bleeding, 'no') and
+selected(../vaginal_discharge, 'no') and
+selected(../convulsion, 'no'), 'no', ''))" nodeset="/postpartum_intake/danger_signs/r_danger_sign_present" type="string"/>
+      <bind nodeset="/postpartum_intake/danger_signs/congratulate_no_ds_note" readonly="true()" relevant="../danger_sign_present = 'no' and ../r_danger_sign_present = 'no'" type="string"/>
+      <bind nodeset="/postpartum_intake/danger_signs/refer_patient_note_1" readonly="true()" relevant="../danger_sign_present = 'yes' or ../r_danger_sign_present = 'yes'" type="string"/>
+      <bind nodeset="/postpartum_intake/danger_signs/refer_patient_note_2" readonly="true()" relevant="../danger_sign_present = 'yes' or ../r_danger_sign_present = 'yes'" type="string"/>
+      <bind calculate="&quot;woman&quot;" nodeset="/postpartum_intake/danger_signs/custom_translations/custom_woman_label_translator" type="select1"/>
+      <bind calculate="jr:choice-name( /postpartum_intake/danger_signs/custom_translations/custom_woman_label_translator ,' /postpartum_intake/danger_signs/custom_translations/custom_woman_label_translator ')" nodeset="/postpartum_intake/danger_signs/custom_translations/custom_woman_label" type="string"/>
+      <bind calculate="&quot;woman-start&quot;" nodeset="/postpartum_intake/danger_signs/custom_translations/custom_woman_start_label_translator" type="select1"/>
+      <bind calculate="jr:choice-name( /postpartum_intake/danger_signs/custom_translations/custom_woman_start_label_translator ,' /postpartum_intake/danger_signs/custom_translations/custom_woman_start_label_translator ')" nodeset="/postpartum_intake/danger_signs/custom_translations/custom_woman_start_label" type="string"/>
+      <bind calculate=" /postpartum_intake/danger_signs/visit_confirm " nodeset="/postpartum_intake/data/__visited_hf" type="string"/>
+      <bind calculate=" /postpartum_intake/danger_signs/danger_sign_present " nodeset="/postpartum_intake/data/__still_experiencing_danger_sign" type="string"/>
+      <bind calculate=" /postpartum_intake/danger_signs/fever " nodeset="/postpartum_intake/data/__fever" type="string"/>
+      <bind calculate=" /postpartum_intake/danger_signs/severe_headache " nodeset="/postpartum_intake/data/__severe_headache" type="string"/>
+      <bind calculate=" /postpartum_intake/danger_signs/vaginal_bleeding " nodeset="/postpartum_intake/data/__vaginal_bleeding" type="string"/>
+      <bind calculate=" /postpartum_intake/danger_signs/vaginal_discharge " nodeset="/postpartum_intake/data/__vaginal_discharge" type="string"/>
+      <bind calculate=" /postpartum_intake/danger_signs/convulsion " nodeset="/postpartum_intake/data/__convulsions" type="string"/>
+      <bind calculate=" /postpartum_intake/danger_signs/r_danger_sign_present " nodeset="/postpartum_intake/data/__has_danger_sign" type="string"/>
+      <bind calculate="../../../inputs/contact/_id" nodeset="/postpartum_intake/data/meta/__patient_uuid" type="string"/>
+      <bind calculate="../../../inputs/contact/patient_id" nodeset="/postpartum_intake/data/meta/__patient_id" type="string"/>
+      <bind calculate="../../../inputs/contact/parent/_id" nodeset="/postpartum_intake/data/meta/__household_uuid" type="string"/>
+      <bind calculate="../../../inputs/source" nodeset="/postpartum_intake/data/meta/__source" type="string"/>
+      <bind calculate="../../../inputs/source_id" nodeset="/postpartum_intake/data/meta/__source_id" type="string"/>
+      <bind calculate="../../../inputs/delivery_uuid" nodeset="/postpartum_intake/data/meta/__delivery_uuid" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/postpartum_intake/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/postpartum_intake/inputs">
+      <group ref="/postpartum_intake/inputs/contact">
+        <input appearance="db-object" ref="/postpartum_intake/inputs/contact/_id">
+          <label ref="jr:itext('/postpartum_intake/inputs/contact/_id:label')"/>
+        </input>
+        <select1 ref="/postpartum_intake/inputs/contact/gender">
+          <label ref="jr:itext('/postpartum_intake/inputs/contact/gender:label')"/>
+          <item>
+            <label ref="jr:itext('/postpartum_intake/inputs/contact/gender/Male:label')"/>
+            <value>Male</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/postpartum_intake/inputs/contact/gender/Female:label')"/>
+            <value>Female</value>
+          </item>
+        </select1>
+        <input ref="/postpartum_intake/inputs/contact/DOB">
+          <label ref="jr:itext('/postpartum_intake/inputs/contact/DOB:label')"/>
+        </input>
+        <input ref="/postpartum_intake/inputs/contact/Nurse">
+          <label ref="jr:itext('/postpartum_intake/inputs/contact/Nurse:label')"/>
+        </input>
+        <input ref="/postpartum_intake/inputs/contact/Date_of_Arrival">
+          <label ref="jr:itext('/postpartum_intake/inputs/contact/Date_of_Arrival:label')"/>
+        </input>
+        <input ref="/postpartum_intake/inputs/contact/address">
+          <label ref="jr:itext('/postpartum_intake/inputs/contact/address:label')"/>
+        </input>
+        <input ref="/postpartum_intake/inputs/contact/ta">
+          <label ref="jr:itext('/postpartum_intake/inputs/contact/ta:label')"/>
+        </input>
+        <input ref="/postpartum_intake/inputs/contact/village_baby">
+          <label ref="jr:itext('/postpartum_intake/inputs/contact/village_baby:label')"/>
+        </input>
+        <input ref="/postpartum_intake/inputs/contact/contact">
+          <label ref="jr:itext('/postpartum_intake/inputs/contact/contact:label')"/>
+        </input>
+        <input ref="/postpartum_intake/inputs/contact/date_of_delivery">
+          <label ref="jr:itext('/postpartum_intake/inputs/contact/date_of_delivery:label')"/>
+        </input>
+        <input ref="/postpartum_intake/inputs/contact/place_of_delivery">
+          <label ref="jr:itext('/postpartum_intake/inputs/contact/place_of_delivery:label')"/>
+        </input>
+        <input ref="/postpartum_intake/inputs/contact/delivery_type">
+          <label ref="jr:itext('/postpartum_intake/inputs/contact/delivery_type:label')"/>
+        </input>
+        <input ref="/postpartum_intake/inputs/contact/discharge_date">
+          <label ref="jr:itext('/postpartum_intake/inputs/contact/discharge_date:label')"/>
+        </input>
+        <input ref="/postpartum_intake/inputs/contact/discharge_weight">
+          <label ref="jr:itext('/postpartum_intake/inputs/contact/discharge_weight:label')"/>
+        </input>
+        <input ref="/postpartum_intake/inputs/contact/reason_for_enrollment">
+          <label ref="jr:itext('/postpartum_intake/inputs/contact/reason_for_enrollment:label')"/>
+        </input>
+        <input ref="/postpartum_intake/inputs/contact/anc_visits">
+          <label ref="jr:itext('/postpartum_intake/inputs/contact/anc_visits:label')"/>
+        </input>
+        <group ref="/postpartum_intake/inputs/contact/parent">
+          <group ref="/postpartum_intake/inputs/contact/parent/parent">
+            <group ref="/postpartum_intake/inputs/contact/parent/parent/contact"/>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/postpartum_intake/optional">
+      <label ref="jr:itext('/postpartum_intake/optional:label')"/>
+      <select1 ref="/postpartum_intake/optional/married_single">
+        <label ref="jr:itext('/postpartum_intake/optional/married_single:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional/married_single/married:label')"/>
+          <value>married</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional/married_single/living_with_partner:label')"/>
+          <value>living_with_partner</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional/married_single/single:label')"/>
+          <value>single</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional/married_single/widowed:label')"/>
+          <value>widowed</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional/literacy">
+        <label ref="jr:itext('/postpartum_intake/optional/literacy:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional/literacy/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional/literacy/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/postpartum_intake/optional/educational_level">
+        <label ref="jr:itext('/postpartum_intake/optional/educational_level:label')"/>
+      </input>
+      <input ref="/postpartum_intake/optional/occupation">
+        <label ref="jr:itext('/postpartum_intake/optional/occupation:label')"/>
+      </input>
+      <input ref="/postpartum_intake/optional/income">
+        <label ref="jr:itext('/postpartum_intake/optional/income:label')"/>
+      </input>
+      <select1 ref="/postpartum_intake/optional/food_stability">
+        <label ref="jr:itext('/postpartum_intake/optional/food_stability:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional/food_stability/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional/food_stability/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/postpartum_intake/optional/adults_at_home">
+        <label ref="jr:itext('/postpartum_intake/optional/adults_at_home:label')"/>
+      </input>
+      <input ref="/postpartum_intake/optional/adult_ages">
+        <label ref="jr:itext('/postpartum_intake/optional/adult_ages:label')"/>
+      </input>
+      <input ref="/postpartum_intake/optional/children_at_home">
+        <label ref="jr:itext('/postpartum_intake/optional/children_at_home:label')"/>
+      </input>
+      <input ref="/postpartum_intake/optional/children_age">
+        <label ref="jr:itext('/postpartum_intake/optional/children_age:label')"/>
+      </input>
+      <select1 ref="/postpartum_intake/optional/program_explained">
+        <label ref="jr:itext('/postpartum_intake/optional/program_explained:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional/program_explained/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional/program_explained/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional/enrollment">
+        <label ref="jr:itext('/postpartum_intake/optional/enrollment:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional/enrollment/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional/enrollment/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/postpartum_intake/optional/comments_optional">
+        <label ref="jr:itext('/postpartum_intake/optional/comments_optional:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/postpartum_intake/optional1">
+      <label ref="jr:itext('/postpartum_intake/optional1:label')"/>
+      <input ref="/postpartum_intake/optional1/story_comments">
+        <label ref="jr:itext('/postpartum_intake/optional1/story_comments:label')"/>
+      </input>
+      <select1 ref="/postpartum_intake/optional1/pph">
+        <label ref="jr:itext('/postpartum_intake/optional1/pph:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional1/pph/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional1/pph/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional1/aph">
+        <label ref="jr:itext('/postpartum_intake/optional1/aph:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional1/aph/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional1/aph/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional1/eclampsia_fits">
+        <label ref="jr:itext('/postpartum_intake/optional1/eclampsia_fits:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional1/eclampsia_fits/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional1/eclampsia_fits/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional1/hysterectomy">
+        <label ref="jr:itext('/postpartum_intake/optional1/hysterectomy:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional1/hysterectomy/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional1/hysterectomy/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional1/infection">
+        <label ref="jr:itext('/postpartum_intake/optional1/infection:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional1/infection/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional1/infection/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional1/aneamia">
+        <label ref="jr:itext('/postpartum_intake/optional1/aneamia:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional1/aneamia/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional1/aneamia/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional1/fevers">
+        <label ref="jr:itext('/postpartum_intake/optional1/fevers:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional1/fevers/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional1/fevers/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional1/fistula">
+        <label ref="jr:itext('/postpartum_intake/optional1/fistula:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional1/fistula/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional1/fistula/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional1/breastpain">
+        <label ref="jr:itext('/postpartum_intake/optional1/breastpain:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional1/breastpain/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional1/breastpain/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/postpartum_intake/optional1/comments_optional1">
+        <label ref="jr:itext('/postpartum_intake/optional1/comments_optional1:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/postpartum_intake/optional2">
+      <select1 ref="/postpartum_intake/optional2/respitatory">
+        <label ref="jr:itext('/postpartum_intake/optional2/respitatory:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional2/respitatory/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional2/respitatory/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional2/cardio">
+        <label ref="jr:itext('/postpartum_intake/optional2/cardio:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional2/cardio/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional2/cardio/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional2/renal">
+        <label ref="jr:itext('/postpartum_intake/optional2/renal:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional2/renal/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional2/renal/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional2/hepatic">
+        <label ref="jr:itext('/postpartum_intake/optional2/hepatic:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional2/hepatic/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional2/hepatic/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional2/cerebrovascular">
+        <label ref="jr:itext('/postpartum_intake/optional2/cerebrovascular:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional2/cerebrovascular/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional2/cerebrovascular/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional2/integumentary">
+        <label ref="jr:itext('/postpartum_intake/optional2/integumentary:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional2/integumentary/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional2/integumentary/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional2/musculo_skeletal">
+        <label ref="jr:itext('/postpartum_intake/optional2/musculo_skeletal:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional2/musculo_skeletal/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional2/musculo_skeletal/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional2/psychological">
+        <label ref="jr:itext('/postpartum_intake/optional2/psychological:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional2/psychological/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional2/psychological/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional2/pain_when_urination">
+        <label ref="jr:itext('/postpartum_intake/optional2/pain_when_urination:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional2/pain_when_urination/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional2/pain_when_urination/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional2/skin_issues">
+        <label ref="jr:itext('/postpartum_intake/optional2/skin_issues:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional2/skin_issues/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional2/skin_issues/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional2/pelvic_pain">
+        <label ref="jr:itext('/postpartum_intake/optional2/pelvic_pain:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional2/pelvic_pain/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional2/pelvic_pain/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/postpartum_intake/optional2/comments_optional2">
+        <label ref="jr:itext('/postpartum_intake/optional2/comments_optional2:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/postpartum_intake/optional3">
+      <select1 ref="/postpartum_intake/optional3/foul_discharge">
+        <label ref="jr:itext('/postpartum_intake/optional3/foul_discharge:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional3/foul_discharge/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional3/foul_discharge/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional3/lactating">
+        <label ref="jr:itext('/postpartum_intake/optional3/lactating:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional3/lactating/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional3/lactating/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional3/icu_admission">
+        <label ref="jr:itext('/postpartum_intake/optional3/icu_admission:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional3/icu_admission/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional3/icu_admission/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional3/genito_urinary">
+        <label ref="jr:itext('/postpartum_intake/optional3/genito_urinary:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional3/genito_urinary/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional3/genito_urinary/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional3/gastro_interstinal">
+        <label ref="jr:itext('/postpartum_intake/optional3/gastro_interstinal:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional3/gastro_interstinal/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional3/gastro_interstinal/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional3/vag_laceration_repair">
+        <label ref="jr:itext('/postpartum_intake/optional3/vag_laceration_repair:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional3/vag_laceration_repair/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional3/vag_laceration_repair/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/postpartum_intake/optional3/comments_postpartum">
+        <label ref="jr:itext('/postpartum_intake/optional3/comments_postpartum:label')"/>
+      </input>
+      <input ref="/postpartum_intake/optional3/length_of_hospitalization">
+        <label ref="jr:itext('/postpartum_intake/optional3/length_of_hospitalization:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/postpartum_intake/optional4">
+      <label ref="jr:itext('/postpartum_intake/optional4:label')"/>
+      <input ref="/postpartum_intake/optional4/problems_optional4">
+        <label ref="jr:itext('/postpartum_intake/optional4/problems_optional4:label')"/>
+      </input>
+      <input ref="/postpartum_intake/optional4/p">
+        <label ref="jr:itext('/postpartum_intake/optional4/p:label')"/>
+      </input>
+      <input ref="/postpartum_intake/optional4/term">
+        <label ref="jr:itext('/postpartum_intake/optional4/term:label')"/>
+      </input>
+      <input ref="/postpartum_intake/optional4/preterm">
+        <label ref="jr:itext('/postpartum_intake/optional4/preterm:label')"/>
+      </input>
+      <input ref="/postpartum_intake/optional4/abortions">
+        <label ref="jr:itext('/postpartum_intake/optional4/abortions:label')"/>
+      </input>
+      <input ref="/postpartum_intake/optional4/living">
+        <label ref="jr:itext('/postpartum_intake/optional4/living:label')"/>
+      </input>
+      <input ref="/postpartum_intake/optional4/comments_optional4">
+        <label ref="jr:itext('/postpartum_intake/optional4/comments_optional4:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/postpartum_intake/optional5">
+      <label ref="jr:itext('/postpartum_intake/optional5:label')"/>
+      <select1 ref="/postpartum_intake/optional5/hiv">
+        <label ref="jr:itext('/postpartum_intake/optional5/hiv:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional5/hiv/positive:label')"/>
+          <value>positive</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional5/hiv/negative:label')"/>
+          <value>negative</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional5/hiv/unknown:label')"/>
+          <value>unknown</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional5/arv_if_positive">
+        <label ref="jr:itext('/postpartum_intake/optional5/arv_if_positive:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional5/arv_if_positive/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional5/arv_if_positive/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional5/arv_in_pregnancy_labor">
+        <label ref="jr:itext('/postpartum_intake/optional5/arv_in_pregnancy_labor:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional5/arv_in_pregnancy_labor/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional5/arv_in_pregnancy_labor/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional5/std">
+        <label ref="jr:itext('/postpartum_intake/optional5/std:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional5/std/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional5/std/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional5/cough">
+        <label ref="jr:itext('/postpartum_intake/optional5/cough:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional5/cough/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional5/cough/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional5/tb">
+        <label ref="jr:itext('/postpartum_intake/optional5/tb:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional5/tb/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional5/tb/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional5/asthma">
+        <label ref="jr:itext('/postpartum_intake/optional5/asthma:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional5/asthma/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional5/asthma/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional5/seizures">
+        <label ref="jr:itext('/postpartum_intake/optional5/seizures:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional5/seizures/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional5/seizures/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional5/surgeries">
+        <label ref="jr:itext('/postpartum_intake/optional5/surgeries:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional5/surgeries/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional5/surgeries/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional5/mental_illness">
+        <label ref="jr:itext('/postpartum_intake/optional5/mental_illness:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional5/mental_illness/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional5/mental_illness/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional5/client_safety">
+        <label ref="jr:itext('/postpartum_intake/optional5/client_safety:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional5/client_safety/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional5/client_safety/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/optional5/anc_card">
+        <label ref="jr:itext('/postpartum_intake/optional5/anc_card:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional5/anc_card/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/optional5/anc_card/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/postpartum_intake/danger_signs">
+      <label ref="jr:itext('/postpartum_intake/danger_signs:label')"/>
+      <select1 ref="/postpartum_intake/danger_signs/visit_confirm">
+        <label ref="jr:itext('/postpartum_intake/danger_signs/visit_confirm:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/danger_signs/visit_confirm/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/danger_signs/visit_confirm/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/danger_signs/danger_sign_present">
+        <label ref="jr:itext('/postpartum_intake/danger_signs/danger_sign_present:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/danger_signs/danger_sign_present/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/danger_signs/danger_sign_present/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/postpartum_intake/danger_signs/danger_signs_question_note">
+        <label ref="jr:itext('/postpartum_intake/danger_signs/danger_signs_question_note:label')"/>
+      </input>
+      <select1 ref="/postpartum_intake/danger_signs/fever">
+        <label ref="jr:itext('/postpartum_intake/danger_signs/fever:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/danger_signs/fever/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/danger_signs/fever/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/danger_signs/severe_headache">
+        <label ref="jr:itext('/postpartum_intake/danger_signs/severe_headache:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/danger_signs/severe_headache/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/danger_signs/severe_headache/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/danger_signs/vaginal_bleeding">
+        <label ref="jr:itext('/postpartum_intake/danger_signs/vaginal_bleeding:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/danger_signs/vaginal_bleeding/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/danger_signs/vaginal_bleeding/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/danger_signs/vaginal_discharge">
+        <label ref="jr:itext('/postpartum_intake/danger_signs/vaginal_discharge:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/danger_signs/vaginal_discharge/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/danger_signs/vaginal_discharge/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/postpartum_intake/danger_signs/convulsion">
+        <label ref="jr:itext('/postpartum_intake/danger_signs/convulsion:label')"/>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/danger_signs/convulsion/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/postpartum_intake/danger_signs/convulsion/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/postpartum_intake/danger_signs/congratulate_no_ds_note">
+        <label ref="jr:itext('/postpartum_intake/danger_signs/congratulate_no_ds_note:label')"/>
+      </input>
+      <input ref="/postpartum_intake/danger_signs/refer_patient_note_1">
+        <label ref="jr:itext('/postpartum_intake/danger_signs/refer_patient_note_1:label')"/>
+      </input>
+      <input ref="/postpartum_intake/danger_signs/refer_patient_note_2">
+        <label ref="jr:itext('/postpartum_intake/danger_signs/refer_patient_note_2:label')"/>
+      </input>
+      <group appearance="hidden" ref="/postpartum_intake/danger_signs/custom_translations">
+        <select1 ref="/postpartum_intake/danger_signs/custom_translations/custom_woman_label_translator">
+          <item>
+            <label ref="jr:itext('/postpartum_intake/danger_signs/custom_translations/custom_woman_label_translator/woman:label')"/>
+            <value>woman</value>
+          </item>
+        </select1>
+        <select1 ref="/postpartum_intake/danger_signs/custom_translations/custom_woman_start_label_translator">
+          <item>
+            <label ref="jr:itext('/postpartum_intake/danger_signs/custom_translations/custom_woman_start_label_translator/woman-start:label')"/>
+            <value>woman-start</value>
+          </item>
+        </select1>
+      </group>
+    </group>
+    <group appearance="hidden" ref="/postpartum_intake/data">
+      <group ref="/postpartum_intake/data/meta"/>
+    </group>
+  </h:body>
+</h:html>

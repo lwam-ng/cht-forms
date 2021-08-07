@@ -1,0 +1,1757 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Baby Milestones</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/baby_milestones/danger_signs/congratulate_no_ds_note:label">
+            <value>Great news! Please continue to closely monitor baby.</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/crys_stopping/no:label">
+            <value>No</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/crys_stopping/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/crys_stopping:label">
+            <value>Crys without stopping</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/danger_sign_present/no:label">
+            <value>No</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/danger_sign_present/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/danger_sign_present:label">
+            <value>Is baby still experiencing any danger signs?</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/danger_signs_question_note:label">
+            <value>Please indicate which danger signs <output value=" /baby_milestones/patient_short_name "/> is experiencing.</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/difficulty_breathing/no:label">
+            <value>No</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/difficulty_breathing/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/difficulty_breathing:label">
+            <value>Difficulty breathing; too fast or too slow</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/fever/no:label">
+            <value>No</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/fever/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/fever:label">
+            <value>Fever</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/greater_than_diapers/no:label">
+            <value>No</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/greater_than_diapers/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/greater_than_diapers:label">
+            <value>&lt; 6 wet diapers per day</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/not_nursing_well/no:label">
+            <value>No</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/not_nursing_well/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/not_nursing_well:label">
+            <value>Not responsive / not nursing well</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/redness_umbilical_cord/no:label">
+            <value>No</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/redness_umbilical_cord/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/redness_umbilical_cord:label">
+            <value>Redness around umbilical cord</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/refer_patient_note_1:label">
+            <value>Baby should visit the health facility immediately if she is experiencing any of these danger signs.</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/refer_patient_note_2:label">
+            <value>Please advise her to do so and accompany her if possible.</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/sunken_fontanel/no:label">
+            <value>No</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/sunken_fontanel/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/sunken_fontanel:label">
+            <value>Sunken Fontanel</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/visit_confirm/no:label">
+            <value>No</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/visit_confirm/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/visit_confirm:label">
+            <value>Did baby visit the health facility as recommended?</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/watery_stools/no:label">
+            <value>No</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/watery_stools/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/baby_milestones/danger_signs/watery_stools:label">
+            <value>Frequent watery or explosive stools</value>
+          </text>
+          <text id="/baby_milestones/danger_signs:label">
+            <value>Danger Sign Follow-up – baby</value>
+          </text>
+          <text id="/baby_milestones/inputs/contact/DOB:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/baby_milestones/inputs/contact/Date_of_Arrival:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/inputs/contact/Guardian:label">
+            <value>Guardian Name</value>
+          </text>
+          <text id="/baby_milestones/inputs/contact/Nurse:label">
+            <value>Nurse Name</value>
+          </text>
+          <text id="/baby_milestones/inputs/contact/Relation:label">
+            <value>Relationship to Child</value>
+          </text>
+          <text id="/baby_milestones/inputs/contact/_id:label">
+            <value>What is the Baby's Name?</value>
+          </text>
+          <text id="/baby_milestones/inputs/contact/address:label">
+            <value>Address</value>
+          </text>
+          <text id="/baby_milestones/inputs/contact/birth_weight:label">
+            <value>Birth Weight</value>
+          </text>
+          <text id="/baby_milestones/inputs/contact/contact:label">
+            <value>Emergency Contact</value>
+          </text>
+          <text id="/baby_milestones/inputs/contact/date_of_birth:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/baby_milestones/inputs/contact/delivery_type:label">
+            <value>Delivery Type</value>
+          </text>
+          <text id="/baby_milestones/inputs/contact/discharge_date:label">
+            <value>Discharge Date</value>
+          </text>
+          <text id="/baby_milestones/inputs/contact/discharge_weight:label">
+            <value>Discharge Weight</value>
+          </text>
+          <text id="/baby_milestones/inputs/contact/gender/Female:label">
+            <value>Female</value>
+          </text>
+          <text id="/baby_milestones/inputs/contact/gender/Male:label">
+            <value>Male</value>
+          </text>
+          <text id="/baby_milestones/inputs/contact/gender:label">
+            <value>Gender</value>
+          </text>
+          <text id="/baby_milestones/inputs/contact/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/baby_milestones/inputs/contact/parent/_id:label">
+            <value>Parent ID</value>
+          </text>
+          <text id="/baby_milestones/inputs/contact/parent/parent/contact/chw_name:label">
+            <value>CHW name</value>
+          </text>
+          <text id="/baby_milestones/inputs/contact/parent/parent/contact/phone:label">
+            <value>CHW phone</value>
+          </text>
+          <text id="/baby_milestones/inputs/contact/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/baby_milestones/inputs/contact/place_of_delivery:label">
+            <value>Place of Delivery</value>
+          </text>
+          <text id="/baby_milestones/inputs/contact/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/baby_milestones/inputs/contact/short_name:label">
+            <value>Short Name</value>
+          </text>
+          <text id="/baby_milestones/inputs/contact/ta:label">
+            <value>TA</value>
+          </text>
+          <text id="/baby_milestones/inputs/contact/village_baby:label">
+            <value>Village</value>
+          </text>
+          <text id="/baby_milestones/inputs/delivery_uuid:label">
+            <value>Delivery Report ID</value>
+          </text>
+          <text id="/baby_milestones/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/baby_milestones/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/baby_milestones/optional/baby_weight:label">
+            <value>Weight</value>
+          </text>
+          <text id="/baby_milestones/optional1/grasping/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional1/grasping/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional1/grasping:label">
+            <value>Grasping</value>
+          </text>
+          <text id="/baby_milestones/optional1/grasping_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional1/moro/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional1/moro/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional1/moro:label">
+            <value>Moro</value>
+          </text>
+          <text id="/baby_milestones/optional1/moro_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional1/movements-with_eyes/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional1/movements-with_eyes/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional1/movements-with_eyes:label">
+            <value>Tracks movement with eyes</value>
+          </text>
+          <text id="/baby_milestones/optional1/movements-with_eyes_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional1/plantar/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional1/plantar/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional1/plantar:label">
+            <value>Plantar</value>
+          </text>
+          <text id="/baby_milestones/optional1/plantar_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional1/plantar_grasp/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional1/plantar_grasp/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional1/plantar_grasp:label">
+            <value>Plantar grasp</value>
+          </text>
+          <text id="/baby_milestones/optional1/plantar_grasp_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional1/sucking/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional1/sucking/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional1/sucking:label">
+            <value>Sucking</value>
+          </text>
+          <text id="/baby_milestones/optional1/sucking_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional1/walking_crawling/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional1/walking_crawling/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional1/walking_crawling:label">
+            <value>Walking/Crawling</value>
+          </text>
+          <text id="/baby_milestones/optional1/walking_crawling_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional1:label">
+            <value>Babies</value>
+          </text>
+          <text id="/baby_milestones/optional2/able_to_grasp_object_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional2/able_to_grasp_object_with_hand_and_shake/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional2/able_to_grasp_object_with_hand_and_shake/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional2/able_to_grasp_object_with_hand_and_shake:label">
+            <value>Able to grasp object with hand and shake</value>
+          </text>
+          <text id="/baby_milestones/optional2/able_to_lift_head/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional2/able_to_lift_head/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional2/able_to_lift_head:label">
+            <value>Able to lift head and chest when lying on stomach</value>
+          </text>
+          <text id="/baby_milestones/optional2/able_to_lift_head_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional2/baby_weight_3month:label">
+            <value>Weight</value>
+          </text>
+          <text id="/baby_milestones/optional2/brings_hand_to_mouth/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional2/brings_hand_to_mouth/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional2/brings_hand_to_mouth:label">
+            <value>Brings hand to mouth</value>
+          </text>
+          <text id="/baby_milestones/optional2/brings_hand_to_mouth_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional2/makes_some_cooing_sounds/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional2/makes_some_cooing_sounds/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional2/makes_some_cooing_sounds:label">
+            <value>Makes some cooing sounds</value>
+          </text>
+          <text id="/baby_milestones/optional2/makes_some_cooing_sounds_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional2/pushes_down_with_feet_when_placed_against_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional2/pushes_down_with_feet_when_placed_against_firm_surface/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional2/pushes_down_with_feet_when_placed_against_firm_surface/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional2/pushes_down_with_feet_when_placed_against_firm_surface:label">
+            <value>Pushes down with feet when placed against firm surface</value>
+          </text>
+          <text id="/baby_milestones/optional2/smiles/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional2/smiles/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional2/smiles:label">
+            <value>Smiles in response to play</value>
+          </text>
+          <text id="/baby_milestones/optional2/smiles_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional2/supports_head_well/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional2/supports_head_well/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional2/supports_head_well:label">
+            <value>Supports head well</value>
+          </text>
+          <text id="/baby_milestones/optional2/supports_head_well_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional2/turns_head_in_direction_of_sound/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional2/turns_head_in_direction_of_sound/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional2/turns_head_in_direction_of_sound:label">
+            <value>Turns head in direction of sound</value>
+          </text>
+          <text id="/baby_milestones/optional2/turns_head_in_direction_of_sound_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional2/watches_face_intently/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional2/watches_face_intently/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional2/watches_face_intently:label">
+            <value>Watches faces intently</value>
+          </text>
+          <text id="/baby_milestones/optional2/watches_face_intently_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional2:label">
+            <value>3 Months</value>
+          </text>
+          <text id="/baby_milestones/optional3/Able_to_bear_weight_on_legs/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional3/Able_to_bear_weight_on_legs/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional3/Able_to_bear_weight_on_legs:label">
+            <value>Able to bear weight on legs</value>
+          </text>
+          <text id="/baby_milestones/optional3/Able_to_bear_weight_on_legs_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional3/Able_to_roll_over/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional3/Able_to_roll_over/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional3/Able_to_roll_over:label">
+            <value>Able to roll over</value>
+          </text>
+          <text id="/baby_milestones/optional3/Able_to_roll_over_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional3/Knows_familiar_faces/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional3/Knows_familiar_faces/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional3/Knows_familiar_faces:label">
+            <value>Knows familiar faces</value>
+          </text>
+          <text id="/baby_milestones/optional3/Knows_familiar_faces_date:label">
+            <value>Comments</value>
+          </text>
+          <text id="/baby_milestones/optional3/Makes_sounds_to_respond_to_someone/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional3/Makes_sounds_to_respond_to_someone/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional3/Makes_sounds_to_respond_to_someone:label">
+            <value>Makes sounds to respond to someone</value>
+          </text>
+          <text id="/baby_milestones/optional3/Makes_sounds_to_respond_to_someone_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional3/Mostly_joyful/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional3/Mostly_joyful/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional3/Mostly_joyful:label">
+            <value>Mostly joyful</value>
+          </text>
+          <text id="/baby_milestones/optional3/Mostly_joyful_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional3/Responds_to_name/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional3/Responds_to_name/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional3/Responds_to_name:label">
+            <value>Responds to name</value>
+          </text>
+          <text id="/baby_milestones/optional3/Responds_to_name_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional3/Sits_with_no_assistance/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional3/Sits_with_no_assistance/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional3/Sits_with_no_assistance:label">
+            <value>Sits with no assistance</value>
+          </text>
+          <text id="/baby_milestones/optional3/Sits_with_no_assistance_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional3/Transfers_objects_from_one_hand_to_another/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional3/Transfers_objects_from_one_hand_to_another/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional3/Transfers_objects_from_one_hand_to_another:label">
+            <value>Transfers objects from one hand to another</value>
+          </text>
+          <text id="/baby_milestones/optional3/Transfers_objects_from_one_hand_to_another_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional3/baby_weight_7month:label">
+            <value>Weight</value>
+          </text>
+          <text id="/baby_milestones/optional3:label">
+            <value>7 months</value>
+          </text>
+          <text id="/baby_milestones/optional4/baby_weight_12month:label">
+            <value>Weight</value>
+          </text>
+          <text id="/baby_milestones/optional4/bangs_two_objects_together/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional4/bangs_two_objects_together/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional4/bangs_two_objects_together:label">
+            <value>Bangs two objects together</value>
+          </text>
+          <text id="/baby_milestones/optional4/bangs_two_objects_together_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional4/can_feed_self_with_hands/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional4/can_feed_self_with_hands/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional4/can_feed_self_with_hands:label">
+            <value>Can feed self with hands</value>
+          </text>
+          <text id="/baby_milestones/optional4/can_feed_self_with_hands_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional4/crawls_well/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional4/crawls_well/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional4/crawls_well:label">
+            <value>Crawls well</value>
+          </text>
+          <text id="/baby_milestones/optional4/crawls_well_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional4/feels_anxious_when_familiar_people_leave/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional4/feels_anxious_when_familiar_people_leave/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional4/feels_anxious_when_familiar_people_leave:label">
+            <value>Feels anxious when familiar people leave</value>
+          </text>
+          <text id="/baby_milestones/optional4/feels_anxious_when_familiar_people_leave_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional4/pulls_self_up_to_standing/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional4/pulls_self_up_to_standing/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional4/pulls_self_up_to_standing:label">
+            <value>Pulls self up to standing</value>
+          </text>
+          <text id="/baby_milestones/optional4/pulls_self_up_to_standing_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional4/repeats_sounds/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional4/repeats_sounds/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional4/repeats_sounds:label">
+            <value>Repeats sounds</value>
+          </text>
+          <text id="/baby_milestones/optional4/repeats_sounds_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional4/speaks_1_to_5_words/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional4/speaks_1_to_5_words/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional4/speaks_1_to_5_words:label">
+            <value>Speaks 1 to 5 words</value>
+          </text>
+          <text id="/baby_milestones/optional4/speaks_1_to_5_words_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional4/takes_steps_with_assistance/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional4/takes_steps_with_assistance/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional4/takes_steps_with_assistance:label">
+            <value>Takes steps with assistance</value>
+          </text>
+          <text id="/baby_milestones/optional4/takes_steps_with_assistance_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional4/understands_simple_commands/observed:label">
+            <value>Observed</value>
+          </text>
+          <text id="/baby_milestones/optional4/understands_simple_commands/reported:label">
+            <value>Reported</value>
+          </text>
+          <text id="/baby_milestones/optional4/understands_simple_commands:label">
+            <value>Understands simple commands</value>
+          </text>
+          <text id="/baby_milestones/optional4/understands_simple_commands_date:label">
+            <value>Date</value>
+          </text>
+          <text id="/baby_milestones/optional4:label">
+            <value>12 Months</value>
+          </text>
+          <text id="/baby_milestones/optional5/baby_exercise/yes:label">
+            <value>Enter Here</value>
+          </text>
+          <text id="/baby_milestones/optional5/baby_exercise:label">
+            <value>Baby exercise - allow baby to lie on stomach while awake, sitting, crawling</value>
+          </text>
+          <text id="/baby_milestones/optional5/care_during_illness/yes:label">
+            <value>Enter Here</value>
+          </text>
+          <text id="/baby_milestones/optional5/care_during_illness:label">
+            <value>Care during illness (frequent feeds, ORS)</value>
+          </text>
+          <text id="/baby_milestones/optional5/good_nutrition/yes:label">
+            <value>Enter Here</value>
+          </text>
+          <text id="/baby_milestones/optional5/good_nutrition:label">
+            <value>Good nutrition</value>
+          </text>
+          <text id="/baby_milestones/optional5/homesafety/yes:label">
+            <value>Enter Here</value>
+          </text>
+          <text id="/baby_milestones/optional5/homesafety:label">
+            <value>Home safety (small objects/choking, cooking, bathing, medicines)</value>
+          </text>
+          <text id="/baby_milestones/optional5/interacting_with_baby/yes:label">
+            <value>Enter Here</value>
+          </text>
+          <text id="/baby_milestones/optional5/interacting_with_baby:label">
+            <value>Importance of interacting with baby</value>
+          </text>
+          <text id="/baby_milestones/optional5/preventable_illness/yes:label">
+            <value>Enter Here</value>
+          </text>
+          <text id="/baby_milestones/optional5/preventable_illness:label">
+            <value>Preventable illnesses</value>
+          </text>
+          <text id="/baby_milestones/optional5/vaccines/yes:label">
+            <value>Enter Here</value>
+          </text>
+          <text id="/baby_milestones/optional5/vaccines:label">
+            <value>Vaccines</value>
+          </text>
+          <text id="/baby_milestones/optional5:label">
+            <value>Education Topics</value>
+          </text>
+          <text id="/baby_milestones/optional:label">
+            <value>Weight</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <baby_milestones delimiter="#" id="baby_milestones" prefix="J1!baby_milestones!" version="2021-07-27 10:32:10">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <delivery_uuid/>
+            <contact>
+              <_id/>
+              <gender/>
+              <DOB/>
+              <Nurse/>
+              <Date_of_Arrival/>
+              <Guardian/>
+              <Relation/>
+              <address/>
+              <ta/>
+              <village_baby/>
+              <contact/>
+              <place_of_delivery/>
+              <delivery_type/>
+              <discharge_date/>
+              <birth_weight/>
+              <discharge_weight/>
+              <name/>
+              <short_name/>
+              <patient_id/>
+              <date_of_birth>0</date_of_birth>
+              <sex/>
+              <parent>
+                <_id/>
+                <parent>
+                  <contact>
+                    <chw_name/>
+                    <phone/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <optional>
+            <baby_weight/>
+          </optional>
+          <optional1>
+            <movements-with_eyes/>
+            <movements-with_eyes_date/>
+            <moro/>
+            <moro_date/>
+            <grasping/>
+            <grasping_date/>
+            <sucking/>
+            <sucking_date/>
+            <plantar_grasp/>
+            <plantar_grasp_date/>
+            <plantar/>
+            <plantar_date/>
+            <walking_crawling/>
+            <walking_crawling_date/>
+          </optional1>
+          <optional2>
+            <baby_weight_3month/>
+            <smiles/>
+            <smiles_date/>
+            <able_to_lift_head/>
+            <able_to_lift_head_date/>
+            <able_to_grasp_object_with_hand_and_shake/>
+            <able_to_grasp_object_date/>
+            <brings_hand_to_mouth/>
+            <brings_hand_to_mouth_date/>
+            <watches_face_intently/>
+            <watches_face_intently_date/>
+            <pushes_down_with_feet_when_placed_against_firm_surface/>
+            <pushes_down_with_feet_when_placed_against_date/>
+            <supports_head_well/>
+            <supports_head_well_date/>
+            <turns_head_in_direction_of_sound/>
+            <turns_head_in_direction_of_sound_date/>
+            <makes_some_cooing_sounds/>
+            <makes_some_cooing_sounds_date/>
+          </optional2>
+          <optional3>
+            <baby_weight_7month/>
+            <Sits_with_no_assistance/>
+            <Sits_with_no_assistance_date/>
+            <Able_to_roll_over/>
+            <Able_to_roll_over_date/>
+            <Able_to_bear_weight_on_legs/>
+            <Able_to_bear_weight_on_legs_date/>
+            <Responds_to_name/>
+            <Responds_to_name_date/>
+            <Transfers_objects_from_one_hand_to_another/>
+            <Transfers_objects_from_one_hand_to_another_date/>
+            <Makes_sounds_to_respond_to_someone/>
+            <Makes_sounds_to_respond_to_someone_date/>
+            <Mostly_joyful/>
+            <Mostly_joyful_date/>
+            <Knows_familiar_faces/>
+            <Knows_familiar_faces_date/>
+          </optional3>
+          <optional4>
+            <baby_weight_12month/>
+            <crawls_well/>
+            <crawls_well_date/>
+            <pulls_self_up_to_standing/>
+            <pulls_self_up_to_standing_date/>
+            <takes_steps_with_assistance/>
+            <takes_steps_with_assistance_date/>
+            <understands_simple_commands/>
+            <understands_simple_commands_date/>
+            <repeats_sounds/>
+            <repeats_sounds_date/>
+            <speaks_1_to_5_words/>
+            <speaks_1_to_5_words_date/>
+            <can_feed_self_with_hands/>
+            <can_feed_self_with_hands_date/>
+            <feels_anxious_when_familiar_people_leave/>
+            <feels_anxious_when_familiar_people_leave_date/>
+            <bangs_two_objects_together/>
+            <bangs_two_objects_together_date/>
+          </optional4>
+          <optional5>
+            <homesafety/>
+            <interacting_with_baby/>
+            <baby_exercise/>
+            <good_nutrition/>
+            <vaccines/>
+            <preventable_illness/>
+            <care_during_illness/>
+          </optional5>
+          <patient_age_in_years tag="hidden"/>
+          <patient_uuid tag="hidden"/>
+          <patient_id tag="hidden"/>
+          <patient_name tag="hidden"/>
+          <patient_short_name tag="hidden"/>
+          <patient_short_name_start tag="hidden"/>
+          <t_danger_signs_referral_follow_up_date tag="hidden"/>
+          <t_danger_signs_referral_follow_up tag="hidden"/>
+          <danger_signs>
+            <visit_confirm/>
+            <danger_sign_present/>
+            <danger_signs_question_note tag="hidden"/>
+            <fever/>
+            <difficulty_breathing/>
+            <not_nursing_well/>
+            <greater_than_diapers/>
+            <redness_umbilical_cord/>
+            <crys_stopping/>
+            <sunken_fontanel/>
+            <watery_stools/>
+            <r_danger_sign_present tag="hidden"/>
+            <congratulate_no_ds_note tag="hidden"/>
+            <refer_patient_note_1 tag="hidden"/>
+            <refer_patient_note_2 tag="hidden"/>
+          </danger_signs>
+          <data tag="hidden">
+            <__visited_hf/>
+            <__still_experiencing_danger_sign/>
+            <__fever/>
+            <__difficulty_breathing/>
+            <__not_nursing_well/>
+            <__greater_than_diapers/>
+            <__redness_umbilical_cord/>
+            <__crys_stopping/>
+            <__sunken_fontanel/>
+            <__watery_stools/>
+            <__has_danger_sign/>
+            <meta tag="hidden">
+              <__patient_uuid/>
+              <__patient_id/>
+              <__household_uuid/>
+              <__source/>
+              <__source_id/>
+              <__delivery_uuid/>
+            </meta>
+          </data>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </baby_milestones>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/baby_milestones/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/baby_milestones/inputs/source" type="string"/>
+      <bind nodeset="/baby_milestones/inputs/source_id" type="string"/>
+      <bind nodeset="/baby_milestones/inputs/delivery_uuid" type="string"/>
+      <bind nodeset="/baby_milestones/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/baby_milestones/inputs/contact/gender" type="select1"/>
+      <bind nodeset="/baby_milestones/inputs/contact/DOB" type="string"/>
+      <bind nodeset="/baby_milestones/inputs/contact/Nurse" type="string"/>
+      <bind nodeset="/baby_milestones/inputs/contact/Date_of_Arrival" type="string"/>
+      <bind nodeset="/baby_milestones/inputs/contact/Guardian" type="string"/>
+      <bind nodeset="/baby_milestones/inputs/contact/Relation" type="string"/>
+      <bind nodeset="/baby_milestones/inputs/contact/address" type="string"/>
+      <bind nodeset="/baby_milestones/inputs/contact/ta" type="string"/>
+      <bind nodeset="/baby_milestones/inputs/contact/village_baby" type="string"/>
+      <bind nodeset="/baby_milestones/inputs/contact/contact" type="string"/>
+      <bind nodeset="/baby_milestones/inputs/contact/place_of_delivery" type="string"/>
+      <bind nodeset="/baby_milestones/inputs/contact/delivery_type" type="string"/>
+      <bind nodeset="/baby_milestones/inputs/contact/discharge_date" type="string"/>
+      <bind nodeset="/baby_milestones/inputs/contact/birth_weight" type="string"/>
+      <bind nodeset="/baby_milestones/inputs/contact/discharge_weight" type="string"/>
+      <bind nodeset="/baby_milestones/inputs/contact/name" type="string"/>
+      <bind nodeset="/baby_milestones/inputs/contact/short_name" type="string"/>
+      <bind nodeset="/baby_milestones/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/baby_milestones/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/baby_milestones/inputs/contact/sex" type="string"/>
+      <bind nodeset="/baby_milestones/inputs/contact/parent/_id" type="string"/>
+      <bind nodeset="/baby_milestones/inputs/contact/parent/parent/contact/chw_name" type="string"/>
+      <bind nodeset="/baby_milestones/inputs/contact/parent/parent/contact/phone" type="string"/>
+      <bind nodeset="/baby_milestones/optional/baby_weight" type="string"/>
+      <bind nodeset="/baby_milestones/optional1/movements-with_eyes" type="select1"/>
+      <bind nodeset="/baby_milestones/optional1/movements-with_eyes_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional1/moro" type="select1"/>
+      <bind nodeset="/baby_milestones/optional1/moro_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional1/grasping" type="select1"/>
+      <bind nodeset="/baby_milestones/optional1/grasping_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional1/sucking" type="select1"/>
+      <bind nodeset="/baby_milestones/optional1/sucking_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional1/plantar_grasp" type="select1"/>
+      <bind nodeset="/baby_milestones/optional1/plantar_grasp_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional1/plantar" type="select1"/>
+      <bind nodeset="/baby_milestones/optional1/plantar_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional1/walking_crawling" type="select1"/>
+      <bind nodeset="/baby_milestones/optional1/walking_crawling_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional2/baby_weight_3month" type="string"/>
+      <bind nodeset="/baby_milestones/optional2/smiles" type="select1"/>
+      <bind nodeset="/baby_milestones/optional2/smiles_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional2/able_to_lift_head" type="select1"/>
+      <bind nodeset="/baby_milestones/optional2/able_to_lift_head_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional2/able_to_grasp_object_with_hand_and_shake" type="select1"/>
+      <bind nodeset="/baby_milestones/optional2/able_to_grasp_object_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional2/brings_hand_to_mouth" type="select1"/>
+      <bind nodeset="/baby_milestones/optional2/brings_hand_to_mouth_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional2/watches_face_intently" type="select1"/>
+      <bind nodeset="/baby_milestones/optional2/watches_face_intently_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional2/pushes_down_with_feet_when_placed_against_firm_surface" type="select1"/>
+      <bind nodeset="/baby_milestones/optional2/pushes_down_with_feet_when_placed_against_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional2/supports_head_well" type="select1"/>
+      <bind nodeset="/baby_milestones/optional2/supports_head_well_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional2/turns_head_in_direction_of_sound" type="select1"/>
+      <bind nodeset="/baby_milestones/optional2/turns_head_in_direction_of_sound_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional2/makes_some_cooing_sounds" type="select1"/>
+      <bind nodeset="/baby_milestones/optional2/makes_some_cooing_sounds_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional3/baby_weight_7month" type="string"/>
+      <bind nodeset="/baby_milestones/optional3/Sits_with_no_assistance" type="select1"/>
+      <bind nodeset="/baby_milestones/optional3/Sits_with_no_assistance_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional3/Able_to_roll_over" type="select1"/>
+      <bind nodeset="/baby_milestones/optional3/Able_to_roll_over_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional3/Able_to_bear_weight_on_legs" type="select1"/>
+      <bind nodeset="/baby_milestones/optional3/Able_to_bear_weight_on_legs_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional3/Responds_to_name" type="select1"/>
+      <bind nodeset="/baby_milestones/optional3/Responds_to_name_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional3/Transfers_objects_from_one_hand_to_another" type="select1"/>
+      <bind nodeset="/baby_milestones/optional3/Transfers_objects_from_one_hand_to_another_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional3/Makes_sounds_to_respond_to_someone" type="select1"/>
+      <bind nodeset="/baby_milestones/optional3/Makes_sounds_to_respond_to_someone_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional3/Mostly_joyful" type="select1"/>
+      <bind nodeset="/baby_milestones/optional3/Mostly_joyful_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional3/Knows_familiar_faces" type="select1"/>
+      <bind nodeset="/baby_milestones/optional3/Knows_familiar_faces_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional4/baby_weight_12month" type="string"/>
+      <bind nodeset="/baby_milestones/optional4/crawls_well" type="select1"/>
+      <bind nodeset="/baby_milestones/optional4/crawls_well_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional4/pulls_self_up_to_standing" type="select1"/>
+      <bind nodeset="/baby_milestones/optional4/pulls_self_up_to_standing_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional4/takes_steps_with_assistance" type="select1"/>
+      <bind nodeset="/baby_milestones/optional4/takes_steps_with_assistance_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional4/understands_simple_commands" type="select1"/>
+      <bind nodeset="/baby_milestones/optional4/understands_simple_commands_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional4/repeats_sounds" type="select1"/>
+      <bind nodeset="/baby_milestones/optional4/repeats_sounds_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional4/speaks_1_to_5_words" type="select1"/>
+      <bind nodeset="/baby_milestones/optional4/speaks_1_to_5_words_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional4/can_feed_self_with_hands" type="select1"/>
+      <bind nodeset="/baby_milestones/optional4/can_feed_self_with_hands_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional4/feels_anxious_when_familiar_people_leave" type="select1"/>
+      <bind nodeset="/baby_milestones/optional4/feels_anxious_when_familiar_people_leave_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional4/bangs_two_objects_together" type="select1"/>
+      <bind nodeset="/baby_milestones/optional4/bangs_two_objects_together_date" type="string"/>
+      <bind nodeset="/baby_milestones/optional5/homesafety" type="select1"/>
+      <bind nodeset="/baby_milestones/optional5/interacting_with_baby" type="select1"/>
+      <bind nodeset="/baby_milestones/optional5/baby_exercise" type="select1"/>
+      <bind nodeset="/baby_milestones/optional5/good_nutrition" type="select1"/>
+      <bind nodeset="/baby_milestones/optional5/vaccines" type="select1"/>
+      <bind nodeset="/baby_milestones/optional5/preventable_illness" type="select1"/>
+      <bind nodeset="/baby_milestones/optional5/care_during_illness" type="select1"/>
+      <bind calculate="floor( difference-in-months( ../inputs/contact/date_of_birth, today() ) div 12 )" nodeset="/baby_milestones/patient_age_in_years" type="string"/>
+      <bind calculate="../inputs/contact/_id" nodeset="/baby_milestones/patient_uuid" type="string"/>
+      <bind calculate="../inputs/contact/patient_id" nodeset="/baby_milestones/patient_id" type="string"/>
+      <bind calculate="../inputs/contact/name" nodeset="/baby_milestones/patient_name" type="string"/>
+      <bind calculate="coalesce(../inputs/contact/short_name, ../danger_signs/custom_translations/custom_woman_label)" nodeset="/baby_milestones/patient_short_name" type="string"/>
+      <bind calculate="coalesce(../inputs/contact/short_name, ../danger_signs/custom_translations/custom_woman_start_label)" nodeset="/baby_milestones/patient_short_name_start" type="string"/>
+      <bind calculate="date-time(floor(decimal-date-time(today())) + 3)" nodeset="/baby_milestones/t_danger_signs_referral_follow_up_date" type="string"/>
+      <bind calculate="../danger_signs/r_danger_sign_present" nodeset="/baby_milestones/t_danger_signs_referral_follow_up" type="string"/>
+      <bind nodeset="/baby_milestones/danger_signs/visit_confirm" required="true()" type="select1"/>
+      <bind nodeset="/baby_milestones/danger_signs/danger_sign_present" required="true()" type="select1"/>
+      <bind nodeset="/baby_milestones/danger_signs/danger_signs_question_note" readonly="true()" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" type="string"/>
+      <bind nodeset="/baby_milestones/danger_signs/fever" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind nodeset="/baby_milestones/danger_signs/difficulty_breathing" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind nodeset="/baby_milestones/danger_signs/not_nursing_well" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind nodeset="/baby_milestones/danger_signs/greater_than_diapers" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind nodeset="/baby_milestones/danger_signs/redness_umbilical_cord" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind nodeset="/baby_milestones/danger_signs/crys_stopping" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind nodeset="/baby_milestones/danger_signs/sunken_fontanel" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind nodeset="/baby_milestones/danger_signs/watery_stools" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind calculate="if(selected(../fever, 'yes') or
+selected(../difficulty_breathing, 'yes') or
+selected(../not_nursing_well, 'yes') or
+selected(../greater_than_diapers, 'yes') or
+selected(../redness_umbilical_cord, 'yes') or
+selected(../cry_stopping, 'yes') or
+selected(../sunken_fontanel, 'yes') or
+selected(../watery_stools, 'yes') or, 'yes',
+if(selected(../fever, 'no') and
+selected(../difficulty_breathing, 'no') and
+selected(../not_nursing_well, 'no') and
+selected(../greater_than_diapers, 'no') and
+selected(../redness_umbilical_cord, 'no') and
+selected(../cry_stopping, 'no') and
+selected(../sunken_fontanel, 'no') and
+selected(../watery_stools, 'no'), 'no', ''))" nodeset="/baby_milestones/danger_signs/r_danger_sign_present" type="string"/>
+      <bind nodeset="/baby_milestones/danger_signs/congratulate_no_ds_note" readonly="true()" relevant="../danger_sign_present = 'no' and ../r_danger_sign_present = 'no'" type="string"/>
+      <bind nodeset="/baby_milestones/danger_signs/refer_patient_note_1" readonly="true()" relevant="../danger_sign_present = 'yes' or ../r_danger_sign_present = 'yes'" type="string"/>
+      <bind nodeset="/baby_milestones/danger_signs/refer_patient_note_2" readonly="true()" relevant="../danger_sign_present = 'yes' or ../r_danger_sign_present = 'yes'" type="string"/>
+      <bind calculate=" /baby_milestones/danger_signs/visit_confirm " nodeset="/baby_milestones/data/__visited_hf" type="string"/>
+      <bind calculate=" /baby_milestones/danger_signs/danger_sign_present " nodeset="/baby_milestones/data/__still_experiencing_danger_sign" type="string"/>
+      <bind calculate=" /baby_milestones/danger_signs/fever " nodeset="/baby_milestones/data/__fever" type="string"/>
+      <bind calculate=" /baby_milestones/danger_signs/difficulty_breathing " nodeset="/baby_milestones/data/__difficulty_breathing" type="string"/>
+      <bind calculate=" /baby_milestones/danger_signs/not_nursing_well " nodeset="/baby_milestones/data/__not_nursing_well" type="string"/>
+      <bind calculate=" /baby_milestones/danger_signs/greater_than_diapers " nodeset="/baby_milestones/data/__greater_than_diapers" type="string"/>
+      <bind calculate=" /baby_milestones/danger_signs/redness_umbilical_cord " nodeset="/baby_milestones/data/__redness_umbilical_cord" type="string"/>
+      <bind calculate=" /baby_milestones/danger_signs/crys_stopping " nodeset="/baby_milestones/data/__crys_stopping" type="string"/>
+      <bind calculate=" /baby_milestones/danger_signs/sunken_fontanel " nodeset="/baby_milestones/data/__sunken_fontanel" type="string"/>
+      <bind calculate=" /baby_milestones/danger_signs/watery_stools " nodeset="/baby_milestones/data/__watery_stools" type="string"/>
+      <bind calculate=" /baby_milestones/danger_signs/r_danger_sign_present " nodeset="/baby_milestones/data/__has_danger_sign" type="string"/>
+      <bind calculate="../../../inputs/contact/_id" nodeset="/baby_milestones/data/meta/__patient_uuid" type="string"/>
+      <bind calculate="../../../inputs/contact/patient_id" nodeset="/baby_milestones/data/meta/__patient_id" type="string"/>
+      <bind calculate="../../../inputs/contact/parent/_id" nodeset="/baby_milestones/data/meta/__household_uuid" type="string"/>
+      <bind calculate="../../../inputs/source" nodeset="/baby_milestones/data/meta/__source" type="string"/>
+      <bind calculate="../../../inputs/source_id" nodeset="/baby_milestones/data/meta/__source_id" type="string"/>
+      <bind calculate="../../../inputs/delivery_uuid" nodeset="/baby_milestones/data/meta/__delivery_uuid" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/baby_milestones/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/baby_milestones/inputs">
+      <group ref="/baby_milestones/inputs/contact">
+        <input appearance="db-object" ref="/baby_milestones/inputs/contact/_id">
+          <label ref="jr:itext('/baby_milestones/inputs/contact/_id:label')"/>
+        </input>
+        <select1 ref="/baby_milestones/inputs/contact/gender">
+          <label ref="jr:itext('/baby_milestones/inputs/contact/gender:label')"/>
+          <item>
+            <label ref="jr:itext('/baby_milestones/inputs/contact/gender/Male:label')"/>
+            <value>Male</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/baby_milestones/inputs/contact/gender/Female:label')"/>
+            <value>Female</value>
+          </item>
+        </select1>
+        <input ref="/baby_milestones/inputs/contact/DOB">
+          <label ref="jr:itext('/baby_milestones/inputs/contact/DOB:label')"/>
+        </input>
+        <input ref="/baby_milestones/inputs/contact/Nurse">
+          <label ref="jr:itext('/baby_milestones/inputs/contact/Nurse:label')"/>
+        </input>
+        <input ref="/baby_milestones/inputs/contact/Date_of_Arrival">
+          <label ref="jr:itext('/baby_milestones/inputs/contact/Date_of_Arrival:label')"/>
+        </input>
+        <input ref="/baby_milestones/inputs/contact/Guardian">
+          <label ref="jr:itext('/baby_milestones/inputs/contact/Guardian:label')"/>
+        </input>
+        <input ref="/baby_milestones/inputs/contact/Relation">
+          <label ref="jr:itext('/baby_milestones/inputs/contact/Relation:label')"/>
+        </input>
+        <input ref="/baby_milestones/inputs/contact/address">
+          <label ref="jr:itext('/baby_milestones/inputs/contact/address:label')"/>
+        </input>
+        <input ref="/baby_milestones/inputs/contact/ta">
+          <label ref="jr:itext('/baby_milestones/inputs/contact/ta:label')"/>
+        </input>
+        <input ref="/baby_milestones/inputs/contact/village_baby">
+          <label ref="jr:itext('/baby_milestones/inputs/contact/village_baby:label')"/>
+        </input>
+        <input ref="/baby_milestones/inputs/contact/contact">
+          <label ref="jr:itext('/baby_milestones/inputs/contact/contact:label')"/>
+        </input>
+        <input ref="/baby_milestones/inputs/contact/place_of_delivery">
+          <label ref="jr:itext('/baby_milestones/inputs/contact/place_of_delivery:label')"/>
+        </input>
+        <input ref="/baby_milestones/inputs/contact/delivery_type">
+          <label ref="jr:itext('/baby_milestones/inputs/contact/delivery_type:label')"/>
+        </input>
+        <input ref="/baby_milestones/inputs/contact/discharge_date">
+          <label ref="jr:itext('/baby_milestones/inputs/contact/discharge_date:label')"/>
+        </input>
+        <input ref="/baby_milestones/inputs/contact/birth_weight">
+          <label ref="jr:itext('/baby_milestones/inputs/contact/birth_weight:label')"/>
+        </input>
+        <input ref="/baby_milestones/inputs/contact/discharge_weight">
+          <label ref="jr:itext('/baby_milestones/inputs/contact/discharge_weight:label')"/>
+        </input>
+        <group ref="/baby_milestones/inputs/contact/parent">
+          <group ref="/baby_milestones/inputs/contact/parent/parent">
+            <group ref="/baby_milestones/inputs/contact/parent/parent/contact"/>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/baby_milestones/optional">
+      <label ref="jr:itext('/baby_milestones/optional:label')"/>
+      <input ref="/baby_milestones/optional/baby_weight">
+        <label ref="jr:itext('/baby_milestones/optional/baby_weight:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/baby_milestones/optional1">
+      <label ref="jr:itext('/baby_milestones/optional1:label')"/>
+      <select1 ref="/baby_milestones/optional1/movements-with_eyes">
+        <label ref="jr:itext('/baby_milestones/optional1/movements-with_eyes:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional1/movements-with_eyes/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional1/movements-with_eyes/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional1/movements-with_eyes_date">
+        <label ref="jr:itext('/baby_milestones/optional1/movements-with_eyes_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional1/moro">
+        <label ref="jr:itext('/baby_milestones/optional1/moro:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional1/moro/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional1/moro/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional1/moro_date">
+        <label ref="jr:itext('/baby_milestones/optional1/moro_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional1/grasping">
+        <label ref="jr:itext('/baby_milestones/optional1/grasping:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional1/grasping/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional1/grasping/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional1/grasping_date">
+        <label ref="jr:itext('/baby_milestones/optional1/grasping_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional1/sucking">
+        <label ref="jr:itext('/baby_milestones/optional1/sucking:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional1/sucking/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional1/sucking/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional1/sucking_date">
+        <label ref="jr:itext('/baby_milestones/optional1/sucking_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional1/plantar_grasp">
+        <label ref="jr:itext('/baby_milestones/optional1/plantar_grasp:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional1/plantar_grasp/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional1/plantar_grasp/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional1/plantar_grasp_date">
+        <label ref="jr:itext('/baby_milestones/optional1/plantar_grasp_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional1/plantar">
+        <label ref="jr:itext('/baby_milestones/optional1/plantar:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional1/plantar/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional1/plantar/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional1/plantar_date">
+        <label ref="jr:itext('/baby_milestones/optional1/plantar_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional1/walking_crawling">
+        <label ref="jr:itext('/baby_milestones/optional1/walking_crawling:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional1/walking_crawling/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional1/walking_crawling/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional1/walking_crawling_date">
+        <label ref="jr:itext('/baby_milestones/optional1/walking_crawling_date:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/baby_milestones/optional2">
+      <label ref="jr:itext('/baby_milestones/optional2:label')"/>
+      <input ref="/baby_milestones/optional2/baby_weight_3month">
+        <label ref="jr:itext('/baby_milestones/optional2/baby_weight_3month:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional2/smiles">
+        <label ref="jr:itext('/baby_milestones/optional2/smiles:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional2/smiles/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional2/smiles/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional2/smiles_date">
+        <label ref="jr:itext('/baby_milestones/optional2/smiles_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional2/able_to_lift_head">
+        <label ref="jr:itext('/baby_milestones/optional2/able_to_lift_head:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional2/able_to_lift_head/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional2/able_to_lift_head/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional2/able_to_lift_head_date">
+        <label ref="jr:itext('/baby_milestones/optional2/able_to_lift_head_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional2/able_to_grasp_object_with_hand_and_shake">
+        <label ref="jr:itext('/baby_milestones/optional2/able_to_grasp_object_with_hand_and_shake:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional2/able_to_grasp_object_with_hand_and_shake/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional2/able_to_grasp_object_with_hand_and_shake/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional2/able_to_grasp_object_date">
+        <label ref="jr:itext('/baby_milestones/optional2/able_to_grasp_object_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional2/brings_hand_to_mouth">
+        <label ref="jr:itext('/baby_milestones/optional2/brings_hand_to_mouth:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional2/brings_hand_to_mouth/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional2/brings_hand_to_mouth/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional2/brings_hand_to_mouth_date">
+        <label ref="jr:itext('/baby_milestones/optional2/brings_hand_to_mouth_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional2/watches_face_intently">
+        <label ref="jr:itext('/baby_milestones/optional2/watches_face_intently:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional2/watches_face_intently/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional2/watches_face_intently/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional2/watches_face_intently_date">
+        <label ref="jr:itext('/baby_milestones/optional2/watches_face_intently_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional2/pushes_down_with_feet_when_placed_against_firm_surface">
+        <label ref="jr:itext('/baby_milestones/optional2/pushes_down_with_feet_when_placed_against_firm_surface:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional2/pushes_down_with_feet_when_placed_against_firm_surface/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional2/pushes_down_with_feet_when_placed_against_firm_surface/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional2/pushes_down_with_feet_when_placed_against_date">
+        <label ref="jr:itext('/baby_milestones/optional2/pushes_down_with_feet_when_placed_against_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional2/supports_head_well">
+        <label ref="jr:itext('/baby_milestones/optional2/supports_head_well:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional2/supports_head_well/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional2/supports_head_well/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional2/supports_head_well_date">
+        <label ref="jr:itext('/baby_milestones/optional2/supports_head_well_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional2/turns_head_in_direction_of_sound">
+        <label ref="jr:itext('/baby_milestones/optional2/turns_head_in_direction_of_sound:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional2/turns_head_in_direction_of_sound/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional2/turns_head_in_direction_of_sound/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional2/turns_head_in_direction_of_sound_date">
+        <label ref="jr:itext('/baby_milestones/optional2/turns_head_in_direction_of_sound_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional2/makes_some_cooing_sounds">
+        <label ref="jr:itext('/baby_milestones/optional2/makes_some_cooing_sounds:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional2/makes_some_cooing_sounds/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional2/makes_some_cooing_sounds/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional2/makes_some_cooing_sounds_date">
+        <label ref="jr:itext('/baby_milestones/optional2/makes_some_cooing_sounds_date:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/baby_milestones/optional3">
+      <label ref="jr:itext('/baby_milestones/optional3:label')"/>
+      <input ref="/baby_milestones/optional3/baby_weight_7month">
+        <label ref="jr:itext('/baby_milestones/optional3/baby_weight_7month:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional3/Sits_with_no_assistance">
+        <label ref="jr:itext('/baby_milestones/optional3/Sits_with_no_assistance:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional3/Sits_with_no_assistance/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional3/Sits_with_no_assistance/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional3/Sits_with_no_assistance_date">
+        <label ref="jr:itext('/baby_milestones/optional3/Sits_with_no_assistance_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional3/Able_to_roll_over">
+        <label ref="jr:itext('/baby_milestones/optional3/Able_to_roll_over:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional3/Able_to_roll_over/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional3/Able_to_roll_over/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional3/Able_to_roll_over_date">
+        <label ref="jr:itext('/baby_milestones/optional3/Able_to_roll_over_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional3/Able_to_bear_weight_on_legs">
+        <label ref="jr:itext('/baby_milestones/optional3/Able_to_bear_weight_on_legs:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional3/Able_to_bear_weight_on_legs/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional3/Able_to_bear_weight_on_legs/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional3/Able_to_bear_weight_on_legs_date">
+        <label ref="jr:itext('/baby_milestones/optional3/Able_to_bear_weight_on_legs_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional3/Responds_to_name">
+        <label ref="jr:itext('/baby_milestones/optional3/Responds_to_name:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional3/Responds_to_name/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional3/Responds_to_name/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional3/Responds_to_name_date">
+        <label ref="jr:itext('/baby_milestones/optional3/Responds_to_name_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional3/Transfers_objects_from_one_hand_to_another">
+        <label ref="jr:itext('/baby_milestones/optional3/Transfers_objects_from_one_hand_to_another:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional3/Transfers_objects_from_one_hand_to_another/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional3/Transfers_objects_from_one_hand_to_another/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional3/Transfers_objects_from_one_hand_to_another_date">
+        <label ref="jr:itext('/baby_milestones/optional3/Transfers_objects_from_one_hand_to_another_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional3/Makes_sounds_to_respond_to_someone">
+        <label ref="jr:itext('/baby_milestones/optional3/Makes_sounds_to_respond_to_someone:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional3/Makes_sounds_to_respond_to_someone/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional3/Makes_sounds_to_respond_to_someone/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional3/Makes_sounds_to_respond_to_someone_date">
+        <label ref="jr:itext('/baby_milestones/optional3/Makes_sounds_to_respond_to_someone_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional3/Mostly_joyful">
+        <label ref="jr:itext('/baby_milestones/optional3/Mostly_joyful:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional3/Mostly_joyful/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional3/Mostly_joyful/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional3/Mostly_joyful_date">
+        <label ref="jr:itext('/baby_milestones/optional3/Mostly_joyful_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional3/Knows_familiar_faces">
+        <label ref="jr:itext('/baby_milestones/optional3/Knows_familiar_faces:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional3/Knows_familiar_faces/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional3/Knows_familiar_faces/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional3/Knows_familiar_faces_date">
+        <label ref="jr:itext('/baby_milestones/optional3/Knows_familiar_faces_date:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/baby_milestones/optional4">
+      <label ref="jr:itext('/baby_milestones/optional4:label')"/>
+      <input ref="/baby_milestones/optional4/baby_weight_12month">
+        <label ref="jr:itext('/baby_milestones/optional4/baby_weight_12month:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional4/crawls_well">
+        <label ref="jr:itext('/baby_milestones/optional4/crawls_well:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional4/crawls_well/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional4/crawls_well/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional4/crawls_well_date">
+        <label ref="jr:itext('/baby_milestones/optional4/crawls_well_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional4/pulls_self_up_to_standing">
+        <label ref="jr:itext('/baby_milestones/optional4/pulls_self_up_to_standing:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional4/pulls_self_up_to_standing/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional4/pulls_self_up_to_standing/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional4/pulls_self_up_to_standing_date">
+        <label ref="jr:itext('/baby_milestones/optional4/pulls_self_up_to_standing_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional4/takes_steps_with_assistance">
+        <label ref="jr:itext('/baby_milestones/optional4/takes_steps_with_assistance:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional4/takes_steps_with_assistance/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional4/takes_steps_with_assistance/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional4/takes_steps_with_assistance_date">
+        <label ref="jr:itext('/baby_milestones/optional4/takes_steps_with_assistance_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional4/understands_simple_commands">
+        <label ref="jr:itext('/baby_milestones/optional4/understands_simple_commands:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional4/understands_simple_commands/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional4/understands_simple_commands/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional4/understands_simple_commands_date">
+        <label ref="jr:itext('/baby_milestones/optional4/understands_simple_commands_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional4/repeats_sounds">
+        <label ref="jr:itext('/baby_milestones/optional4/repeats_sounds:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional4/repeats_sounds/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional4/repeats_sounds/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional4/repeats_sounds_date">
+        <label ref="jr:itext('/baby_milestones/optional4/repeats_sounds_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional4/speaks_1_to_5_words">
+        <label ref="jr:itext('/baby_milestones/optional4/speaks_1_to_5_words:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional4/speaks_1_to_5_words/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional4/speaks_1_to_5_words/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional4/speaks_1_to_5_words_date">
+        <label ref="jr:itext('/baby_milestones/optional4/speaks_1_to_5_words_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional4/can_feed_self_with_hands">
+        <label ref="jr:itext('/baby_milestones/optional4/can_feed_self_with_hands:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional4/can_feed_self_with_hands/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional4/can_feed_self_with_hands/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional4/can_feed_self_with_hands_date">
+        <label ref="jr:itext('/baby_milestones/optional4/can_feed_self_with_hands_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional4/feels_anxious_when_familiar_people_leave">
+        <label ref="jr:itext('/baby_milestones/optional4/feels_anxious_when_familiar_people_leave:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional4/feels_anxious_when_familiar_people_leave/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional4/feels_anxious_when_familiar_people_leave/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional4/feels_anxious_when_familiar_people_leave_date">
+        <label ref="jr:itext('/baby_milestones/optional4/feels_anxious_when_familiar_people_leave_date:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/optional4/bangs_two_objects_together">
+        <label ref="jr:itext('/baby_milestones/optional4/bangs_two_objects_together:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional4/bangs_two_objects_together/observed:label')"/>
+          <value>observed</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional4/bangs_two_objects_together/reported:label')"/>
+          <value>reported</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/optional4/bangs_two_objects_together_date">
+        <label ref="jr:itext('/baby_milestones/optional4/bangs_two_objects_together_date:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/baby_milestones/optional5">
+      <label ref="jr:itext('/baby_milestones/optional5:label')"/>
+      <select1 ref="/baby_milestones/optional5/homesafety">
+        <label ref="jr:itext('/baby_milestones/optional5/homesafety:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional5/homesafety/yes:label')"/>
+          <value>yes</value>
+        </item>
+      </select1>
+      <select1 ref="/baby_milestones/optional5/interacting_with_baby">
+        <label ref="jr:itext('/baby_milestones/optional5/interacting_with_baby:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional5/interacting_with_baby/yes:label')"/>
+          <value>yes</value>
+        </item>
+      </select1>
+      <select1 ref="/baby_milestones/optional5/baby_exercise">
+        <label ref="jr:itext('/baby_milestones/optional5/baby_exercise:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional5/baby_exercise/yes:label')"/>
+          <value>yes</value>
+        </item>
+      </select1>
+      <select1 ref="/baby_milestones/optional5/good_nutrition">
+        <label ref="jr:itext('/baby_milestones/optional5/good_nutrition:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional5/good_nutrition/yes:label')"/>
+          <value>yes</value>
+        </item>
+      </select1>
+      <select1 ref="/baby_milestones/optional5/vaccines">
+        <label ref="jr:itext('/baby_milestones/optional5/vaccines:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional5/vaccines/yes:label')"/>
+          <value>yes</value>
+        </item>
+      </select1>
+      <select1 ref="/baby_milestones/optional5/preventable_illness">
+        <label ref="jr:itext('/baby_milestones/optional5/preventable_illness:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional5/preventable_illness/yes:label')"/>
+          <value>yes</value>
+        </item>
+      </select1>
+      <select1 ref="/baby_milestones/optional5/care_during_illness">
+        <label ref="jr:itext('/baby_milestones/optional5/care_during_illness:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/optional5/care_during_illness/yes:label')"/>
+          <value>yes</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/baby_milestones/danger_signs">
+      <label ref="jr:itext('/baby_milestones/danger_signs:label')"/>
+      <select1 ref="/baby_milestones/danger_signs/visit_confirm">
+        <label ref="jr:itext('/baby_milestones/danger_signs/visit_confirm:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/danger_signs/visit_confirm/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/danger_signs/visit_confirm/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/baby_milestones/danger_signs/danger_sign_present">
+        <label ref="jr:itext('/baby_milestones/danger_signs/danger_sign_present:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/danger_signs/danger_sign_present/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/danger_signs/danger_sign_present/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/danger_signs/danger_signs_question_note">
+        <label ref="jr:itext('/baby_milestones/danger_signs/danger_signs_question_note:label')"/>
+      </input>
+      <select1 ref="/baby_milestones/danger_signs/fever">
+        <label ref="jr:itext('/baby_milestones/danger_signs/fever:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/danger_signs/fever/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/danger_signs/fever/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/baby_milestones/danger_signs/difficulty_breathing">
+        <label ref="jr:itext('/baby_milestones/danger_signs/difficulty_breathing:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/danger_signs/difficulty_breathing/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/danger_signs/difficulty_breathing/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/baby_milestones/danger_signs/not_nursing_well">
+        <label ref="jr:itext('/baby_milestones/danger_signs/not_nursing_well:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/danger_signs/not_nursing_well/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/danger_signs/not_nursing_well/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/baby_milestones/danger_signs/greater_than_diapers">
+        <label ref="jr:itext('/baby_milestones/danger_signs/greater_than_diapers:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/danger_signs/greater_than_diapers/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/danger_signs/greater_than_diapers/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/baby_milestones/danger_signs/redness_umbilical_cord">
+        <label ref="jr:itext('/baby_milestones/danger_signs/redness_umbilical_cord:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/danger_signs/redness_umbilical_cord/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/danger_signs/redness_umbilical_cord/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/baby_milestones/danger_signs/crys_stopping">
+        <label ref="jr:itext('/baby_milestones/danger_signs/crys_stopping:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/danger_signs/crys_stopping/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/danger_signs/crys_stopping/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/baby_milestones/danger_signs/sunken_fontanel">
+        <label ref="jr:itext('/baby_milestones/danger_signs/sunken_fontanel:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/danger_signs/sunken_fontanel/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/danger_signs/sunken_fontanel/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/baby_milestones/danger_signs/watery_stools">
+        <label ref="jr:itext('/baby_milestones/danger_signs/watery_stools:label')"/>
+        <item>
+          <label ref="jr:itext('/baby_milestones/danger_signs/watery_stools/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/baby_milestones/danger_signs/watery_stools/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/baby_milestones/danger_signs/congratulate_no_ds_note">
+        <label ref="jr:itext('/baby_milestones/danger_signs/congratulate_no_ds_note:label')"/>
+      </input>
+      <input ref="/baby_milestones/danger_signs/refer_patient_note_1">
+        <label ref="jr:itext('/baby_milestones/danger_signs/refer_patient_note_1:label')"/>
+      </input>
+      <input ref="/baby_milestones/danger_signs/refer_patient_note_2">
+        <label ref="jr:itext('/baby_milestones/danger_signs/refer_patient_note_2:label')"/>
+      </input>
+    </group>
+    <group appearance="hidden" ref="/baby_milestones/data">
+      <group ref="/baby_milestones/data/meta"/>
+    </group>
+  </h:body>
+</h:html>

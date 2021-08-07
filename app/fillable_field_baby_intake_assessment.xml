@@ -1,0 +1,783 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Fillable Field Baby Intake Assessment</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/fillable_field_baby_intake_assessment/Optional1/Low_birth_weight/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1/Low_birth_weight/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1/Low_birth_weight:label">
+            <value>Low Birth Weight</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1/alive_well/alive&amp;well:label">
+            <value>Alive&amp;Well</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1/alive_well/dead:label">
+            <value>Dead</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1/alive_well/sick:label">
+            <value>Sick</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1/alive_well:label">
+            <value>Condition of Mother</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1/baby_disabled/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1/baby_disabled/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1/baby_disabled:label">
+            <value>Baby Disabled</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1/condition_father/absent_father:label">
+            <value>Absent</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1/condition_father/alive_sick:label">
+            <value>Alive&amp;Well</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1/condition_father/dead_father:label">
+            <value>Dead</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1/condition_father/sick_father:label">
+            <value>Sick</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1/condition_father:label">
+            <value>Condition of Father</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1/eid_results/negative:label">
+            <value>Negative</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1/eid_results/positive:label">
+            <value>Positive</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1/eid_results/unknown:label">
+            <value>unknown</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1/eid_results:label">
+            <value>EID Result</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1/hiv_conditions/negative:label">
+            <value>Negative</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1/hiv_conditions/positive:label">
+            <value>Positive</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1/hiv_conditions/unknown:label">
+            <value>unknown</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1/hiv_conditions:label">
+            <value>Mother's HIV status</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1/multiple/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1/multiple/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1/multiple:label">
+            <value>Multiple</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1/premature/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1/premature/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1/premature:label">
+            <value>Premature</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/Optional1:label">
+            <value>Reason for enrollment into program</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/contact/DOB:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/contact/Date_of_Arrival:label">
+            <value>Date</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/contact/Guardian:label">
+            <value>Guardian Name</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/contact/Nurse:label">
+            <value>Nurse Name</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/contact/Relation:label">
+            <value>Relationship to Child</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/contact/_id:label">
+            <value>What is the Baby's Name?</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/contact/birth_weight:label">
+            <value>Birth Weight</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/contact/contact:label">
+            <value>Emergency Contact</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/contact/date_immunizations_due:label">
+            <value>Date immunizations due:</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/contact/date_of_delivery:label">
+            <value>Date of Delivery</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/contact/delivery_type:label">
+            <value>Delivery Type</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/contact/discharge_date:label">
+            <value>Discharge Date</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/contact/discharge_weight:label">
+            <value>Discharge Weight</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/contact/gender/Female:label">
+            <value>Female</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/contact/gender/Male:label">
+            <value>Male</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/contact/gender:label">
+            <value>Gender</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/contact/place_of_delivery:label">
+            <value>Place of Delivery</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/contact/singleton_baby/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/contact/singleton_baby/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/contact/singleton_baby:label">
+            <value>Singleton</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/contact/ta:label">
+            <value>TA</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/contact/triplet_babies/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/contact/triplet_babies/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/contact/triplet_babies:label">
+            <value>Triplet</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/contact/twin_babies/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/contact/twin_babies/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/contact/twin_babies:label">
+            <value>Twins</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/contact/village_baby:label">
+            <value>Village</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/delivery_uuid:label">
+            <value>Delivery Report ID</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional2/address_change_info/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional2/address_change_info/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional2/address_change_info:label">
+            <value>Guardian agrees to inform nurse of address change</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional2/comments:label">
+            <value>Comments</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional2/nurse_info_shared/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional2/nurse_info_shared/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional2/nurse_info_shared:label">
+            <value>Nurse contact information shared with guardian</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional2/willing_to_enroll/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional2/willing_to_enroll/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional2/willing_to_enroll:label">
+            <value>Guardian willing to enroll</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional2:label">
+            <value>Program explained to guardian</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional3/breastfeeding/exclusively:label">
+            <value>Exclusively</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional3/breastfeeding/never:label">
+            <value>Never</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional3/breastfeeding/occasionaly_previously:label">
+            <value>Occasionally/Previously</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional3/breastfeeding:label">
+            <value>Breastfeeding?</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional3/food_stability/fair:label">
+            <value>Fair</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional3/food_stability/good:label">
+            <value>Good</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional3/food_stability/poor:label">
+            <value>Poor</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional3/food_stability:label">
+            <value>Household food stability:</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional3/reason_for_formulafeeding:label">
+            <value>Reason for Formula Feeding:</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional4/Mother_hiv_status/negative:label">
+            <value>Negative</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional4/Mother_hiv_status/positive:label">
+            <value>Positive</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional4/Mother_hiv_status/unknown:label">
+            <value>unknown</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional4/Mother_hiv_status:label">
+            <value>Mother's HIV status:</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional4/cause_death:label">
+            <value>Cause of death:</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional4/condition_of_father/absent_father:label">
+            <value>Absent</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional4/condition_of_father/alive_sick:label">
+            <value>Alive&amp;Well</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional4/condition_of_father/dead_father:label">
+            <value>Dead</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional4/condition_of_father/sick_father:label">
+            <value>Sick</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional4/condition_of_father:label">
+            <value>Condition of Father:</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional4/condition_of_mother/alive&amp;well:label">
+            <value>Alive&amp;Well</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional4/condition_of_mother/dead:label">
+            <value>Dead</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional4/condition_of_mother/sick:label">
+            <value>Sick</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional4/condition_of_mother:label">
+            <value>Condition of Mother:</value>
+          </text>
+          <text id="/fillable_field_baby_intake_assessment/optional4/date_death:label">
+            <value>Date of death:</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <fillable_field_baby_intake_assessment delimiter="#" id="fillable_field_baby_intake_assessment" prefix="J1!fillable_field_baby_intake_assessment!" version="2021-07-27 10:57:03">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <delivery_uuid/>
+            <contact>
+              <_id/>
+              <gender/>
+              <DOB/>
+              <date_immunizations_due/>
+              <Nurse/>
+              <Date_of_Arrival/>
+              <Guardian/>
+              <Relation/>
+              <ta/>
+              <village_baby/>
+              <contact/>
+              <date_of_delivery/>
+              <place_of_delivery/>
+              <delivery_type/>
+              <discharge_date/>
+              <birth_weight/>
+              <discharge_weight/>
+              <singleton_baby/>
+              <twin_babies/>
+              <triplet_babies/>
+            </contact>
+          </inputs>
+          <optional2>
+            <willing_to_enroll/>
+            <address_change_info/>
+            <nurse_info_shared/>
+            <comments/>
+          </optional2>
+          <Optional1>
+            <premature/>
+            <Low_birth_weight/>
+            <baby_disabled/>
+            <multiple/>
+            <alive_well/>
+            <hiv_conditions/>
+            <condition_father/>
+            <eid_results/>
+          </Optional1>
+          <optional3>
+            <breastfeeding/>
+            <reason_for_formulafeeding/>
+            <food_stability/>
+          </optional3>
+          <optional4>
+            <condition_of_mother/>
+            <date_death/>
+            <cause_death/>
+            <Mother_hiv_status/>
+            <condition_of_father/>
+          </optional4>
+          <patient_age_in_years tag="hidden"/>
+          <patient_uuid tag="hidden"/>
+          <patient_id tag="hidden"/>
+          <patient_name tag="hidden"/>
+          <data tag="hidden">
+            <meta tag="hidden">
+              <__patient_uuid/>
+              <__patient_id/>
+              <__household_uuid/>
+              <__source/>
+              <__source_id/>
+              <__delivery_uuid/>
+            </meta>
+          </data>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </fillable_field_baby_intake_assessment>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/inputs/source" type="string"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/inputs/source_id" type="string"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/inputs/delivery_uuid" type="string"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/inputs/contact/gender" type="select1"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/inputs/contact/DOB" type="string"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/inputs/contact/date_immunizations_due" type="string"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/inputs/contact/Nurse" type="string"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/inputs/contact/Date_of_Arrival" type="string"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/inputs/contact/Guardian" type="string"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/inputs/contact/Relation" type="string"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/inputs/contact/ta" type="string"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/inputs/contact/village_baby" type="string"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/inputs/contact/contact" type="string"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/inputs/contact/date_of_delivery" type="string"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/inputs/contact/place_of_delivery" type="string"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/inputs/contact/delivery_type" type="string"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/inputs/contact/discharge_date" type="string"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/inputs/contact/birth_weight" type="string"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/inputs/contact/discharge_weight" type="string"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/inputs/contact/singleton_baby" type="select1"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/inputs/contact/twin_babies" type="select1"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/inputs/contact/triplet_babies" type="select1"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/optional2/willing_to_enroll" type="select1"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/optional2/address_change_info" type="select1"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/optional2/nurse_info_shared" type="select1"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/optional2/comments" type="string"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/Optional1/premature" type="select1"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/Optional1/Low_birth_weight" type="select1"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/Optional1/baby_disabled" type="select1"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/Optional1/multiple" type="select1"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/Optional1/alive_well" type="select1"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/Optional1/hiv_conditions" type="select1"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/Optional1/condition_father" type="select1"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/Optional1/eid_results" type="select1"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/optional3/breastfeeding" type="select1"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/optional3/reason_for_formulafeeding" type="string"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/optional3/food_stability" type="select1"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/optional4/condition_of_mother" type="select1"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/optional4/date_death" type="string"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/optional4/cause_death" type="string"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/optional4/Mother_hiv_status" type="select1"/>
+      <bind nodeset="/fillable_field_baby_intake_assessment/optional4/condition_of_father" type="select1"/>
+      <bind calculate="floor( difference-in-months( ../inputs/contact/date_of_birth, today() ) div 12 )" nodeset="/fillable_field_baby_intake_assessment/patient_age_in_years" type="string"/>
+      <bind calculate="../inputs/contact/_id" nodeset="/fillable_field_baby_intake_assessment/patient_uuid" type="string"/>
+      <bind calculate="../inputs/contact/patient_id" nodeset="/fillable_field_baby_intake_assessment/patient_id" type="string"/>
+      <bind calculate="../inputs/contact/name" nodeset="/fillable_field_baby_intake_assessment/patient_name" type="string"/>
+      <bind calculate="../../../inputs/contact/_id" nodeset="/fillable_field_baby_intake_assessment/data/meta/__patient_uuid" type="string"/>
+      <bind calculate="../../../inputs/contact/patient_id" nodeset="/fillable_field_baby_intake_assessment/data/meta/__patient_id" type="string"/>
+      <bind calculate="../../../inputs/contact/parent/_id" nodeset="/fillable_field_baby_intake_assessment/data/meta/__household_uuid" type="string"/>
+      <bind calculate="../../../inputs/source" nodeset="/fillable_field_baby_intake_assessment/data/meta/__source" type="string"/>
+      <bind calculate="../../../inputs/source_id" nodeset="/fillable_field_baby_intake_assessment/data/meta/__source_id" type="string"/>
+      <bind calculate="../../../inputs/delivery_uuid" nodeset="/fillable_field_baby_intake_assessment/data/meta/__delivery_uuid" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/fillable_field_baby_intake_assessment/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/fillable_field_baby_intake_assessment/inputs">
+      <group ref="/fillable_field_baby_intake_assessment/inputs/contact">
+        <input appearance="db-object" ref="/fillable_field_baby_intake_assessment/inputs/contact/_id">
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/inputs/contact/_id:label')"/>
+        </input>
+        <select1 ref="/fillable_field_baby_intake_assessment/inputs/contact/gender">
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/inputs/contact/gender:label')"/>
+          <item>
+            <label ref="jr:itext('/fillable_field_baby_intake_assessment/inputs/contact/gender/Male:label')"/>
+            <value>Male</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/fillable_field_baby_intake_assessment/inputs/contact/gender/Female:label')"/>
+            <value>Female</value>
+          </item>
+        </select1>
+        <input ref="/fillable_field_baby_intake_assessment/inputs/contact/DOB">
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/inputs/contact/DOB:label')"/>
+        </input>
+        <input ref="/fillable_field_baby_intake_assessment/inputs/contact/date_immunizations_due">
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/inputs/contact/date_immunizations_due:label')"/>
+        </input>
+        <input ref="/fillable_field_baby_intake_assessment/inputs/contact/Nurse">
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/inputs/contact/Nurse:label')"/>
+        </input>
+        <input ref="/fillable_field_baby_intake_assessment/inputs/contact/Date_of_Arrival">
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/inputs/contact/Date_of_Arrival:label')"/>
+        </input>
+        <input ref="/fillable_field_baby_intake_assessment/inputs/contact/Guardian">
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/inputs/contact/Guardian:label')"/>
+        </input>
+        <input ref="/fillable_field_baby_intake_assessment/inputs/contact/Relation">
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/inputs/contact/Relation:label')"/>
+        </input>
+        <input ref="/fillable_field_baby_intake_assessment/inputs/contact/ta">
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/inputs/contact/ta:label')"/>
+        </input>
+        <input ref="/fillable_field_baby_intake_assessment/inputs/contact/village_baby">
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/inputs/contact/village_baby:label')"/>
+        </input>
+        <input ref="/fillable_field_baby_intake_assessment/inputs/contact/contact">
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/inputs/contact/contact:label')"/>
+        </input>
+        <input ref="/fillable_field_baby_intake_assessment/inputs/contact/date_of_delivery">
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/inputs/contact/date_of_delivery:label')"/>
+        </input>
+        <input ref="/fillable_field_baby_intake_assessment/inputs/contact/place_of_delivery">
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/inputs/contact/place_of_delivery:label')"/>
+        </input>
+        <input ref="/fillable_field_baby_intake_assessment/inputs/contact/delivery_type">
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/inputs/contact/delivery_type:label')"/>
+        </input>
+        <input ref="/fillable_field_baby_intake_assessment/inputs/contact/discharge_date">
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/inputs/contact/discharge_date:label')"/>
+        </input>
+        <input ref="/fillable_field_baby_intake_assessment/inputs/contact/birth_weight">
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/inputs/contact/birth_weight:label')"/>
+        </input>
+        <input ref="/fillable_field_baby_intake_assessment/inputs/contact/discharge_weight">
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/inputs/contact/discharge_weight:label')"/>
+        </input>
+        <select1 ref="/fillable_field_baby_intake_assessment/inputs/contact/singleton_baby">
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/inputs/contact/singleton_baby:label')"/>
+          <item>
+            <label ref="jr:itext('/fillable_field_baby_intake_assessment/inputs/contact/singleton_baby/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/fillable_field_baby_intake_assessment/inputs/contact/singleton_baby/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 ref="/fillable_field_baby_intake_assessment/inputs/contact/twin_babies">
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/inputs/contact/twin_babies:label')"/>
+          <item>
+            <label ref="jr:itext('/fillable_field_baby_intake_assessment/inputs/contact/twin_babies/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/fillable_field_baby_intake_assessment/inputs/contact/twin_babies/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <select1 ref="/fillable_field_baby_intake_assessment/inputs/contact/triplet_babies">
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/inputs/contact/triplet_babies:label')"/>
+          <item>
+            <label ref="jr:itext('/fillable_field_baby_intake_assessment/inputs/contact/triplet_babies/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/fillable_field_baby_intake_assessment/inputs/contact/triplet_babies/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/fillable_field_baby_intake_assessment/optional2">
+      <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional2:label')"/>
+      <select1 ref="/fillable_field_baby_intake_assessment/optional2/willing_to_enroll">
+        <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional2/willing_to_enroll:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional2/willing_to_enroll/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional2/willing_to_enroll/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_baby_intake_assessment/optional2/address_change_info">
+        <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional2/address_change_info:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional2/address_change_info/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional2/address_change_info/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_baby_intake_assessment/optional2/nurse_info_shared">
+        <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional2/nurse_info_shared:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional2/nurse_info_shared/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional2/nurse_info_shared/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/fillable_field_baby_intake_assessment/optional2/comments">
+        <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional2/comments:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/fillable_field_baby_intake_assessment/Optional1">
+      <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1:label')"/>
+      <select1 ref="/fillable_field_baby_intake_assessment/Optional1/premature">
+        <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/premature:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/premature/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/premature/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_baby_intake_assessment/Optional1/Low_birth_weight">
+        <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/Low_birth_weight:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/Low_birth_weight/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/Low_birth_weight/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_baby_intake_assessment/Optional1/baby_disabled">
+        <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/baby_disabled:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/baby_disabled/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/baby_disabled/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_baby_intake_assessment/Optional1/multiple">
+        <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/multiple:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/multiple/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/multiple/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_baby_intake_assessment/Optional1/alive_well">
+        <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/alive_well:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/alive_well/alive&amp;well:label')"/>
+          <value>alive&amp;well</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/alive_well/sick:label')"/>
+          <value>sick</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/alive_well/dead:label')"/>
+          <value>dead</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_baby_intake_assessment/Optional1/hiv_conditions">
+        <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/hiv_conditions:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/hiv_conditions/positive:label')"/>
+          <value>positive</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/hiv_conditions/negative:label')"/>
+          <value>negative</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/hiv_conditions/unknown:label')"/>
+          <value>unknown</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_baby_intake_assessment/Optional1/condition_father">
+        <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/condition_father:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/condition_father/alive_sick:label')"/>
+          <value>alive_sick</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/condition_father/sick_father:label')"/>
+          <value>sick_father</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/condition_father/dead_father:label')"/>
+          <value>dead_father</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/condition_father/absent_father:label')"/>
+          <value>absent_father</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_baby_intake_assessment/Optional1/eid_results">
+        <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/eid_results:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/eid_results/positive:label')"/>
+          <value>positive</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/eid_results/negative:label')"/>
+          <value>negative</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/Optional1/eid_results/unknown:label')"/>
+          <value>unknown</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/fillable_field_baby_intake_assessment/optional3">
+      <select1 ref="/fillable_field_baby_intake_assessment/optional3/breastfeeding">
+        <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional3/breastfeeding:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional3/breastfeeding/exclusively:label')"/>
+          <value>exclusively</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional3/breastfeeding/never:label')"/>
+          <value>never</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional3/breastfeeding/occasionaly_previously:label')"/>
+          <value>occasionaly_previously</value>
+        </item>
+      </select1>
+      <input ref="/fillable_field_baby_intake_assessment/optional3/reason_for_formulafeeding">
+        <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional3/reason_for_formulafeeding:label')"/>
+      </input>
+      <select1 ref="/fillable_field_baby_intake_assessment/optional3/food_stability">
+        <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional3/food_stability:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional3/food_stability/good:label')"/>
+          <value>good</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional3/food_stability/fair:label')"/>
+          <value>fair</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional3/food_stability/poor:label')"/>
+          <value>poor</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/fillable_field_baby_intake_assessment/optional4">
+      <select1 ref="/fillable_field_baby_intake_assessment/optional4/condition_of_mother">
+        <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional4/condition_of_mother:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional4/condition_of_mother/alive&amp;well:label')"/>
+          <value>alive&amp;well</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional4/condition_of_mother/sick:label')"/>
+          <value>sick</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional4/condition_of_mother/dead:label')"/>
+          <value>dead</value>
+        </item>
+      </select1>
+      <input ref="/fillable_field_baby_intake_assessment/optional4/date_death">
+        <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional4/date_death:label')"/>
+      </input>
+      <input ref="/fillable_field_baby_intake_assessment/optional4/cause_death">
+        <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional4/cause_death:label')"/>
+      </input>
+      <select1 ref="/fillable_field_baby_intake_assessment/optional4/Mother_hiv_status">
+        <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional4/Mother_hiv_status:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional4/Mother_hiv_status/positive:label')"/>
+          <value>positive</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional4/Mother_hiv_status/negative:label')"/>
+          <value>negative</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional4/Mother_hiv_status/unknown:label')"/>
+          <value>unknown</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_baby_intake_assessment/optional4/condition_of_father">
+        <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional4/condition_of_father:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional4/condition_of_father/alive_sick:label')"/>
+          <value>alive_sick</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional4/condition_of_father/sick_father:label')"/>
+          <value>sick_father</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional4/condition_of_father/dead_father:label')"/>
+          <value>dead_father</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_baby_intake_assessment/optional4/condition_of_father/absent_father:label')"/>
+          <value>absent_father</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="hidden" ref="/fillable_field_baby_intake_assessment/data">
+      <group ref="/fillable_field_baby_intake_assessment/data/meta"/>
+    </group>
+  </h:body>
+</h:html>

@@ -1,0 +1,1564 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Fillable Field Assessment Form</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/fillable_field_assessment_form/danger_signs/congratulate_no_ds_note:label">
+            <value>Great news! Please continue to closely monitor baby.</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/crys_stopping/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/crys_stopping/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/crys_stopping:label">
+            <value>Crys without stopping</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/custom_translations/custom_woman_label_translator/woman:label">
+            <value>the woman</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/custom_translations/custom_woman_start_label_translator/woman-start:label">
+            <value>The woman</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/danger_sign_present/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/danger_sign_present/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/danger_sign_present:label">
+            <value>Is baby still experiencing any danger signs?</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/danger_signs_question_note:label">
+            <value>Please indicate which danger signs <output value=" /fillable_field_assessment_form/patient_short_name "/> is experiencing.</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/difficulty_breathing/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/difficulty_breathing/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/difficulty_breathing:label">
+            <value>Difficulty breathing; too fast or too slow</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/fever/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/fever/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/fever:label">
+            <value>Fever</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/greater_than_diapers/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/greater_than_diapers/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/greater_than_diapers:label">
+            <value>&lt; 6 wet diapers per day</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/not_nursing_well/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/not_nursing_well/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/not_nursing_well:label">
+            <value>Not responsive / not nursing well</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/redness_umbilical_cord/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/redness_umbilical_cord/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/redness_umbilical_cord:label">
+            <value>Redness around umbilical cord</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/refer_patient_note_1:label">
+            <value>Baby should visit the health facility immediately if she is experiencing any of these danger signs.</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/refer_patient_note_2:label">
+            <value>Please advise her to do so and accompany her if possible.</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/sunken_fontanel/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/sunken_fontanel/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/sunken_fontanel:label">
+            <value>Sunken Fontanel</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/visit_confirm/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/visit_confirm/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/visit_confirm:label">
+            <value>Did baby visit the health facility as recommended?</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/watery_stools/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/watery_stools/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs/watery_stools:label">
+            <value>Frequent watery or explosive stools</value>
+          </text>
+          <text id="/fillable_field_assessment_form/danger_signs:label">
+            <value>Danger Sign Follow-up – baby</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/Condition_of_other_children_in_household/acute illness:label">
+            <value>Acute illness</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/Condition_of_other_children_in_household/chronic illness:label">
+            <value>Chronic illness</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/Condition_of_other_children_in_household/clean:label">
+            <value>Clean</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/Condition_of_other_children_in_household/healthy:label">
+            <value>Healthy</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/Condition_of_other_children_in_household/signs of neglect:label">
+            <value>Signs of neglect</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/Condition_of_other_children_in_household:label">
+            <value>Condition of other children in household</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/DOB:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/Date_of_Arrival:label">
+            <value>Date</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/Guardian:label">
+            <value>Guardian Name</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/Nurse:label">
+            <value>Nurse Name</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/Relation:label">
+            <value>Relationship to Child</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/School_aged_children_in_school/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/School_aged_children_in_school/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/School_aged_children_in_school:label">
+            <value>School aged children in school?</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/_id:label">
+            <value>What is the Baby's Name?</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/date_immunizations_due:label">
+            <value>Date immunizations due:</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/gender/Female:label">
+            <value>Female</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/gender/Male:label">
+            <value>Male</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/gender:label">
+            <value>Gender</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/baby_calming/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/baby_calming/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/baby_calming:label">
+            <value>Does the baby calm easily when crying?</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/baby_feeding/3x:label">
+            <value>3x</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/baby_feeding/5x:label">
+            <value>5x</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/baby_feeding/8x:label">
+            <value>8x</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/baby_feeding/&gt;8x:label">
+            <value>&gt;8x</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/baby_feeding:label">
+            <value>How often is the baby feeding/eating?</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/baby_food/beans:label">
+            <value>Beans</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/baby_food/greens:label">
+            <value>Greens</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/baby_food/meat:label">
+            <value>Meat</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/baby_food/nsima:label">
+            <value>Nsima</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/baby_food/other:label">
+            <value>Other</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/baby_food/porridge:label">
+            <value>Porridge</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/baby_food:label">
+            <value>What is the baby eating every day?</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/baby_urination/2x:label">
+            <value>2x</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/baby_urination/4x:label">
+            <value>4x</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/baby_urination/6x:label">
+            <value>6x</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/baby_urination/8x:label">
+            <value>8x</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/baby_urination:label">
+            <value>How often is the baby urinating? (at least 6-8x daily?)</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/comments_optional1:label">
+            <value>Comments</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/date_of_birth:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/parent/_id:label">
+            <value>Parent ID</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/parent/parent/contact/chw_name:label">
+            <value>CHW name</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/parent/parent/contact/phone:label">
+            <value>CHW phone</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/problems/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/problems/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/problems:label">
+            <value>Any problems/concerns?</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1/short_name:label">
+            <value>Short Name</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/contact/optional1:label">
+            <value>Questions for mom/guardian about infant:</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/delivery_uuid:label">
+            <value>Delivery Report ID</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/fillable_field_assessment_form/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/abdomen/Abnormal:label">
+            <value>Abnormal</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/abdomen/Normal:label">
+            <value>Normal</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/abdomen:label">
+            <value>Abdomen:( soft, no distension, no hernia)</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/alert_active/Abnormal:label">
+            <value>Abnormal</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/alert_active/Normal:label">
+            <value>Normal</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/alert_active:label">
+            <value>Alert &amp; Active: (normal cry, moves arms &amp; legs equally)</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/bonding/Abnormal:label">
+            <value>Abnormal</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/bonding/Normal:label">
+            <value>Normal</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/bonding:label">
+            <value>Bonding: (mother/guardian responds to baby's cries)</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/breathing/Abnormal:label">
+            <value>Abnormal</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/breathing/Normal:label">
+            <value>Normal</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/breathing:label">
+            <value>Breathing: (easy, no retractions, no grunting)</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/development_baby/Abnormal:label">
+            <value>Abnormal</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/development_baby/Normal:label">
+            <value>Normal</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/development_baby:label">
+            <value>Development normal (see milestone sheet)</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/eyes/Abnormal:label">
+            <value>Abnormal</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/eyes/Normal:label">
+            <value>Normal</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/eyes:label">
+            <value>Eyes: (clear, no discharge, track movement)</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/fontanels/Abnormal:label">
+            <value>Abnormal</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/fontanels/Normal:label">
+            <value>Normal</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/fontanels:label">
+            <value>Fontanels: (not bulging, not sunken)</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/hips/Abnormal:label">
+            <value>Abnormal</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/hips/Normal:label">
+            <value>Normal</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/hips:label">
+            <value>Hips: (no clicking, legs equal length)</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/hygeine/Abnormal:label">
+            <value>Abnormal</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/hygeine/Normal:label">
+            <value>Normal</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/hygeine:label">
+            <value>Hygiene: (baby clean and dry)</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/skin/Abnormal:label">
+            <value>Abnormal</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/skin/Normal:label">
+            <value>Normal</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional0/skin:label">
+            <value>Skin: (warm, no jaundice, no rashes)</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional2/assessment_baby/hc:label">
+            <value>Hc</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional2/assessment_baby/l:label">
+            <value>L</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional2/assessment_baby/vitalsigns_baby/hr:label">
+            <value>HR</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional2/assessment_baby/vitalsigns_baby/rr:label">
+            <value>RR</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional2/assessment_baby/vitalsigns_baby/t:label">
+            <value>T</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional2/assessment_baby/vitalsigns_baby:label">
+            <value>Vital Signs</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional2/assessment_baby/wt:label">
+            <value>Wt</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional2/assessment_baby:label">
+            <value>Assessment</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional3/arvs/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional3/arvs/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional3/arvs:label">
+            <value>If+, Baby on ARVS?</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional3/eid/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional3/eid/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional3/eid:label">
+            <value>EID?</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional3/malaria_prevention/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional3/malaria_prevention/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional3/malaria_prevention:label">
+            <value>Malaria prevention (mosquito net present, and gets used)</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional3/problems_in_health_passport/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional3/problems_in_health_passport/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional3/problems_in_health_passport:label">
+            <value>Problems noted in baby's health passport</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional3/questions_answered/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional3/questions_answered/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional3/questions_answered:label">
+            <value>Mother/guardian's questions answered?</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional3/result_eid/negative:label">
+            <value>Negative</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional3/result_eid/positive:label">
+            <value>Positive</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional3/result_eid/unknown:label">
+            <value>unknown</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional3/result_eid:label">
+            <value>Result</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional4/on_formula/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional4/on_formula/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional4/on_formula:label">
+            <value>On formula</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional4/porridge_given:label">
+            <value>If &gt;6mo: Total kg of porridge given this visit</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional4/sterilization_observation/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional4/sterilization_observation/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional4/sterilization_observation:label">
+            <value>Observed guardian prepare and sterilize</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional4/tins_provided:label">
+            <value>Total tins provided to household this visit</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/age_food_demo/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/age_food_demo/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/age_food_demo:label">
+            <value>Age appropriate foods/cooking demonstration</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/breastfeeding_6months/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/breastfeeding_6months/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/breastfeeding_6months:label">
+            <value>Exclusive breastfeeding to 6 months</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/cooking_demo/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/cooking_demo/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/cooking_demo:label">
+            <value>Cooking demonstration</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/dental_hygiene/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/dental_hygiene/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/dental_hygiene:label">
+            <value>Dental hygiene</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/family_planning/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/family_planning/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/family_planning:label">
+            <value>Family planning</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/feeding_when_sick/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/feeding_when_sick/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/feeding_when_sick:label">
+            <value>Continue feeding when sick</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/general_hygiene/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/general_hygiene/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/general_hygiene:label">
+            <value>General hygiene</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/importance_of_immunizations/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/importance_of_immunizations/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/importance_of_immunizations:label">
+            <value>Importance of immunizations</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/kangaroo_care/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/kangaroo_care/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/kangaroo_care:label">
+            <value>Kangaroo care (if premie)</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/signs_of_hunger/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/signs_of_hunger/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/signs_of_hunger:label">
+            <value>Signs of hunger/ infants feed every 2 -3 hrs</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/sleeping_under_net/no:label">
+            <value>No</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/sleeping_under_net/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/sleeping_under_net:label">
+            <value>Sleep under net/ malaria</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5/topics_discussed:label">
+            <value>Other topics discussed</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional5:label">
+            <value>Education Topics Covered Today</value>
+          </text>
+          <text id="/fillable_field_assessment_form/optional6/next_visit:label">
+            <value>Date next visit due</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <fillable_field_assessment_form delimiter="#" id="fillable_field_assessment_form" prefix="J1!fillable_field_assessment_form!" version="2021-07-27 10:56:45">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <delivery_uuid/>
+            <contact>
+              <_id/>
+              <gender/>
+              <DOB/>
+              <date_immunizations_due/>
+              <Nurse/>
+              <Date_of_Arrival/>
+              <Guardian/>
+              <Relation/>
+              <Condition_of_other_children_in_household/>
+              <School_aged_children_in_school/>
+              <optional1>
+                <problems/>
+                <comments_optional1/>
+                <baby_feeding/>
+                <baby_food/>
+                <baby_urination/>
+                <baby_calming/>
+                <name/>
+                <short_name/>
+                <patient_id/>
+                <date_of_birth>0</date_of_birth>
+                <sex/>
+                <parent>
+                  <_id/>
+                  <parent>
+                    <contact>
+                      <chw_name/>
+                      <phone/>
+                    </contact>
+                  </parent>
+                </parent>
+              </optional1>
+            </contact>
+          </inputs>
+          <optional2>
+            <assessment_baby>
+              <l/>
+              <wt/>
+              <hc/>
+              <vitalsigns_baby>
+                <rr/>
+                <t/>
+                <hr/>
+              </vitalsigns_baby>
+            </assessment_baby>
+          </optional2>
+          <optional0>
+            <alert_active/>
+            <skin/>
+            <fontanels/>
+            <breathing/>
+            <eyes/>
+            <abdomen/>
+            <hips/>
+            <development_baby/>
+            <bonding/>
+            <hygeine/>
+          </optional0>
+          <optional3>
+            <malaria_prevention/>
+            <questions_answered/>
+            <problems_in_health_passport/>
+            <eid/>
+            <result_eid/>
+            <arvs/>
+          </optional3>
+          <optional4>
+            <on_formula/>
+            <tins_provided/>
+            <sterilization_observation/>
+            <porridge_given/>
+          </optional4>
+          <optional5>
+            <breastfeeding_6months/>
+            <feeding_when_sick/>
+            <sleeping_under_net/>
+            <signs_of_hunger/>
+            <dental_hygiene/>
+            <age_food_demo/>
+            <importance_of_immunizations/>
+            <kangaroo_care/>
+            <family_planning/>
+            <general_hygiene/>
+            <cooking_demo/>
+            <topics_discussed/>
+          </optional5>
+          <optional6>
+            <next_visit/>
+          </optional6>
+          <patient_age_in_years tag="hidden"/>
+          <patient_uuid tag="hidden"/>
+          <patient_id tag="hidden"/>
+          <patient_name tag="hidden"/>
+          <patient_short_name tag="hidden"/>
+          <patient_short_name_start tag="hidden"/>
+          <t_danger_signs_referral_follow_up_date tag="hidden"/>
+          <t_danger_signs_referral_follow_up tag="hidden"/>
+          <danger_signs>
+            <visit_confirm/>
+            <danger_sign_present/>
+            <danger_signs_question_note tag="hidden"/>
+            <fever/>
+            <difficulty_breathing/>
+            <not_nursing_well/>
+            <greater_than_diapers/>
+            <redness_umbilical_cord/>
+            <crys_stopping/>
+            <sunken_fontanel/>
+            <watery_stools/>
+            <r_danger_sign_present tag="hidden"/>
+            <congratulate_no_ds_note tag="hidden"/>
+            <refer_patient_note_1 tag="hidden"/>
+            <refer_patient_note_2 tag="hidden"/>
+            <custom_translations tag="hidden">
+              <custom_woman_label_translator/>
+              <custom_woman_label/>
+              <custom_woman_start_label_translator/>
+              <custom_woman_start_label/>
+            </custom_translations>
+          </danger_signs>
+          <data tag="hidden">
+            <__visited_hf/>
+            <__still_experiencing_danger_sign/>
+            <__fever/>
+            <__difficulty_breathing/>
+            <__not_nursing_well/>
+            <__greater_than_diapers/>
+            <__redness_umbilical_cord/>
+            <__crys_stopping/>
+            <__sunken_fontanel/>
+            <__watery_stools/>
+            <__has_danger_sign/>
+            <meta tag="hidden">
+              <__patient_uuid/>
+              <__patient_id/>
+              <__household_uuid/>
+              <__source/>
+              <__source_id/>
+              <__delivery_uuid/>
+            </meta>
+          </data>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </fillable_field_assessment_form>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/fillable_field_assessment_form/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/fillable_field_assessment_form/inputs/source" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/inputs/source_id" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/inputs/delivery_uuid" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/fillable_field_assessment_form/inputs/contact/gender" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/inputs/contact/DOB" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/inputs/contact/date_immunizations_due" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/inputs/contact/Nurse" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/inputs/contact/Date_of_Arrival" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/inputs/contact/Guardian" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/inputs/contact/Relation" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/inputs/contact/Condition_of_other_children_in_household" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/inputs/contact/School_aged_children_in_school" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/inputs/contact/optional1/problems" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/inputs/contact/optional1/comments_optional1" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/inputs/contact/optional1/baby_feeding" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/inputs/contact/optional1/baby_food" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/inputs/contact/optional1/baby_urination" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/inputs/contact/optional1/baby_calming" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/inputs/contact/optional1/name" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/inputs/contact/optional1/short_name" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/inputs/contact/optional1/patient_id" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/inputs/contact/optional1/date_of_birth" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/inputs/contact/optional1/sex" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/inputs/contact/optional1/parent/_id" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/inputs/contact/optional1/parent/parent/contact/chw_name" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/inputs/contact/optional1/parent/parent/contact/phone" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/optional2/assessment_baby/l" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/optional2/assessment_baby/wt" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/optional2/assessment_baby/hc" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/optional2/assessment_baby/vitalsigns_baby/rr" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/optional2/assessment_baby/vitalsigns_baby/t" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/optional2/assessment_baby/vitalsigns_baby/hr" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/optional0/alert_active" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional0/skin" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional0/fontanels" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional0/breathing" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional0/eyes" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional0/abdomen" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional0/hips" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional0/development_baby" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional0/bonding" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional0/hygeine" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional3/malaria_prevention" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional3/questions_answered" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional3/problems_in_health_passport" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional3/eid" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional3/result_eid" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional3/arvs" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional4/on_formula" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional4/tins_provided" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/optional4/sterilization_observation" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional4/porridge_given" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/optional5/breastfeeding_6months" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional5/feeding_when_sick" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional5/sleeping_under_net" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional5/signs_of_hunger" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional5/dental_hygiene" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional5/age_food_demo" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional5/importance_of_immunizations" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional5/kangaroo_care" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional5/family_planning" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional5/general_hygiene" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional5/cooking_demo" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/optional5/topics_discussed" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/optional6/next_visit" type="string"/>
+      <bind calculate="floor( difference-in-months( ../inputs/contact/date_of_birth, today() ) div 12 )" nodeset="/fillable_field_assessment_form/patient_age_in_years" type="string"/>
+      <bind calculate="../inputs/contact/_id" nodeset="/fillable_field_assessment_form/patient_uuid" type="string"/>
+      <bind calculate="../inputs/contact/patient_id" nodeset="/fillable_field_assessment_form/patient_id" type="string"/>
+      <bind calculate="../inputs/contact/name" nodeset="/fillable_field_assessment_form/patient_name" type="string"/>
+      <bind calculate="coalesce(../inputs/contact/short_name, ../danger_signs/custom_translations/custom_woman_label)" nodeset="/fillable_field_assessment_form/patient_short_name" type="string"/>
+      <bind calculate="coalesce(../inputs/contact/short_name, ../danger_signs/custom_translations/custom_woman_start_label)" nodeset="/fillable_field_assessment_form/patient_short_name_start" type="string"/>
+      <bind calculate="date-time(floor(decimal-date-time(today())) + 3)" nodeset="/fillable_field_assessment_form/t_danger_signs_referral_follow_up_date" type="string"/>
+      <bind calculate="../danger_signs/r_danger_sign_present" nodeset="/fillable_field_assessment_form/t_danger_signs_referral_follow_up" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/danger_signs/visit_confirm" required="true()" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/danger_signs/danger_sign_present" required="true()" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/danger_signs/danger_signs_question_note" readonly="true()" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/danger_signs/fever" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/danger_signs/difficulty_breathing" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/danger_signs/not_nursing_well" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/danger_signs/greater_than_diapers" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/danger_signs/redness_umbilical_cord" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/danger_signs/crys_stopping" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/danger_signs/sunken_fontanel" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind nodeset="/fillable_field_assessment_form/danger_signs/watery_stools" relevant="../danger_sign_present = 'yes' or ../danger_sign_present = 'no'" required="true()" type="select1"/>
+      <bind calculate="if(selected(../fever, 'yes') or
+selected(../difficulty_breathing, 'yes') or
+selected(../not_nursing_well, 'yes') or
+selected(../greater_than_diapers, 'yes') or
+selected(../redness_umbilical_cord, 'yes') or
+selected(../cry_stopping, 'yes') or
+selected(../sunken_fontanel, 'yes') or
+selected(../watery_stools, 'yes') or, 'yes',
+if(selected(../fever, 'no') and
+selected(../difficulty_breathing, 'no') and
+selected(../not_nursing_well, 'no') and
+selected(../greater_than_diapers, 'no') and
+selected(../redness_umbilical_cord, 'no') and
+selected(../cry_stopping, 'no') and
+selected(../sunken_fontanel, 'no') and
+selected(../watery_stools, 'no'), 'no', ''))" nodeset="/fillable_field_assessment_form/danger_signs/r_danger_sign_present" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/danger_signs/congratulate_no_ds_note" readonly="true()" relevant="../danger_sign_present = 'no' and ../r_danger_sign_present = 'no'" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/danger_signs/refer_patient_note_1" readonly="true()" relevant="../danger_sign_present = 'yes' or ../r_danger_sign_present = 'yes'" type="string"/>
+      <bind nodeset="/fillable_field_assessment_form/danger_signs/refer_patient_note_2" readonly="true()" relevant="../danger_sign_present = 'yes' or ../r_danger_sign_present = 'yes'" type="string"/>
+      <bind calculate="&quot;woman&quot;" nodeset="/fillable_field_assessment_form/danger_signs/custom_translations/custom_woman_label_translator" type="select1"/>
+      <bind calculate="jr:choice-name( /fillable_field_assessment_form/danger_signs/custom_translations/custom_woman_label_translator ,' /fillable_field_assessment_form/danger_signs/custom_translations/custom_woman_label_translator ')" nodeset="/fillable_field_assessment_form/danger_signs/custom_translations/custom_woman_label" type="string"/>
+      <bind calculate="&quot;woman-start&quot;" nodeset="/fillable_field_assessment_form/danger_signs/custom_translations/custom_woman_start_label_translator" type="select1"/>
+      <bind calculate="jr:choice-name( /fillable_field_assessment_form/danger_signs/custom_translations/custom_woman_start_label_translator ,' /fillable_field_assessment_form/danger_signs/custom_translations/custom_woman_start_label_translator ')" nodeset="/fillable_field_assessment_form/danger_signs/custom_translations/custom_woman_start_label" type="string"/>
+      <bind calculate=" /fillable_field_assessment_form/danger_signs/visit_confirm " nodeset="/fillable_field_assessment_form/data/__visited_hf" type="string"/>
+      <bind calculate=" /fillable_field_assessment_form/danger_signs/danger_sign_present " nodeset="/fillable_field_assessment_form/data/__still_experiencing_danger_sign" type="string"/>
+      <bind calculate=" /fillable_field_assessment_form/danger_signs/fever " nodeset="/fillable_field_assessment_form/data/__fever" type="string"/>
+      <bind calculate=" /fillable_field_assessment_form/danger_signs/difficulty_breathing " nodeset="/fillable_field_assessment_form/data/__difficulty_breathing" type="string"/>
+      <bind calculate=" /fillable_field_assessment_form/danger_signs/not_nursing_well " nodeset="/fillable_field_assessment_form/data/__not_nursing_well" type="string"/>
+      <bind calculate=" /fillable_field_assessment_form/danger_signs/greater_than_diapers " nodeset="/fillable_field_assessment_form/data/__greater_than_diapers" type="string"/>
+      <bind calculate=" /fillable_field_assessment_form/danger_signs/redness_umbilical_cord " nodeset="/fillable_field_assessment_form/data/__redness_umbilical_cord" type="string"/>
+      <bind calculate=" /fillable_field_assessment_form/danger_signs/crys_stopping " nodeset="/fillable_field_assessment_form/data/__crys_stopping" type="string"/>
+      <bind calculate=" /fillable_field_assessment_form/danger_signs/sunken_fontanel " nodeset="/fillable_field_assessment_form/data/__sunken_fontanel" type="string"/>
+      <bind calculate=" /fillable_field_assessment_form/danger_signs/watery_stools " nodeset="/fillable_field_assessment_form/data/__watery_stools" type="string"/>
+      <bind calculate=" /fillable_field_assessment_form/danger_signs/r_danger_sign_present " nodeset="/fillable_field_assessment_form/data/__has_danger_sign" type="string"/>
+      <bind calculate="../../../inputs/contact/_id" nodeset="/fillable_field_assessment_form/data/meta/__patient_uuid" type="string"/>
+      <bind calculate="../../../inputs/contact/patient_id" nodeset="/fillable_field_assessment_form/data/meta/__patient_id" type="string"/>
+      <bind calculate="../../../inputs/contact/parent/_id" nodeset="/fillable_field_assessment_form/data/meta/__household_uuid" type="string"/>
+      <bind calculate="../../../inputs/source" nodeset="/fillable_field_assessment_form/data/meta/__source" type="string"/>
+      <bind calculate="../../../inputs/source_id" nodeset="/fillable_field_assessment_form/data/meta/__source_id" type="string"/>
+      <bind calculate="../../../inputs/delivery_uuid" nodeset="/fillable_field_assessment_form/data/meta/__delivery_uuid" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/fillable_field_assessment_form/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/fillable_field_assessment_form/inputs">
+      <group ref="/fillable_field_assessment_form/inputs/contact">
+        <input appearance="db-object" ref="/fillable_field_assessment_form/inputs/contact/_id">
+          <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/_id:label')"/>
+        </input>
+        <select1 ref="/fillable_field_assessment_form/inputs/contact/gender">
+          <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/gender:label')"/>
+          <item>
+            <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/gender/Male:label')"/>
+            <value>Male</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/gender/Female:label')"/>
+            <value>Female</value>
+          </item>
+        </select1>
+        <input ref="/fillable_field_assessment_form/inputs/contact/DOB">
+          <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/DOB:label')"/>
+        </input>
+        <input ref="/fillable_field_assessment_form/inputs/contact/date_immunizations_due">
+          <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/date_immunizations_due:label')"/>
+        </input>
+        <input ref="/fillable_field_assessment_form/inputs/contact/Nurse">
+          <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/Nurse:label')"/>
+        </input>
+        <input ref="/fillable_field_assessment_form/inputs/contact/Date_of_Arrival">
+          <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/Date_of_Arrival:label')"/>
+        </input>
+        <input ref="/fillable_field_assessment_form/inputs/contact/Guardian">
+          <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/Guardian:label')"/>
+        </input>
+        <input ref="/fillable_field_assessment_form/inputs/contact/Relation">
+          <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/Relation:label')"/>
+        </input>
+        <select1 ref="/fillable_field_assessment_form/inputs/contact/Condition_of_other_children_in_household">
+          <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/Condition_of_other_children_in_household:label')"/>
+          <item>
+            <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/Condition_of_other_children_in_household/healthy:label')"/>
+            <value>healthy</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/Condition_of_other_children_in_household/clean:label')"/>
+            <value>clean</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/Condition_of_other_children_in_household/acute illness:label')"/>
+            <value>acute illness</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/Condition_of_other_children_in_household/chronic illness:label')"/>
+            <value>chronic illness</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/Condition_of_other_children_in_household/signs of neglect:label')"/>
+            <value>signs of neglect</value>
+          </item>
+        </select1>
+        <select1 ref="/fillable_field_assessment_form/inputs/contact/School_aged_children_in_school">
+          <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/School_aged_children_in_school:label')"/>
+          <item>
+            <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/School_aged_children_in_school/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/School_aged_children_in_school/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <group appearance="field-list" ref="/fillable_field_assessment_form/inputs/contact/optional1">
+          <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/optional1:label')"/>
+          <select1 ref="/fillable_field_assessment_form/inputs/contact/optional1/problems">
+            <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/optional1/problems:label')"/>
+            <item>
+              <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/optional1/problems/yes:label')"/>
+              <value>yes</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/optional1/problems/no:label')"/>
+              <value>no</value>
+            </item>
+          </select1>
+          <input ref="/fillable_field_assessment_form/inputs/contact/optional1/comments_optional1">
+            <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/optional1/comments_optional1:label')"/>
+          </input>
+          <select1 ref="/fillable_field_assessment_form/inputs/contact/optional1/baby_feeding">
+            <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/optional1/baby_feeding:label')"/>
+            <item>
+              <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/optional1/baby_feeding/3x:label')"/>
+              <value>3x</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/optional1/baby_feeding/5x:label')"/>
+              <value>5x</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/optional1/baby_feeding/8x:label')"/>
+              <value>8x</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/optional1/baby_feeding/&gt;8x:label')"/>
+              <value>&gt;8x</value>
+            </item>
+          </select1>
+          <select1 ref="/fillable_field_assessment_form/inputs/contact/optional1/baby_food">
+            <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/optional1/baby_food:label')"/>
+            <item>
+              <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/optional1/baby_food/porridge:label')"/>
+              <value>porridge</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/optional1/baby_food/nsima:label')"/>
+              <value>nsima</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/optional1/baby_food/greens:label')"/>
+              <value>greens</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/optional1/baby_food/beans:label')"/>
+              <value>beans</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/optional1/baby_food/meat:label')"/>
+              <value>meat</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/optional1/baby_food/other:label')"/>
+              <value>other</value>
+            </item>
+          </select1>
+          <select1 ref="/fillable_field_assessment_form/inputs/contact/optional1/baby_urination">
+            <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/optional1/baby_urination:label')"/>
+            <item>
+              <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/optional1/baby_urination/2x:label')"/>
+              <value>2x</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/optional1/baby_urination/4x:label')"/>
+              <value>4x</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/optional1/baby_urination/6x:label')"/>
+              <value>6x</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/optional1/baby_urination/8x:label')"/>
+              <value>8x</value>
+            </item>
+          </select1>
+          <select1 ref="/fillable_field_assessment_form/inputs/contact/optional1/baby_calming">
+            <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/optional1/baby_calming:label')"/>
+            <item>
+              <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/optional1/baby_calming/yes:label')"/>
+              <value>yes</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/fillable_field_assessment_form/inputs/contact/optional1/baby_calming/no:label')"/>
+              <value>no</value>
+            </item>
+          </select1>
+          <group ref="/fillable_field_assessment_form/inputs/contact/optional1/parent">
+            <group ref="/fillable_field_assessment_form/inputs/contact/optional1/parent/parent">
+              <group ref="/fillable_field_assessment_form/inputs/contact/optional1/parent/parent/contact"/>
+            </group>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/fillable_field_assessment_form/optional2">
+      <group ref="/fillable_field_assessment_form/optional2/assessment_baby">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional2/assessment_baby:label')"/>
+        <input ref="/fillable_field_assessment_form/optional2/assessment_baby/l">
+          <label ref="jr:itext('/fillable_field_assessment_form/optional2/assessment_baby/l:label')"/>
+        </input>
+        <input ref="/fillable_field_assessment_form/optional2/assessment_baby/wt">
+          <label ref="jr:itext('/fillable_field_assessment_form/optional2/assessment_baby/wt:label')"/>
+        </input>
+        <input ref="/fillable_field_assessment_form/optional2/assessment_baby/hc">
+          <label ref="jr:itext('/fillable_field_assessment_form/optional2/assessment_baby/hc:label')"/>
+        </input>
+        <group ref="/fillable_field_assessment_form/optional2/assessment_baby/vitalsigns_baby">
+          <label ref="jr:itext('/fillable_field_assessment_form/optional2/assessment_baby/vitalsigns_baby:label')"/>
+          <input ref="/fillable_field_assessment_form/optional2/assessment_baby/vitalsigns_baby/rr">
+            <label ref="jr:itext('/fillable_field_assessment_form/optional2/assessment_baby/vitalsigns_baby/rr:label')"/>
+          </input>
+          <input ref="/fillable_field_assessment_form/optional2/assessment_baby/vitalsigns_baby/t">
+            <label ref="jr:itext('/fillable_field_assessment_form/optional2/assessment_baby/vitalsigns_baby/t:label')"/>
+          </input>
+          <input ref="/fillable_field_assessment_form/optional2/assessment_baby/vitalsigns_baby/hr">
+            <label ref="jr:itext('/fillable_field_assessment_form/optional2/assessment_baby/vitalsigns_baby/hr:label')"/>
+          </input>
+        </group>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/fillable_field_assessment_form/optional0">
+      <select1 ref="/fillable_field_assessment_form/optional0/alert_active">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional0/alert_active:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional0/alert_active/Normal:label')"/>
+          <value>Normal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional0/alert_active/Abnormal:label')"/>
+          <value>Abnormal</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/optional0/skin">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional0/skin:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional0/skin/Normal:label')"/>
+          <value>Normal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional0/skin/Abnormal:label')"/>
+          <value>Abnormal</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/optional0/fontanels">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional0/fontanels:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional0/fontanels/Normal:label')"/>
+          <value>Normal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional0/fontanels/Abnormal:label')"/>
+          <value>Abnormal</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/optional0/breathing">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional0/breathing:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional0/breathing/Normal:label')"/>
+          <value>Normal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional0/breathing/Abnormal:label')"/>
+          <value>Abnormal</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/optional0/eyes">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional0/eyes:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional0/eyes/Normal:label')"/>
+          <value>Normal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional0/eyes/Abnormal:label')"/>
+          <value>Abnormal</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/optional0/abdomen">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional0/abdomen:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional0/abdomen/Normal:label')"/>
+          <value>Normal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional0/abdomen/Abnormal:label')"/>
+          <value>Abnormal</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/optional0/hips">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional0/hips:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional0/hips/Normal:label')"/>
+          <value>Normal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional0/hips/Abnormal:label')"/>
+          <value>Abnormal</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/optional0/development_baby">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional0/development_baby:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional0/development_baby/Normal:label')"/>
+          <value>Normal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional0/development_baby/Abnormal:label')"/>
+          <value>Abnormal</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/optional0/bonding">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional0/bonding:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional0/bonding/Normal:label')"/>
+          <value>Normal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional0/bonding/Abnormal:label')"/>
+          <value>Abnormal</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/optional0/hygeine">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional0/hygeine:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional0/hygeine/Normal:label')"/>
+          <value>Normal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional0/hygeine/Abnormal:label')"/>
+          <value>Abnormal</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/fillable_field_assessment_form/optional3">
+      <select1 ref="/fillable_field_assessment_form/optional3/malaria_prevention">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional3/malaria_prevention:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional3/malaria_prevention/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional3/malaria_prevention/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/optional3/questions_answered">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional3/questions_answered:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional3/questions_answered/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional3/questions_answered/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/optional3/problems_in_health_passport">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional3/problems_in_health_passport:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional3/problems_in_health_passport/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional3/problems_in_health_passport/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/optional3/eid">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional3/eid:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional3/eid/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional3/eid/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/optional3/result_eid">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional3/result_eid:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional3/result_eid/positive:label')"/>
+          <value>positive</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional3/result_eid/negative:label')"/>
+          <value>negative</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional3/result_eid/unknown:label')"/>
+          <value>unknown</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/optional3/arvs">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional3/arvs:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional3/arvs/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional3/arvs/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/fillable_field_assessment_form/optional4">
+      <select1 ref="/fillable_field_assessment_form/optional4/on_formula">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional4/on_formula:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional4/on_formula/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional4/on_formula/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/fillable_field_assessment_form/optional4/tins_provided">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional4/tins_provided:label')"/>
+      </input>
+      <select1 ref="/fillable_field_assessment_form/optional4/sterilization_observation">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional4/sterilization_observation:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional4/sterilization_observation/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional4/sterilization_observation/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/fillable_field_assessment_form/optional4/porridge_given">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional4/porridge_given:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/fillable_field_assessment_form/optional5">
+      <label ref="jr:itext('/fillable_field_assessment_form/optional5:label')"/>
+      <select1 ref="/fillable_field_assessment_form/optional5/breastfeeding_6months">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional5/breastfeeding_6months:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional5/breastfeeding_6months/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional5/breastfeeding_6months/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/optional5/feeding_when_sick">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional5/feeding_when_sick:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional5/feeding_when_sick/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional5/feeding_when_sick/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/optional5/sleeping_under_net">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional5/sleeping_under_net:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional5/sleeping_under_net/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional5/sleeping_under_net/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/optional5/signs_of_hunger">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional5/signs_of_hunger:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional5/signs_of_hunger/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional5/signs_of_hunger/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/optional5/dental_hygiene">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional5/dental_hygiene:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional5/dental_hygiene/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional5/dental_hygiene/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/optional5/age_food_demo">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional5/age_food_demo:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional5/age_food_demo/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional5/age_food_demo/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/optional5/importance_of_immunizations">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional5/importance_of_immunizations:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional5/importance_of_immunizations/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional5/importance_of_immunizations/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/optional5/kangaroo_care">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional5/kangaroo_care:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional5/kangaroo_care/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional5/kangaroo_care/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/optional5/family_planning">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional5/family_planning:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional5/family_planning/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional5/family_planning/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/optional5/general_hygiene">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional5/general_hygiene:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional5/general_hygiene/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional5/general_hygiene/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/optional5/cooking_demo">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional5/cooking_demo:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional5/cooking_demo/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/optional5/cooking_demo/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/fillable_field_assessment_form/optional5/topics_discussed">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional5/topics_discussed:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/fillable_field_assessment_form/optional6">
+      <input ref="/fillable_field_assessment_form/optional6/next_visit">
+        <label ref="jr:itext('/fillable_field_assessment_form/optional6/next_visit:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/fillable_field_assessment_form/danger_signs">
+      <label ref="jr:itext('/fillable_field_assessment_form/danger_signs:label')"/>
+      <select1 ref="/fillable_field_assessment_form/danger_signs/visit_confirm">
+        <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/visit_confirm:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/visit_confirm/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/visit_confirm/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/danger_signs/danger_sign_present">
+        <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/danger_sign_present:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/danger_sign_present/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/danger_sign_present/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/fillable_field_assessment_form/danger_signs/danger_signs_question_note">
+        <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/danger_signs_question_note:label')"/>
+      </input>
+      <select1 ref="/fillable_field_assessment_form/danger_signs/fever">
+        <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/fever:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/fever/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/fever/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/danger_signs/difficulty_breathing">
+        <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/difficulty_breathing:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/difficulty_breathing/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/difficulty_breathing/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/danger_signs/not_nursing_well">
+        <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/not_nursing_well:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/not_nursing_well/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/not_nursing_well/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/danger_signs/greater_than_diapers">
+        <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/greater_than_diapers:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/greater_than_diapers/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/greater_than_diapers/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/danger_signs/redness_umbilical_cord">
+        <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/redness_umbilical_cord:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/redness_umbilical_cord/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/redness_umbilical_cord/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/danger_signs/crys_stopping">
+        <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/crys_stopping:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/crys_stopping/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/crys_stopping/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/danger_signs/sunken_fontanel">
+        <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/sunken_fontanel:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/sunken_fontanel/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/sunken_fontanel/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/fillable_field_assessment_form/danger_signs/watery_stools">
+        <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/watery_stools:label')"/>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/watery_stools/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/watery_stools/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/fillable_field_assessment_form/danger_signs/congratulate_no_ds_note">
+        <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/congratulate_no_ds_note:label')"/>
+      </input>
+      <input ref="/fillable_field_assessment_form/danger_signs/refer_patient_note_1">
+        <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/refer_patient_note_1:label')"/>
+      </input>
+      <input ref="/fillable_field_assessment_form/danger_signs/refer_patient_note_2">
+        <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/refer_patient_note_2:label')"/>
+      </input>
+      <group appearance="hidden" ref="/fillable_field_assessment_form/danger_signs/custom_translations">
+        <select1 ref="/fillable_field_assessment_form/danger_signs/custom_translations/custom_woman_label_translator">
+          <item>
+            <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/custom_translations/custom_woman_label_translator/woman:label')"/>
+            <value>woman</value>
+          </item>
+        </select1>
+        <select1 ref="/fillable_field_assessment_form/danger_signs/custom_translations/custom_woman_start_label_translator">
+          <item>
+            <label ref="jr:itext('/fillable_field_assessment_form/danger_signs/custom_translations/custom_woman_start_label_translator/woman-start:label')"/>
+            <value>woman-start</value>
+          </item>
+        </select1>
+      </group>
+    </group>
+    <group appearance="hidden" ref="/fillable_field_assessment_form/data">
+      <group ref="/fillable_field_assessment_form/data/meta"/>
+    </group>
+  </h:body>
+</h:html>
